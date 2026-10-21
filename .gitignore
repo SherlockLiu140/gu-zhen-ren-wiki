@@ -28,3 +28,6 @@ dist-ssr
 /corpus/source/*.txt
 /corpus/chapters/*.md
 /corpus/chapters/.generated-manifest.json
+
+# Agent workspace (scratch notes, local backups)
+/.workbuddy/
