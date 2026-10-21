@@ -1,12 +1,55 @@
 {
   "schemaVersion": 1,
-  "scope": {
-    "volumeId": 1,
-    "volumeTitle": "第一卷",
-    "volumeSubtitle": "魔性不改",
-    "chapterStart": 1,
-    "chapterEnd": 199
-  },
+  "volumes": [
+    {
+      "id": 1,
+      "title": "第一卷",
+      "subtitle": "魔性不改",
+      "chapterStart": 1,
+      "chapterEnd": 199,
+      "entityCount": 213
+    },
+    {
+      "id": 2,
+      "title": "第二卷",
+      "subtitle": "魔子出山",
+      "chapterStart": 200,
+      "chapterEnd": 405,
+      "entityCount": 0
+    },
+    {
+      "id": 3,
+      "title": "第三卷",
+      "subtitle": "魔头乱世",
+      "chapterStart": 406,
+      "chapterEnd": 649,
+      "entityCount": 0
+    },
+    {
+      "id": 4,
+      "title": "第四卷",
+      "subtitle": "魔君纵横",
+      "chapterStart": 650,
+      "chapterEnd": 1022,
+      "entityCount": 0
+    },
+    {
+      "id": 5,
+      "title": "第五卷",
+      "subtitle": "魔王雄霸",
+      "chapterStart": 1023,
+      "chapterEnd": 1973,
+      "entityCount": 0
+    },
+    {
+      "id": 6,
+      "title": "第六卷",
+      "subtitle": "魔尊永生",
+      "chapterStart": 1974,
+      "chapterEnd": 2343,
+      "entityCount": 0
+    }
+  ],
   "categories": [
     {
       "type": "cultivation",
@@ -153,6 +196,7 @@
       "type": "cultivation",
       "name": "空窍",
       "summary": "蛊师体内承载元海与蛊虫的特殊空间。开窍成功意味着正式具备修行蛊师体系的基础。",
+      "volume": 1,
       "category": "cultivation",
       "categoryLabel": "修炼体系"
     },
@@ -269,6 +313,7 @@
       "type": "cultivation",
       "name": "修行资质",
       "summary": "资质以甲、乙、丙、丁四等划分，主要体现为元海占空窍的比例，并显著影响修行速度与通常可达境界。",
+      "volume": 1,
       "category": "cultivation",
       "categoryLabel": "修炼体系"
     },
@@ -360,6 +405,7 @@
       "type": "cultivation",
       "name": "蛊师修行体系",
       "summary": "蛊师通过开辟空窍、积蓄真元并炼化蛊虫获得超越凡人的能力；境界、资质、蛊虫与资源共同决定修行效率和战力。",
+      "volume": 1,
       "category": "cultivation",
       "categoryLabel": "修炼体系"
     },
@@ -441,6 +487,7 @@
       "type": "cultivation",
       "name": "真元",
       "summary": "真元储存在空窍元海中，是蛊师炼化和催动蛊虫的直接力量来源；品阶与凝练程度随境界变化。",
+      "volume": 1,
       "category": "cultivation",
       "categoryLabel": "修炼体系"
     },
@@ -578,6 +625,7 @@
       "firstAppearance": {
         "chapterId": 135
       },
+      "volume": 1,
       "category": "cultivation",
       "categoryLabel": "修炼体系"
     },
@@ -709,6 +757,7 @@
       "firstAppearance": {
         "chapterId": 131
       },
+      "volume": 1,
       "category": "characters",
       "categoryLabel": "人物"
     },
@@ -859,6 +908,7 @@
       "firstAppearance": {
         "chapterId": 1
       },
+      "volume": 1,
       "category": "characters",
       "categoryLabel": "人物"
     },
@@ -954,6 +1004,7 @@
       "firstAppearance": {
         "chapterId": 15
       },
+      "volume": 1,
       "category": "characters",
       "categoryLabel": "人物"
     },
@@ -1049,6 +1100,7 @@
       "firstAppearance": {
         "chapterId": 1
       },
+      "volume": 1,
       "category": "characters",
       "categoryLabel": "人物"
     },
@@ -1169,6 +1221,7 @@
       "firstAppearance": {
         "chapterId": 6
       },
+      "volume": 1,
       "category": "characters",
       "categoryLabel": "人物"
     },
@@ -1271,6 +1324,7 @@
       "firstAppearance": {
         "chapterId": 82
       },
+      "volume": 1,
       "category": "characters",
       "categoryLabel": "人物"
     },
@@ -1328,6 +1382,7 @@
       "firstMention": {
         "chapterId": 75
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -1373,6 +1428,7 @@
       "firstMention": {
         "chapterId": 126
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -1447,6 +1503,7 @@
       "firstAppearance": {
         "chapterId": 63
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -1494,6 +1551,7 @@
       "firstMention": {
         "chapterId": 173
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -1539,6 +1597,7 @@
       "firstMention": {
         "chapterId": 111
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -1589,6 +1648,7 @@
       "firstMention": {
         "chapterId": 64
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -1639,6 +1699,7 @@
       "firstMention": {
         "chapterId": 39
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -1684,6 +1745,7 @@
       "firstMention": {
         "chapterId": 98
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -1729,6 +1791,7 @@
       "firstMention": {
         "chapterId": 137
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -1774,6 +1837,7 @@
       "firstMention": {
         "chapterId": 140
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -1819,6 +1883,7 @@
       "firstMention": {
         "chapterId": 185
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -1874,6 +1939,7 @@
       "firstMention": {
         "chapterId": 141
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -1919,6 +1985,7 @@
       "firstMention": {
         "chapterId": 161
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -1964,6 +2031,7 @@
       "firstMention": {
         "chapterId": 22
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2009,6 +2077,7 @@
       "firstMention": {
         "chapterId": 39
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2059,6 +2128,7 @@
       "firstMention": {
         "chapterId": 111
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2108,6 +2178,7 @@
       "firstMention": {
         "chapterId": 44
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2195,6 +2266,7 @@
       "firstAppearance": {
         "chapterId": 1
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2240,6 +2312,7 @@
       "firstMention": {
         "chapterId": 77
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2285,6 +2358,7 @@
       "firstMention": {
         "chapterId": 192
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2332,6 +2406,7 @@
       "firstMention": {
         "chapterId": 88
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2377,6 +2452,7 @@
       "firstMention": {
         "chapterId": 152
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2424,6 +2500,7 @@
       "firstMention": {
         "chapterId": 183
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2492,6 +2569,7 @@
       "firstAppearance": {
         "chapterId": 128
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2537,6 +2615,7 @@
       "firstMention": {
         "chapterId": 63
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2582,6 +2661,7 @@
       "firstMention": {
         "chapterId": 166
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2632,6 +2712,7 @@
       "firstMention": {
         "chapterId": 127
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2677,6 +2758,7 @@
       "firstMention": {
         "chapterId": 160
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2727,6 +2809,7 @@
       "firstMention": {
         "chapterId": 160
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2772,6 +2855,7 @@
       "firstMention": {
         "chapterId": 147
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2822,6 +2906,7 @@
       "firstMention": {
         "chapterId": 14
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2867,6 +2952,7 @@
       "firstMention": {
         "chapterId": 113
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2912,6 +2998,7 @@
       "firstMention": {
         "chapterId": 192
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -2962,6 +3049,7 @@
       "firstMention": {
         "chapterId": 62
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3007,6 +3095,7 @@
       "firstMention": {
         "chapterId": 164
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3052,6 +3141,7 @@
       "firstMention": {
         "chapterId": 160
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3099,6 +3189,7 @@
       "firstMention": {
         "chapterId": 193
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3144,6 +3235,7 @@
       "firstMention": {
         "chapterId": 94
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3189,6 +3281,7 @@
       "firstMention": {
         "chapterId": 184
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3234,6 +3327,7 @@
       "firstMention": {
         "chapterId": 140
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3284,6 +3378,7 @@
       "firstMention": {
         "chapterId": 47
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3331,6 +3426,7 @@
       "firstMention": {
         "chapterId": 1
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3376,6 +3472,7 @@
       "firstMention": {
         "chapterId": 160
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3421,6 +3518,7 @@
       "firstMention": {
         "chapterId": 180
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3473,6 +3571,7 @@
       "firstMention": {
         "chapterId": 44
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3523,6 +3622,7 @@
       "firstMention": {
         "chapterId": 47
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3573,6 +3673,7 @@
       "firstMention": {
         "chapterId": 106
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3618,6 +3719,7 @@
       "firstMention": {
         "chapterId": 94
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3668,6 +3770,7 @@
       "firstMention": {
         "chapterId": 62
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3713,6 +3816,7 @@
       "firstMention": {
         "chapterId": 59
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3758,6 +3862,7 @@
       "firstMention": {
         "chapterId": 156
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3803,6 +3908,7 @@
       "firstMention": {
         "chapterId": 111
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3853,6 +3959,7 @@
       "firstMention": {
         "chapterId": 62
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3898,6 +4005,7 @@
       "firstMention": {
         "chapterId": 185
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3943,6 +4051,7 @@
       "firstMention": {
         "chapterId": 152
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -3987,6 +4096,7 @@
       "firstMention": {
         "chapterId": 44
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4042,6 +4152,7 @@
       "firstMention": {
         "chapterId": 50
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4148,6 +4259,7 @@
       "firstAppearance": {
         "chapterId": 12
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4198,6 +4310,7 @@
       "firstMention": {
         "chapterId": 14
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4255,6 +4368,7 @@
       "firstMention": {
         "chapterId": 102
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4302,6 +4416,7 @@
       "firstMention": {
         "chapterId": 23
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4347,6 +4462,7 @@
       "firstMention": {
         "chapterId": 160
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4392,6 +4508,7 @@
       "firstMention": {
         "chapterId": 160
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4437,6 +4554,7 @@
       "firstMention": {
         "chapterId": 164
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4482,6 +4600,7 @@
       "firstMention": {
         "chapterId": 167
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4527,6 +4646,7 @@
       "firstMention": {
         "chapterId": 164
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4572,6 +4692,7 @@
       "firstMention": {
         "chapterId": 39
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4622,6 +4743,7 @@
       "firstMention": {
         "chapterId": 136
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4667,6 +4789,7 @@
       "firstMention": {
         "chapterId": 168
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4719,6 +4842,7 @@
       "firstMention": {
         "chapterId": 167
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4764,6 +4888,7 @@
       "firstMention": {
         "chapterId": 150
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4809,6 +4934,7 @@
       "firstMention": {
         "chapterId": 150
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4854,6 +4980,7 @@
       "firstMention": {
         "chapterId": 5
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4899,6 +5026,7 @@
       "firstMention": {
         "chapterId": 150
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4944,6 +5072,7 @@
       "firstMention": {
         "chapterId": 164
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -4989,6 +5118,7 @@
       "firstMention": {
         "chapterId": 123
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5039,6 +5169,7 @@
       "firstMention": {
         "chapterId": 16
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5089,6 +5220,7 @@
       "firstMention": {
         "chapterId": 62
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5139,6 +5271,7 @@
       "firstMention": {
         "chapterId": 39
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5184,6 +5317,7 @@
       "firstMention": {
         "chapterId": 192
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5229,6 +5363,7 @@
       "firstMention": {
         "chapterId": 185
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5274,6 +5409,7 @@
       "firstMention": {
         "chapterId": 126
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5319,6 +5455,7 @@
       "firstMention": {
         "chapterId": 164
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5364,6 +5501,7 @@
       "firstMention": {
         "chapterId": 15
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5414,6 +5552,7 @@
       "firstMention": {
         "chapterId": 108
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5459,6 +5598,7 @@
       "firstMention": {
         "chapterId": 105
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5504,6 +5644,7 @@
       "firstMention": {
         "chapterId": 46
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5549,6 +5690,7 @@
       "firstMention": {
         "chapterId": 126
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5604,6 +5746,7 @@
       "firstMention": {
         "chapterId": 131
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5654,6 +5797,7 @@
       "firstMention": {
         "chapterId": 70
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5699,6 +5843,7 @@
       "firstMention": {
         "chapterId": 47
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5744,6 +5889,7 @@
       "firstMention": {
         "chapterId": 104
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5789,6 +5935,7 @@
       "firstMention": {
         "chapterId": 111
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5839,6 +5986,7 @@
       "firstMention": {
         "chapterId": 148
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5889,6 +6037,7 @@
       "firstMention": {
         "chapterId": 132
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5936,6 +6085,7 @@
       "firstMention": {
         "chapterId": 109
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5981,6 +6131,7 @@
       "firstMention": {
         "chapterId": 76
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6031,6 +6182,7 @@
       "firstMention": {
         "chapterId": 185
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6081,6 +6233,7 @@
       "firstMention": {
         "chapterId": 93
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6128,6 +6281,7 @@
       "firstMention": {
         "chapterId": 102
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6173,6 +6327,7 @@
       "firstMention": {
         "chapterId": 161
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6223,6 +6378,7 @@
       "firstMention": {
         "chapterId": 176
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6268,6 +6424,7 @@
       "firstMention": {
         "chapterId": 75
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6318,6 +6475,7 @@
       "firstMention": {
         "chapterId": 62
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6368,6 +6526,7 @@
       "firstMention": {
         "chapterId": 143
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6421,6 +6580,7 @@
       "firstMention": {
         "chapterId": 38
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6471,6 +6631,7 @@
       "firstMention": {
         "chapterId": 62
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6516,6 +6677,7 @@
       "firstMention": {
         "chapterId": 127
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6566,6 +6728,7 @@
       "firstMention": {
         "chapterId": 50
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6611,6 +6774,7 @@
       "firstMention": {
         "chapterId": 156
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6658,6 +6822,7 @@
       "firstMention": {
         "chapterId": 123
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6708,6 +6873,7 @@
       "firstMention": {
         "chapterId": 137
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6753,6 +6919,7 @@
       "firstMention": {
         "chapterId": 156
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6798,6 +6965,7 @@
       "firstMention": {
         "chapterId": 44
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6843,6 +7011,7 @@
       "firstMention": {
         "chapterId": 167
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6888,6 +7057,7 @@
       "firstMention": {
         "chapterId": 187
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6932,6 +7102,7 @@
       "firstMention": {
         "chapterId": 124
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6982,6 +7153,7 @@
       "firstMention": {
         "chapterId": 136
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7027,6 +7199,7 @@
       "firstMention": {
         "chapterId": 47
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7072,6 +7245,7 @@
       "firstMention": {
         "chapterId": 125
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7117,6 +7291,7 @@
       "firstMention": {
         "chapterId": 127
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7167,6 +7342,7 @@
       "firstMention": {
         "chapterId": 105
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7217,6 +7393,7 @@
       "firstMention": {
         "chapterId": 104
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7262,6 +7439,7 @@
       "firstMention": {
         "chapterId": 70
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7312,6 +7490,7 @@
       "firstMention": {
         "chapterId": 59
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7362,6 +7541,7 @@
       "firstMention": {
         "chapterId": 184
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7407,6 +7587,7 @@
       "firstMention": {
         "chapterId": 185
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7457,6 +7638,7 @@
       "firstMention": {
         "chapterId": 64
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7502,6 +7684,7 @@
       "firstMention": {
         "chapterId": 163
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7552,6 +7735,7 @@
       "firstMention": {
         "chapterId": 162
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7597,6 +7781,7 @@
       "firstMention": {
         "chapterId": 192
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7642,6 +7827,7 @@
       "firstMention": {
         "chapterId": 62
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7692,6 +7878,7 @@
       "firstMention": {
         "chapterId": 170
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7737,6 +7924,7 @@
       "firstMention": {
         "chapterId": 147
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7787,6 +7975,7 @@
       "firstMention": {
         "chapterId": 24
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7837,6 +8026,7 @@
       "firstMention": {
         "chapterId": 163
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7887,6 +8077,7 @@
       "firstMention": {
         "chapterId": 117
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7932,6 +8123,7 @@
       "firstMention": {
         "chapterId": 176
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -7982,6 +8174,7 @@
       "firstMention": {
         "chapterId": 22
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8062,6 +8255,7 @@
       "firstAppearance": {
         "chapterId": 5
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8107,6 +8301,7 @@
       "firstMention": {
         "chapterId": 179
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8152,6 +8347,7 @@
       "firstMention": {
         "chapterId": 59
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8202,6 +8398,7 @@
       "firstMention": {
         "chapterId": 62
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8247,6 +8444,7 @@
       "firstMention": {
         "chapterId": 133
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8297,6 +8495,7 @@
       "firstMention": {
         "chapterId": 121
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8342,6 +8541,7 @@
       "firstMention": {
         "chapterId": 22
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8387,6 +8587,7 @@
       "firstMention": {
         "chapterId": 185
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8432,6 +8633,7 @@
       "firstMention": {
         "chapterId": 106
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8477,6 +8679,7 @@
       "firstMention": {
         "chapterId": 167
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8522,6 +8725,7 @@
       "firstMention": {
         "chapterId": 165
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8569,6 +8773,7 @@
       "firstMention": {
         "chapterId": 185
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8621,6 +8826,7 @@
       "firstMention": {
         "chapterId": 117
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8671,6 +8877,7 @@
       "firstMention": {
         "chapterId": 183
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8726,6 +8933,7 @@
       "firstMention": {
         "chapterId": 193
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8771,6 +8979,7 @@
       "firstMention": {
         "chapterId": 194
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8821,6 +9030,7 @@
       "firstMention": {
         "chapterId": 126
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8866,6 +9076,7 @@
       "firstMention": {
         "chapterId": 165
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8916,6 +9127,7 @@
       "firstMention": {
         "chapterId": 157
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8961,6 +9173,7 @@
       "firstMention": {
         "chapterId": 192
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9011,6 +9224,7 @@
       "firstMention": {
         "chapterId": 105
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9056,6 +9270,7 @@
       "firstMention": {
         "chapterId": 47
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9101,6 +9316,7 @@
       "firstMention": {
         "chapterId": 150
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9175,6 +9391,7 @@
       "firstAppearance": {
         "chapterId": 127
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9225,6 +9442,7 @@
       "firstMention": {
         "chapterId": 116
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9278,6 +9496,7 @@
       "firstMention": {
         "chapterId": 194
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9328,6 +9547,7 @@
       "firstMention": {
         "chapterId": 125
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9378,6 +9598,7 @@
       "firstMention": {
         "chapterId": 125
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9423,6 +9644,7 @@
       "firstMention": {
         "chapterId": 185
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9475,6 +9697,7 @@
       "firstMention": {
         "chapterId": 75
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9520,6 +9743,7 @@
       "firstMention": {
         "chapterId": 127
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9565,6 +9789,7 @@
       "firstMention": {
         "chapterId": 192
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9610,6 +9835,7 @@
       "firstMention": {
         "chapterId": 152
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9655,6 +9881,7 @@
       "firstMention": {
         "chapterId": 152
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9705,6 +9932,7 @@
       "firstMention": {
         "chapterId": 123
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9750,6 +9978,7 @@
       "firstMention": {
         "chapterId": 152
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9795,6 +10024,7 @@
       "firstMention": {
         "chapterId": 152
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9845,6 +10075,7 @@
       "firstMention": {
         "chapterId": 62
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9890,6 +10121,7 @@
       "firstMention": {
         "chapterId": 146
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9935,6 +10167,7 @@
       "firstMention": {
         "chapterId": 150
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -10024,6 +10257,7 @@
       "firstAppearance": {
         "chapterId": 8
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -10074,6 +10308,7 @@
       "firstMention": {
         "chapterId": 106
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -10124,6 +10359,7 @@
       "firstMention": {
         "chapterId": 98
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -10177,6 +10413,7 @@
       "firstMention": {
         "chapterId": 98
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -10227,6 +10464,7 @@
       "firstMention": {
         "chapterId": 104
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -10277,6 +10515,7 @@
       "firstMention": {
         "chapterId": 15
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -10322,6 +10561,7 @@
       "firstMention": {
         "chapterId": 150
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -10367,6 +10607,7 @@
       "firstMention": {
         "chapterId": 156
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -10412,6 +10653,7 @@
       "firstMention": {
         "chapterId": 193
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -10462,6 +10704,7 @@
       "firstMention": {
         "chapterId": 170
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -10507,6 +10750,7 @@
       "firstMention": {
         "chapterId": 5
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -10557,6 +10801,7 @@
       "firstMention": {
         "chapterId": 173
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -10609,6 +10854,7 @@
       "firstMention": {
         "chapterId": 190
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -10656,6 +10902,7 @@
       "firstMention": {
         "chapterId": 57
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -10701,6 +10948,7 @@
       "firstMention": {
         "chapterId": 161
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -10751,6 +10999,7 @@
       "firstMention": {
         "chapterId": 121
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -10796,6 +11045,7 @@
       "firstMention": {
         "chapterId": 57
       },
+      "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -10901,6 +11151,7 @@
       "firstAppearance": {
         "chapterId": 14
       },
+      "volume": 1,
       "category": "locations",
       "categoryLabel": "地区"
     },
@@ -11004,6 +11255,7 @@
       "firstAppearance": {
         "chapterId": 1
       },
+      "volume": 1,
       "category": "locations",
       "categoryLabel": "地区"
     },
@@ -11116,6 +11368,7 @@
       "firstAppearance": {
         "chapterId": 1
       },
+      "volume": 1,
       "category": "locations",
       "categoryLabel": "地区"
     },
@@ -11199,6 +11452,7 @@
       "firstAppearance": {
         "chapterId": 1
       },
+      "volume": 1,
       "category": "factions",
       "categoryLabel": "势力"
     },
@@ -11305,6 +11559,7 @@
       "firstAppearance": {
         "chapterId": 1
       },
+      "volume": 1,
       "category": "factions",
       "categoryLabel": "势力"
     },
@@ -11384,6 +11639,7 @@
       "firstAppearance": {
         "chapterId": 1
       },
+      "volume": 1,
       "category": "factions",
       "categoryLabel": "势力"
     }

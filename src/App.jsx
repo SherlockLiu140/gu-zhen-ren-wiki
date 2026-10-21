@@ -20,9 +20,18 @@ const CATEGORIES = [
   })),
 ]
 
-const statusLabels = {
-  'verified-volume-1': '第一卷已校对',
-  draft: '待复核',
+const volumeById = new Map(wiki.volumes.map((volume) => [volume.id, volume]))
+const coveredVolumes = wiki.volumes.filter((volume) => volume.entityCount > 0)
+const coverageText = coveredVolumes
+  .map((volume) => `${volume.title}《${volume.subtitle}》第 ${volume.chapterStart}–${volume.chapterEnd} 节`)
+  .join('、')
+const volumeTitle = (id) => volumeById.get(id)?.title ?? `第 ${id} 卷`
+const volumeStart = (id) => volumeById.get(id)?.chapterStart ?? 1
+
+function statusLabel(item) {
+  const verified = /^verified-volume-(\d+)$/.exec(item.status)
+  if (verified) return `${volumeTitle(Number(verified[1]))}已校对`
+  return item.status === 'draft' ? '待复核' : item.status
 }
 
 function getSubtitle(item) {
@@ -72,7 +81,7 @@ function DetailPanel({ item, entityById, onSelectRelated }) {
       <div className="mb-4">
         <div className="mb-3 flex flex-wrap items-center gap-2">
           <Badge>{item.categoryLabel}</Badge>
-          <Badge>{statusLabels[item.status] ?? item.status}</Badge>
+          <Badge>{statusLabel(item)}</Badge>
         </div>
         <h2 className="text-3xl font-bold tracking-wide text-amber-100">{item.name}</h2>
         <p className="mt-2 text-sm text-stone-400">{getSubtitle(item)}</p>
@@ -88,7 +97,7 @@ function DetailPanel({ item, entityById, onSelectRelated }) {
       )}
 
       <section className="mt-5">
-        <h3 className="mb-2 text-sm font-semibold text-amber-200">第一卷简介</h3>
+        <h3 className="mb-2 text-sm font-semibold text-amber-200">{volumeTitle(item.scope.volume)}简介</h3>
         <p className="leading-8 text-stone-200">{item.summary}</p>
       </section>
 
@@ -156,7 +165,8 @@ function DetailPanel({ item, entityById, onSelectRelated }) {
         <div className="flex gap-3">
           <span className="mt-0.5 shrink-0 text-amber-300">△</span>
           <p className="text-sm leading-6 text-stone-300">
-            本条目只采用第一卷第 1–199 节内可核对的信息；后续身份、境界变化和剧情结局暂不纳入。
+            本条目只采用{volumeTitle(item.scope.volume)}第 {volumeStart(item.scope.volume)}–{item.scope.maxChapter} 节内可核对的信息；
+            超出该范围的身份、境界变化与剧情结局暂不纳入。
           </p>
         </div>
       </section>
@@ -171,6 +181,7 @@ export default function GuZhenRenWikiPrototype() {
     [allItems],
   )
   const [category, setCategory] = useState('all')
+  const [volume, setVolume] = useState('all')
   const [query, setQuery] = useState('')
   const [selected, setSelected] = useState(allItems[0] ?? null)
 
@@ -178,16 +189,18 @@ export default function GuZhenRenWikiPrototype() {
     const normalizedQuery = query.trim().toLowerCase()
     return allItems.filter((item) => {
       const categoryMatch = category === 'all' || item.category === category
+      const volumeMatch = volume === 'all' || item.volume === volume
       const queryMatch = !normalizedQuery || JSON.stringify(item).toLowerCase().includes(normalizedQuery)
-      return categoryMatch && queryMatch
+      return categoryMatch && volumeMatch && queryMatch
     })
-  }, [allItems, category, query])
+  }, [allItems, category, volume, query])
 
   const handleSelectRelated = (id) => {
     const found = entityById.get(id)
     if (found) {
       setSelected(found)
       setCategory('all')
+      setVolume('all')
     }
   }
 
@@ -198,11 +211,12 @@ export default function GuZhenRenWikiPrototype() {
           <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <div>
               <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-amber-300/20 bg-amber-200/10 px-3 py-1 text-sm text-amber-100">
-                <span>✦</span> 第一批 · {wiki.scope.volumeTitle}《{wiki.scope.volumeSubtitle}》
+                <span>✦</span> 已收录 {coveredVolumes.length} 卷 · {wiki.entities.length} 条
               </div>
               <h1 className="text-4xl font-bold tracking-wide text-amber-100 sm:text-5xl">蛊真人设定百科</h1>
               <p className="mt-4 max-w-3xl text-base leading-8 text-stone-300">
-                以章节来源为依据的人物、修炼体系、蛊虫、地区与势力资料库。第一批覆盖第一卷第 {wiki.scope.chapterStart}–{wiki.scope.chapterEnd} 节，并为仙蛊屋等后续类别保留统一规范。
+                以章节来源为依据的人物、修炼体系、蛊虫、地区与势力资料库。当前覆盖
+                {coverageText}，每条事实均可回溯到所属章节。
               </p>
             </div>
             <div className="rounded-2xl border border-stone-700/70 bg-stone-900/70 p-4 text-sm text-stone-300">
@@ -229,6 +243,27 @@ export default function GuZhenRenWikiPrototype() {
                 className="w-full rounded-2xl border border-stone-700 bg-stone-900 px-10 py-3 text-sm text-stone-100 outline-none transition placeholder:text-stone-500 focus:border-amber-300/50"
               />
             </div>
+
+            {coveredVolumes.length > 1 && (
+              <div className="mb-2 flex flex-wrap gap-2">
+                {[{ id: 'all', title: '全部卷', entityCount: wiki.entities.length }, ...coveredVolumes].map((item) => {
+                  const active = volume === item.id
+                  return (
+                    <button
+                      key={item.id}
+                      onClick={() => setVolume(item.id)}
+                      className={`inline-flex items-center gap-1 rounded-full border px-3 py-2 text-xs transition ${
+                        active
+                          ? 'border-amber-300/60 bg-amber-200/20 text-amber-100'
+                          : 'border-stone-700 bg-stone-900/60 text-stone-300 hover:border-amber-300/30'
+                      }`}
+                    >
+                      {item.title} {item.entityCount}
+                    </button>
+                  )
+                })}
+              </div>
+            )}
 
             <div className="mb-4 flex flex-wrap gap-2">
               {CATEGORIES.map((item) => {
@@ -272,8 +307,10 @@ export default function GuZhenRenWikiPrototype() {
               {filtered.length === 0 && (
                 <div className="rounded-2xl border border-stone-700 bg-stone-900/60 p-6 text-center text-sm leading-6 text-stone-400">
                   {category === 'guHouses'
-                    ? '第一卷未检索到可确认的仙蛊屋条目；类型规范已经保留。'
-                    : '当前没有匹配条目。'}
+                    ? '当前范围内未检索到可确认的仙蛊屋条目；类型规范已经保留。'
+                    : volume !== 'all'
+                      ? `${volumeTitle(volume)}内没有匹配条目。`
+                      : '当前没有匹配条目。'}
                 </div>
               )}
             </div>
@@ -284,8 +321,18 @@ export default function GuZhenRenWikiPrototype() {
 
             <div className="mt-6 rounded-3xl border border-amber-200/15 bg-stone-950/50 p-6">
               <h2 className="mb-4 flex items-center gap-2 text-xl font-semibold text-amber-100">
-                <span>◎</span> 第一批覆盖情况
+                <span>◎</span> 覆盖情况
               </h2>
+              <div className="mb-3 grid gap-3 md:grid-cols-2">
+                {coveredVolumes.map((item) => (
+                  <div key={item.id} className="flex items-center justify-between rounded-2xl border border-stone-700/70 bg-stone-900/60 p-4 text-sm text-stone-300">
+                    <span>
+                      {item.title}《{item.subtitle}》 · 第 {item.chapterStart}–{item.chapterEnd} 节
+                    </span>
+                    <span className="shrink-0 pl-3 font-semibold text-amber-100">{item.entityCount} 条</span>
+                  </div>
+                ))}
+              </div>
               <div className="grid gap-3 md:grid-cols-2">
                 {wiki.categories.map((item) => (
                   <div key={item.key} className="flex items-center justify-between rounded-2xl border border-stone-700/70 bg-stone-900/60 p-4 text-sm text-stone-300">

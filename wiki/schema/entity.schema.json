@@ -30,14 +30,14 @@
     "name": { "type": "string", "minLength": 1 },
     "aliases": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
     "summary": { "type": "string", "minLength": 1 },
-    "status": { "enum": ["verified-volume-1", "draft"] },
+    "status": { "type": "string", "pattern": "^(verified-volume-[1-9][0-9]*|draft)$" },
     "scope": {
       "type": "object",
       "additionalProperties": false,
       "required": ["volume", "maxChapter"],
       "properties": {
-        "volume": { "const": 1 },
-        "maxChapter": { "type": "integer", "minimum": 1, "maximum": 199 }
+        "volume": { "type": "integer", "minimum": 1 },
+        "maxChapter": { "type": "integer", "minimum": 1 }
       }
     },
     "firstMention": { "$ref": "#/$defs/chapterReference" },

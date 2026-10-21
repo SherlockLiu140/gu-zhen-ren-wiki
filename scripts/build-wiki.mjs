@@ -20,7 +20,7 @@ const typeConfig = {
   'gu-house': { key: 'guHouses', label: '仙蛊屋' },
 }
 const validTypes = new Set(Object.keys(typeConfig))
-const validStatuses = new Set(['verified-volume-1', 'draft'])
+const statusPattern = /^(verified-volume-([1-9][0-9]*)|draft)$/
 const idPattern = /^(cultivation|character|gu|location|faction|gu-house)\.[a-z0-9-]+$/
 
 async function collectJsonFiles(directory) {
@@ -55,7 +55,7 @@ function validateSources(sources, entity, chapterById, label, file) {
   }
 }
 
-function validateEntity(entity, file, chapterById) {
+function validateEntity(entity, file, chapterById, volumesById) {
   assert(entity && typeof entity === 'object' && !Array.isArray(entity), `${file}: 根节点必须是对象`)
   assert(entity.schemaVersion === 1, `${file}: schemaVersion 必须为 1`)
   assert(typeof entity.id === 'string' && idPattern.test(entity.id), `${file}: id 格式无效`)
@@ -65,9 +65,21 @@ function validateEntity(entity, file, chapterById) {
   validateStringArray(entity.aliases, 'aliases', file)
   validateStringArray(entity.tags, 'tags', file)
   assert(typeof entity.summary === 'string' && entity.summary.trim(), `${file}: summary 不能为空`)
-  assert(validStatuses.has(entity.status), `${file}: status 无效`)
-  assert(entity.scope?.volume === 1, `${file}: 第一批 scope.volume 必须为 1`)
-  assert(Number.isInteger(entity.scope?.maxChapter) && entity.scope.maxChapter <= 199, `${file}: scope.maxChapter 无效`)
+  assert(statusPattern.test(entity.status), `${file}: status 无效`)
+
+  const volumeId = entity.scope?.volume
+  const volume = volumesById.get(volumeId)
+  assert(volume, `${file}: scope.volume ${volumeId} 在语料索引中不存在`)
+  assert(
+    Number.isInteger(entity.scope.maxChapter) &&
+      entity.scope.maxChapter >= volume.chapterStart &&
+      entity.scope.maxChapter <= volume.chapterEnd,
+    `${file}: scope.maxChapter 必须落在第 ${volumeId} 卷的 ${volume.chapterStart}-${volume.chapterEnd} 之间`,
+  )
+  const statusVolume = statusPattern.exec(entity.status)?.[2]
+  if (statusVolume) {
+    assert(Number(statusVolume) === volumeId, `${file}: status 标注的卷号（${statusVolume}）与 scope.volume（${volumeId}）不一致`)
+  }
   assert(entity.attributes && typeof entity.attributes === 'object' && !Array.isArray(entity.attributes), `${file}: attributes 必须是对象`)
   assert(Object.values(entity.attributes).every((value) => typeof value === 'string'), `${file}: attributes 的值必须是字符串`)
   assert(Array.isArray(entity.facts) && entity.facts.length > 0, `${file}: facts 不能为空`)
@@ -92,12 +104,13 @@ function validateEntity(entity, file, chapterById) {
 
 const corpusIndex = JSON.parse(await readFile(corpusIndexPath, 'utf8'))
 const chapterById = new Map(corpusIndex.chapters.map((chapter) => [chapter.id, chapter]))
+const volumesById = new Map(corpusIndex.volumes.map((volume) => [volume.id, volume]))
 const entityFiles = await collectJsonFiles(entitiesRoot)
 const entities = []
 
 for (const file of entityFiles) {
   const entity = JSON.parse(await readFile(file, 'utf8'))
-  validateEntity(entity, path.relative(projectRoot, file), chapterById)
+  validateEntity(entity, path.relative(projectRoot, file), chapterById, volumesById)
   entities.push(entity)
 }
 
@@ -120,6 +133,7 @@ entities.sort((left, right) => {
 
 const enrichedEntities = entities.map((entity) => ({
   ...entity,
+  volume: entity.scope.volume,
   category: typeConfig[entity.type].key,
   categoryLabel: typeConfig[entity.type].label,
   facts: entity.facts.map((fact) => ({
@@ -138,13 +152,14 @@ const typeCounts = Object.fromEntries(
 )
 const result = {
   schemaVersion: 1,
-  scope: {
-    volumeId: 1,
-    volumeTitle: corpusIndex.volumes[0].title,
-    volumeSubtitle: corpusIndex.volumes[0].subtitle,
-    chapterStart: corpusIndex.volumes[0].chapterStart,
-    chapterEnd: corpusIndex.volumes[0].chapterEnd,
-  },
+  volumes: corpusIndex.volumes.map((volume) => ({
+    id: volume.id,
+    title: volume.title,
+    subtitle: volume.subtitle,
+    chapterStart: volume.chapterStart,
+    chapterEnd: volume.chapterEnd,
+    entityCount: entities.filter((entity) => entity.scope.volume === volume.id).length,
+  })),
   categories: Object.entries(typeConfig).map(([type, config]) => ({
     type,
     ...config,
