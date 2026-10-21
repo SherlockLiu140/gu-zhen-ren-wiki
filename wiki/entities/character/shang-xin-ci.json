@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "character.shang-xin-ci",
+  "type": "character",
+  "name": "商心慈",
+  "aliases": [
+    "张心慈"
+  ],
+  "summary": "商家族长年轻时的私生女，自幼缺失父亲、饱受欺凌；随商队行商至商家城时被族长感应到血脉。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 236
+  },
+  "attributes": {
+    "身份": "商家族长私生女",
+    "化名": "张心慈",
+    "修为": "他人以为是无资质凡人"
+  },
+  "facts": [
+    {
+      "text": "商心慈是商家族长年轻时在外游历所生的私生女，从小没有父亲；母亲去世后受族人逼迫，只得随商队行商。",
+      "sources": [
+        236
+      ]
+    },
+    {
+      "text": "抵达商家城时，她的血脉被商家族长感应到。",
+      "sources": [
+        236
+      ]
+    },
+    {
+      "text": "她在商队中以「张心慈」之名出现，旁人认为她没有修行资质、只是个凡人。",
+      "sources": [
+        236
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "faction.shang-clan",
+      "label": "血脉",
+      "sources": [
+        236
+      ]
+    }
+  ],
+  "tags": [
+    "商家",
+    "第二卷",
+    "商队"
+  ],
+  "firstMention": {
+    "chapterId": 235
+  }
+}

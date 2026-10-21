@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.jiu-yan-jiu-chong",
+  "type": "gu",
+  "name": "九眼酒虫",
+  "aliases": [],
+  "summary": "四转蛊，能提纯蛊师真元，使真元质量提升一个小境界。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 345
+  },
+  "attributes": {
+    "品阶": "四转",
+    "类别": "真元提纯"
+  },
+  "facts": [
+    {
+      "text": "方源借它将淡金真元提升为亮金真元，相当于真元质量提高一个小境界。",
+      "sources": [
+        344
+      ]
+    },
+    {
+      "text": "是方源在第二卷后期持有的四转蛊之一。",
+      "sources": [
+        345
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "四转",
+    "真元",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 326
+  }
+}

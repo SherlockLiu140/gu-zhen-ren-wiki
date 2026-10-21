@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "location.zhong-zhou",
+  "type": "location",
+  "name": "中洲",
+  "aliases": [],
+  "summary": "五域中央之地，幅员辽阔、元气最充裕，门派林立，整体实力强于东南西北四域。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 335
+  },
+  "attributes": {
+    "方位": "五域中央",
+    "特点": "元气充裕、门派林立"
+  },
+  "facts": [
+    {
+      "text": "世界分东海、西漠、北原、南疆四域，四域包拢的中央地带名为中洲。",
+      "sources": [
+        334
+      ]
+    },
+    {
+      "text": "中洲幅员辽阔，元气最为充裕，门派林立，正魔两道并存，整体实力较四域最强。",
+      "sources": [
+        334
+      ]
+    },
+    {
+      "text": "与南疆以血缘维系的家族制不同，中洲以门派和师徒关系为主，广收有资质的门徒。",
+      "sources": [
+        335
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "中洲",
+    "地域",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 334
+  }
+}

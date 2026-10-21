@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "location.bai-gu-shan",
+  "type": "location",
+  "name": "白骨山",
+  "aliases": [],
+  "summary": "南疆境内的山岭，黄龙江流经其侧；山中藏有白骨传承，另有奶泉这一特产。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 225
+  },
+  "attributes": {
+    "位置": "南疆",
+    "特产": "奶泉",
+    "传承": "白骨传承"
+  },
+  "facts": [
+    {
+      "text": "黄龙江发源后流经玄冥山、龟背山、青茅山、白骨山、雷磁山等地。",
+      "sources": [
+        200
+      ]
+    },
+    {
+      "text": "白骨传承藏于密道之后，大厅以白骨筑成，中央大缸连通奶泉；奶泉是白骨山特产。",
+      "sources": [
+        222
+      ]
+    },
+    {
+      "text": "传承内藏有玉骨蛊、三转治疗蛊「肉白骨」与无足鸟等。",
+      "sources": [
+        214,
+        225
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "gu.yu-gu-gu",
+      "label": "藏有",
+      "sources": [
+        225
+      ]
+    }
+  ],
+  "tags": [
+    "南疆",
+    "传承之地",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 200
+  }
+}

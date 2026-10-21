@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.yu-gu-gu",
+  "type": "gu",
+  "name": "玉骨蛊",
+  "aliases": [],
+  "summary": "白骨山白骨传承中的蛊虫，能永久改造蛊师骨骼，使其质地如玉石般坚硬柔韧。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 225
+  },
+  "attributes": {
+    "出处": "白骨山白骨传承",
+    "效果": "永久改造骨骼",
+    "搭配": "冰肌蛊"
+  },
+  "facts": [
+    {
+      "text": "得自白骨山的白骨传承，炼化后骨骼化为玉质，更坚硬也更柔韧，效果是永久的。",
+      "sources": [
+        225
+      ]
+    },
+    {
+      "text": "与冰肌蛊搭配使用时效果最佳。",
+      "sources": [
+        225
+      ]
+    },
+    {
+      "text": "方源打算先强化骨骼再使用鳄力蛊，以免超出身体承受范围。",
+      "sources": [
+        205
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.bai-gu-shan",
+      "label": "藏于",
+      "sources": [
+        225
+      ]
+    }
+  ],
+  "tags": [
+    "白骨传承",
+    "骨骼改造",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 205
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "location.hu-xian-fu-di",
+  "type": "location",
+  "name": "狐仙福地",
+  "aliases": [],
+  "summary": "六转蛊仙白狐仙子在天梯山留下的福地与传承，完整度极高。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 341
+  },
+  "attributes": {
+    "主人": "白狐仙子",
+    "所在地": "天梯山",
+    "完整度": "极高"
+  },
+  "facts": [
+    {
+      "text": "天梯山出现白狐仙子的传承；白狐仙子是正道著名人物、六转蛊仙，占据狐仙福地。",
+      "sources": [
+        335
+      ]
+    },
+    {
+      "text": "方源评价狐仙福地的传承极为完整，远胜三王传承。",
+      "sources": [
+        337
+      ]
+    },
+    {
+      "text": "天梯山常年云雾笼罩，云雾消散后会有大量传承被继承；狐仙福地开启后引来蛊仙联手圈山，安排各派后辈比试。",
+      "sources": [
+        341
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "中洲",
+    "福地",
+    "传承",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 335
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "faction.shang-clan",
+  "type": "faction",
+  "name": "商家",
+  "aliases": [],
+  "summary": "南疆超一流势力之一，与铁家、飞家相当，实力被武家压过一头；以商业贸易立足。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 229
+  },
+  "attributes": {
+    "地域": "南疆",
+    "定位": "超一流家族",
+    "特长": "贸易"
+  },
+  "facts": [
+    {
+      "text": "商家是南疆首屈一指的势力，不弱于铁家、飞家，只是被武家压过一头。",
+      "sources": [
+        229
+      ]
+    },
+    {
+      "text": "商家以贸易闻名，影响力超出南疆，商家城的繁华广为人知。",
+      "sources": [
+        229
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.shang-jia-cheng",
+      "label": "拥有",
+      "sources": [
+        229
+      ]
+    }
+  ],
+  "tags": [
+    "南疆",
+    "家族",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 229
+  }
+}

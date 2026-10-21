@@ -15,7 +15,7 @@
       "subtitle": "魔子出山",
       "chapterStart": 200,
       "chapterEnd": 405,
-      "entityCount": 0
+      "entityCount": 12
     },
     {
       "id": 3,
@@ -61,25 +61,25 @@
       "type": "character",
       "key": "characters",
       "label": "人物",
-      "count": 6
+      "count": 7
     },
     {
       "type": "gu",
       "key": "gu",
       "label": "蛊虫",
-      "count": 196
+      "count": 201
     },
     {
       "type": "location",
       "key": "locations",
       "label": "地区",
-      "count": 3
+      "count": 7
     },
     {
       "type": "faction",
       "key": "factions",
       "label": "势力",
-      "count": 3
+      "count": 5
     },
     {
       "type": "gu-house",
@@ -90,10 +90,10 @@
   ],
   "typeCounts": {
     "cultivation": 5,
-    "characters": 6,
-    "gu": 196,
-    "locations": 3,
-    "factions": 3,
+    "characters": 7,
+    "gu": 201,
+    "locations": 7,
+    "factions": 5,
     "guHouses": 0
   },
   "entities": [
@@ -1325,6 +1325,84 @@
         "chapterId": 82
       },
       "volume": 1,
+      "category": "characters",
+      "categoryLabel": "人物"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "character.shang-xin-ci",
+      "type": "character",
+      "name": "商心慈",
+      "aliases": [
+        "张心慈"
+      ],
+      "summary": "商家族长年轻时的私生女，自幼缺失父亲、饱受欺凌；随商队行商至商家城时被族长感应到血脉。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 236
+      },
+      "attributes": {
+        "身份": "商家族长私生女",
+        "化名": "张心慈",
+        "修为": "他人以为是无资质凡人"
+      },
+      "facts": [
+        {
+          "text": "商心慈是商家族长年轻时在外游历所生的私生女，从小没有父亲；母亲去世后受族人逼迫，只得随商队行商。",
+          "sources": [
+            236
+          ],
+          "sourceChapters": [
+            {
+              "id": 236,
+              "title": "第三十七节：好人会有好报？"
+            }
+          ]
+        },
+        {
+          "text": "抵达商家城时，她的血脉被商家族长感应到。",
+          "sources": [
+            236
+          ],
+          "sourceChapters": [
+            {
+              "id": 236,
+              "title": "第三十七节：好人会有好报？"
+            }
+          ]
+        },
+        {
+          "text": "她在商队中以「张心慈」之名出现，旁人认为她没有修行资质、只是个凡人。",
+          "sources": [
+            236
+          ],
+          "sourceChapters": [
+            {
+              "id": 236,
+              "title": "第三十七节：好人会有好报？"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "faction.shang-clan",
+          "label": "血脉",
+          "sources": [
+            236
+          ]
+        }
+      ],
+      "tags": [
+        "商家",
+        "第二卷",
+        "商队"
+      ],
+      "firstMention": {
+        "chapterId": 235
+      },
+      "volume": 2,
       "category": "characters",
       "categoryLabel": "人物"
     },
@@ -4057,6 +4135,62 @@
     },
     {
       "schemaVersion": 1,
+      "id": "gu.jian-ying-gu",
+      "type": "gu",
+      "name": "剑影蛊",
+      "aliases": [],
+      "summary": "三转攻击蛊，与刀光蛊齐名，被认为属于三转蛊中攻击力最强的一类。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 292
+      },
+      "attributes": {
+        "品阶": "三转",
+        "类别": "攻击",
+        "齐名": "刀光蛊"
+      },
+      "facts": [
+        {
+          "text": "刀光蛊与剑影蛊齐名，是三转蛊中攻击最强的一种。",
+          "sources": [
+            265
+          ],
+          "sourceChapters": [
+            {
+              "id": 265,
+              "title": "第六十六节：刀光对骨枪"
+            }
+          ]
+        },
+        {
+          "text": "属高价蛊虫；正文以「比剑影蛊还要贵得多」形容更昂贵的自力更生蛊。",
+          "sources": [
+            292
+          ],
+          "sourceChapters": [
+            {
+              "id": 292,
+              "title": "第九十三节：法则碎片，大道之痕"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "三转",
+        "攻击",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 265
+      },
+      "volume": 2,
+      "category": "gu",
+      "categoryLabel": "蛊虫"
+    },
+    {
+      "schemaVersion": 1,
       "id": "gu.jin-zhong-gu",
       "type": "gu",
       "name": "金钟蛊",
@@ -4311,6 +4445,61 @@
         "chapterId": 14
       },
       "volume": 1,
+      "category": "gu",
+      "categoryLabel": "蛊虫"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "gu.jiu-yan-jiu-chong",
+      "type": "gu",
+      "name": "九眼酒虫",
+      "aliases": [],
+      "summary": "四转蛊，能提纯蛊师真元，使真元质量提升一个小境界。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 345
+      },
+      "attributes": {
+        "品阶": "四转",
+        "类别": "真元提纯"
+      },
+      "facts": [
+        {
+          "text": "方源借它将淡金真元提升为亮金真元，相当于真元质量提高一个小境界。",
+          "sources": [
+            344
+          ],
+          "sourceChapters": [
+            {
+              "id": 344,
+              "title": "第一百四十五节：有才无德"
+            }
+          ]
+        },
+        {
+          "text": "是方源在第二卷后期持有的四转蛊之一。",
+          "sources": [
+            345
+          ],
+          "sourceChapters": [
+            {
+              "id": 345,
+              "title": "第一百四十六节：横冲直撞蛊"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "四转",
+        "真元",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 326
+      },
+      "volume": 2,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -5364,6 +5553,62 @@
         "chapterId": 185
       },
       "volume": 1,
+      "category": "gu",
+      "categoryLabel": "蛊虫"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "gu.ming-sheng-gu",
+      "type": "gu",
+      "name": "名声蛊",
+      "aliases": [],
+      "summary": "《人祖传》中记载的蛊，外形如菊花；太日阳莽得到它后得以脱身，名声也随之传开。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 357
+      },
+      "attributes": {
+        "出处": "《人祖传》",
+        "类别": "传说蛊",
+        "外形": "菊花状"
+      },
+      "facts": [
+        {
+          "text": "《人祖传》中，太日阳莽因祸得福得到菊花样子的名声蛊，得以逃出平凡深渊。",
+          "sources": [
+            357
+          ],
+          "sourceChapters": [
+            {
+              "id": 357,
+              "title": "第一百五十八节：毛民的传说"
+            }
+          ]
+        },
+        {
+          "text": "有了名声蛊之后，太日阳莽的名声在世间迅速传开。",
+          "sources": [
+            357
+          ],
+          "sourceChapters": [
+            {
+              "id": 357,
+              "title": "第一百五十八节：毛民的传说"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "人祖传",
+        "传说蛊",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 287
+      },
+      "volume": 2,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -9230,6 +9475,63 @@
     },
     {
       "schemaVersion": 1,
+      "id": "gu.yi-cu-er-jiu-gu",
+      "type": "gu",
+      "name": "一蹴而就蛊",
+      "aliases": [],
+      "summary": "四转珍稀蛊，能让蛊师在极短时间内获得新的兽力虚影，省去数月水磨工夫。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 296
+      },
+      "attributes": {
+        "品阶": "四转",
+        "类别": "力道辅助",
+        "稀有度": "珍稀"
+      },
+      "facts": [
+        {
+          "text": "蛊师增添兽力虚影本是水磨工夫，需两三个月才见效；一蹴而就蛊可让这个过程在一夜之间完成。",
+          "sources": [
+            293
+          ],
+          "sourceChapters": [
+            {
+              "id": 293,
+              "title": "第九十四节：苍天无眼啊"
+            }
+          ]
+        },
+        {
+          "text": "方源在拍卖会上以十八万多元石拍下。",
+          "sources": [
+            296
+          ],
+          "sourceChapters": [
+            {
+              "id": 296,
+              "title": "第九十七节：拍卖会"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "四转",
+        "力道",
+        "珍稀",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 293
+      },
+      "volume": 2,
+      "category": "gu",
+      "categoryLabel": "蛊虫"
+    },
+    {
+      "schemaVersion": 1,
       "id": "gu.yi-qi-jin-guang-chong",
       "type": "gu",
       "name": "一气金光虫",
@@ -9744,6 +10046,82 @@
         "chapterId": 127
       },
       "volume": 1,
+      "category": "gu",
+      "categoryLabel": "蛊虫"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "gu.yu-gu-gu",
+      "type": "gu",
+      "name": "玉骨蛊",
+      "aliases": [],
+      "summary": "白骨山白骨传承中的蛊虫，能永久改造蛊师骨骼，使其质地如玉石般坚硬柔韧。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 225
+      },
+      "attributes": {
+        "出处": "白骨山白骨传承",
+        "效果": "永久改造骨骼",
+        "搭配": "冰肌蛊"
+      },
+      "facts": [
+        {
+          "text": "得自白骨山的白骨传承，炼化后骨骼化为玉质，更坚硬也更柔韧，效果是永久的。",
+          "sources": [
+            225
+          ],
+          "sourceChapters": [
+            {
+              "id": 225,
+              "title": "第二十六节：玉骨铁骨"
+            }
+          ]
+        },
+        {
+          "text": "与冰肌蛊搭配使用时效果最佳。",
+          "sources": [
+            225
+          ],
+          "sourceChapters": [
+            {
+              "id": 225,
+              "title": "第二十六节：玉骨铁骨"
+            }
+          ]
+        },
+        {
+          "text": "方源打算先强化骨骼再使用鳄力蛊，以免超出身体承受范围。",
+          "sources": [
+            205
+          ],
+          "sourceChapters": [
+            {
+              "id": 205,
+              "title": "第六节：夜宿树冠"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "location.bai-gu-shan",
+          "label": "藏于",
+          "sources": [
+            225
+          ]
+        }
+      ],
+      "tags": [
+        "白骨传承",
+        "骨骼改造",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 205
+      },
+      "volume": 2,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -11051,6 +11429,87 @@
     },
     {
       "schemaVersion": 1,
+      "id": "location.bai-gu-shan",
+      "type": "location",
+      "name": "白骨山",
+      "aliases": [],
+      "summary": "南疆境内的山岭，黄龙江流经其侧；山中藏有白骨传承，另有奶泉这一特产。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 225
+      },
+      "attributes": {
+        "位置": "南疆",
+        "特产": "奶泉",
+        "传承": "白骨传承"
+      },
+      "facts": [
+        {
+          "text": "黄龙江发源后流经玄冥山、龟背山、青茅山、白骨山、雷磁山等地。",
+          "sources": [
+            200
+          ],
+          "sourceChapters": [
+            {
+              "id": 200,
+              "title": "第一节：黄龙江上竹筏倾"
+            }
+          ]
+        },
+        {
+          "text": "白骨传承藏于密道之后，大厅以白骨筑成，中央大缸连通奶泉；奶泉是白骨山特产。",
+          "sources": [
+            222
+          ],
+          "sourceChapters": [
+            {
+              "id": 222,
+              "title": "第二十三节：白骨传承（上）"
+            }
+          ]
+        },
+        {
+          "text": "传承内藏有玉骨蛊、三转治疗蛊「肉白骨」与无足鸟等。",
+          "sources": [
+            214,
+            225
+          ],
+          "sourceChapters": [
+            {
+              "id": 214,
+              "title": "第十五节：轰！"
+            },
+            {
+              "id": 225,
+              "title": "第二十六节：玉骨铁骨"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "gu.yu-gu-gu",
+          "label": "藏有",
+          "sources": [
+            225
+          ]
+        }
+      ],
+      "tags": [
+        "南疆",
+        "传承之地",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 200
+      },
+      "volume": 2,
+      "category": "locations",
+      "categoryLabel": "地区"
+    },
+    {
+      "schemaVersion": 1,
       "aliases": [
         "山壁秘洞",
         "石缝秘洞",
@@ -11261,6 +11720,75 @@
     },
     {
       "schemaVersion": 1,
+      "id": "location.hu-xian-fu-di",
+      "type": "location",
+      "name": "狐仙福地",
+      "aliases": [],
+      "summary": "六转蛊仙白狐仙子在天梯山留下的福地与传承，完整度极高。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 341
+      },
+      "attributes": {
+        "主人": "白狐仙子",
+        "所在地": "天梯山",
+        "完整度": "极高"
+      },
+      "facts": [
+        {
+          "text": "天梯山出现白狐仙子的传承；白狐仙子是正道著名人物、六转蛊仙，占据狐仙福地。",
+          "sources": [
+            335
+          ],
+          "sourceChapters": [
+            {
+              "id": 335,
+              "title": "第一百三十六节：白狐蛊仙传承"
+            }
+          ]
+        },
+        {
+          "text": "方源评价狐仙福地的传承极为完整，远胜三王传承。",
+          "sources": [
+            337
+          ],
+          "sourceChapters": [
+            {
+              "id": 337,
+              "title": "第一百三十八节：见死不救"
+            }
+          ]
+        },
+        {
+          "text": "天梯山常年云雾笼罩，云雾消散后会有大量传承被继承；狐仙福地开启后引来蛊仙联手圈山，安排各派后辈比试。",
+          "sources": [
+            341
+          ],
+          "sourceChapters": [
+            {
+              "id": 341,
+              "title": "第一百四十二节：何等的穷凶极恶！"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "中洲",
+        "福地",
+        "传承",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 335
+      },
+      "volume": 2,
+      "category": "locations",
+      "categoryLabel": "地区"
+    },
+    {
+      "schemaVersion": 1,
       "aliases": [
         "青矛山（原文偶见写法）"
       ],
@@ -11369,6 +11897,137 @@
         "chapterId": 1
       },
       "volume": 1,
+      "category": "locations",
+      "categoryLabel": "地区"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "location.shang-jia-cheng",
+      "type": "location",
+      "name": "商家城",
+      "aliases": [],
+      "summary": "商家经营的核心城池，位于商量山，是南疆乃至天下闻名的贸易中心。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 230
+      },
+      "attributes": {
+        "所属": "商家",
+        "位置": "商量山",
+        "定位": "贸易中心"
+      },
+      "facts": [
+        {
+          "text": "商家以贸易闻名南疆，商家城被视为贸易中心，繁华且元石流通极多。",
+          "sources": [
+            229
+          ],
+          "sourceChapters": [
+            {
+              "id": 229,
+              "title": "第三十节：村庄休整"
+            }
+          ]
+        },
+        {
+          "text": "城内外商铺众多，蛊师可以在此买到成套搭配的蛊虫。",
+          "sources": [
+            230
+          ],
+          "sourceChapters": [
+            {
+              "id": 230,
+              "title": "第三十一节：合作修行"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "faction.shang-clan",
+          "label": "所属",
+          "sources": [
+            229
+          ]
+        }
+      ],
+      "tags": [
+        "南疆",
+        "城池",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 229
+      },
+      "volume": 2,
+      "category": "locations",
+      "categoryLabel": "地区"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "location.zhong-zhou",
+      "type": "location",
+      "name": "中洲",
+      "aliases": [],
+      "summary": "五域中央之地，幅员辽阔、元气最充裕，门派林立，整体实力强于东南西北四域。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 335
+      },
+      "attributes": {
+        "方位": "五域中央",
+        "特点": "元气充裕、门派林立"
+      },
+      "facts": [
+        {
+          "text": "世界分东海、西漠、北原、南疆四域，四域包拢的中央地带名为中洲。",
+          "sources": [
+            334
+          ],
+          "sourceChapters": [
+            {
+              "id": 334,
+              "title": "第一百三十五节：仙鹤门，方正"
+            }
+          ]
+        },
+        {
+          "text": "中洲幅员辽阔，元气最为充裕，门派林立，正魔两道并存，整体实力较四域最强。",
+          "sources": [
+            334
+          ],
+          "sourceChapters": [
+            {
+              "id": 334,
+              "title": "第一百三十五节：仙鹤门，方正"
+            }
+          ]
+        },
+        {
+          "text": "与南疆以血缘维系的家族制不同，中洲以门派和师徒关系为主，广收有资质的门徒。",
+          "sources": [
+            335
+          ],
+          "sourceChapters": [
+            {
+              "id": 335,
+              "title": "第一百三十六节：白狐蛊仙传承"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "中洲",
+        "地域",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 334
+      },
+      "volume": 2,
       "category": "locations",
       "categoryLabel": "地区"
     },
@@ -11560,6 +12219,146 @@
         "chapterId": 1
       },
       "volume": 1,
+      "category": "factions",
+      "categoryLabel": "势力"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "faction.shang-clan",
+      "type": "faction",
+      "name": "商家",
+      "aliases": [],
+      "summary": "南疆超一流势力之一，与铁家、飞家相当，实力被武家压过一头；以商业贸易立足。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 229
+      },
+      "attributes": {
+        "地域": "南疆",
+        "定位": "超一流家族",
+        "特长": "贸易"
+      },
+      "facts": [
+        {
+          "text": "商家是南疆首屈一指的势力，不弱于铁家、飞家，只是被武家压过一头。",
+          "sources": [
+            229
+          ],
+          "sourceChapters": [
+            {
+              "id": 229,
+              "title": "第三十节：村庄休整"
+            }
+          ]
+        },
+        {
+          "text": "商家以贸易闻名，影响力超出南疆，商家城的繁华广为人知。",
+          "sources": [
+            229
+          ],
+          "sourceChapters": [
+            {
+              "id": 229,
+              "title": "第三十节：村庄休整"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "location.shang-jia-cheng",
+          "label": "拥有",
+          "sources": [
+            229
+          ]
+        }
+      ],
+      "tags": [
+        "南疆",
+        "家族",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 229
+      },
+      "volume": 2,
+      "category": "factions",
+      "categoryLabel": "势力"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "faction.xian-he-men",
+      "type": "faction",
+      "name": "仙鹤门",
+      "aliases": [],
+      "summary": "中洲最古老的门派之一，山门悬于中洲南部云海之上；门内等级森严，以考核晋升。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 335
+      },
+      "attributes": {
+        "地域": "中洲",
+        "性质": "门派",
+        "山门": "云海之上的悬空大山"
+      },
+      "facts": [
+        {
+          "text": "仙鹤门是中洲最古老的门派之一；门人执行任务须携带记录过程的蛊虫，回山后据此考核。",
+          "sources": [
+            211
+          ],
+          "sourceChapters": [
+            {
+              "id": 211,
+              "title": "第十二节：路"
+            }
+          ]
+        },
+        {
+          "text": "山门位于中洲南部群山之上三万丈的云海之巅，是一座悬空大山。",
+          "sources": [
+            334
+          ],
+          "sourceChapters": [
+            {
+              "id": 334,
+              "title": "第一百三十五节：仙鹤门，方正"
+            }
+          ]
+        },
+        {
+          "text": "门内自下而上为外门弟子、内门弟子、精英弟子、真传弟子、门派长老、掌门人与太上长老；三年小考、八年中考、十五年大考分别对应内门、精英与真传。",
+          "sources": [
+            335
+          ],
+          "sourceChapters": [
+            {
+              "id": 335,
+              "title": "第一百三十六节：白狐蛊仙传承"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "location.zhong-zhou",
+          "label": "位于",
+          "sources": [
+            334
+          ]
+        }
+      ],
+      "tags": [
+        "中洲",
+        "门派",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 211
+      },
+      "volume": 2,
       "category": "factions",
       "categoryLabel": "势力"
     },

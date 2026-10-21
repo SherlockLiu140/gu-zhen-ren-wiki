@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "location.shang-jia-cheng",
+  "type": "location",
+  "name": "商家城",
+  "aliases": [],
+  "summary": "商家经营的核心城池，位于商量山，是南疆乃至天下闻名的贸易中心。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 230
+  },
+  "attributes": {
+    "所属": "商家",
+    "位置": "商量山",
+    "定位": "贸易中心"
+  },
+  "facts": [
+    {
+      "text": "商家以贸易闻名南疆，商家城被视为贸易中心，繁华且元石流通极多。",
+      "sources": [
+        229
+      ]
+    },
+    {
+      "text": "城内外商铺众多，蛊师可以在此买到成套搭配的蛊虫。",
+      "sources": [
+        230
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "faction.shang-clan",
+      "label": "所属",
+      "sources": [
+        229
+      ]
+    }
+  ],
+  "tags": [
+    "南疆",
+    "城池",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 229
+  }
+}

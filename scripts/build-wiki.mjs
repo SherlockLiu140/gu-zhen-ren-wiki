@@ -50,7 +50,10 @@ function validateSources(sources, entity, chapterById, label, file) {
   for (const chapterId of sources) {
     const chapter = chapterById.get(chapterId)
     assert(chapter, `${file}: ${label} 引用了不存在的章节 ${chapterId}`)
-    assert(chapter.volumeId === entity.scope.volume, `${file}: ${label} 引用了范围外的卷`)
+    assert(
+      chapter.volumeId <= entity.scope.volume,
+      `${file}: ${label} 引用了第 ${chapter.volumeId} 卷，超出已覆盖的第 ${entity.scope.volume} 卷`,
+    )
     assert(chapterId <= entity.scope.maxChapter, `${file}: ${label} 引用了范围外的章节 ${chapterId}`)
   }
 }

@@ -33,11 +33,12 @@
     "status": { "type": "string", "pattern": "^(verified-volume-[1-9][0-9]*|draft)$" },
     "scope": {
       "type": "object",
+      "description": "本条目核对到哪个位置。volume 是已覆盖的最高卷，引用可以来自该卷及更早的卷；maxChapter 是已核对的最高章节号，须落在 volume 的区间内。",
       "additionalProperties": false,
       "required": ["volume", "maxChapter"],
       "properties": {
-        "volume": { "type": "integer", "minimum": 1 },
-        "maxChapter": { "type": "integer", "minimum": 1 }
+        "volume": { "type": "integer", "minimum": 1, "description": "已核对的最高卷号" },
+        "maxChapter": { "type": "integer", "minimum": 1, "description": "已核对的最高章节号" }
       }
     },
     "firstMention": { "$ref": "#/$defs/chapterReference" },

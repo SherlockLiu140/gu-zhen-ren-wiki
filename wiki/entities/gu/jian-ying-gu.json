@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.jian-ying-gu",
+  "type": "gu",
+  "name": "剑影蛊",
+  "aliases": [],
+  "summary": "三转攻击蛊，与刀光蛊齐名，被认为属于三转蛊中攻击力最强的一类。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 292
+  },
+  "attributes": {
+    "品阶": "三转",
+    "类别": "攻击",
+    "齐名": "刀光蛊"
+  },
+  "facts": [
+    {
+      "text": "刀光蛊与剑影蛊齐名，是三转蛊中攻击最强的一种。",
+      "sources": [
+        265
+      ]
+    },
+    {
+      "text": "属高价蛊虫；正文以「比剑影蛊还要贵得多」形容更昂贵的自力更生蛊。",
+      "sources": [
+        292
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "三转",
+    "攻击",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 265
+  }
+}

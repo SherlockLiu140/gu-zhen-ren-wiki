@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.ming-sheng-gu",
+  "type": "gu",
+  "name": "名声蛊",
+  "aliases": [],
+  "summary": "《人祖传》中记载的蛊，外形如菊花；太日阳莽得到它后得以脱身，名声也随之传开。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 357
+  },
+  "attributes": {
+    "出处": "《人祖传》",
+    "类别": "传说蛊",
+    "外形": "菊花状"
+  },
+  "facts": [
+    {
+      "text": "《人祖传》中，太日阳莽因祸得福得到菊花样子的名声蛊，得以逃出平凡深渊。",
+      "sources": [
+        357
+      ]
+    },
+    {
+      "text": "有了名声蛊之后，太日阳莽的名声在世间迅速传开。",
+      "sources": [
+        357
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "人祖传",
+    "传说蛊",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 287
+  }
+}

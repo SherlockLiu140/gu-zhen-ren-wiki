@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.yi-cu-er-jiu-gu",
+  "type": "gu",
+  "name": "一蹴而就蛊",
+  "aliases": [],
+  "summary": "四转珍稀蛊，能让蛊师在极短时间内获得新的兽力虚影，省去数月水磨工夫。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 296
+  },
+  "attributes": {
+    "品阶": "四转",
+    "类别": "力道辅助",
+    "稀有度": "珍稀"
+  },
+  "facts": [
+    {
+      "text": "蛊师增添兽力虚影本是水磨工夫，需两三个月才见效；一蹴而就蛊可让这个过程在一夜之间完成。",
+      "sources": [
+        293
+      ]
+    },
+    {
+      "text": "方源在拍卖会上以十八万多元石拍下。",
+      "sources": [
+        296
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "四转",
+    "力道",
+    "珍稀",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 293
+  }
+}

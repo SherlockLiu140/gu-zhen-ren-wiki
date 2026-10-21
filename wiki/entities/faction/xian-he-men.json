@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "faction.xian-he-men",
+  "type": "faction",
+  "name": "仙鹤门",
+  "aliases": [],
+  "summary": "中洲最古老的门派之一，山门悬于中洲南部云海之上；门内等级森严，以考核晋升。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 335
+  },
+  "attributes": {
+    "地域": "中洲",
+    "性质": "门派",
+    "山门": "云海之上的悬空大山"
+  },
+  "facts": [
+    {
+      "text": "仙鹤门是中洲最古老的门派之一；门人执行任务须携带记录过程的蛊虫，回山后据此考核。",
+      "sources": [
+        211
+      ]
+    },
+    {
+      "text": "山门位于中洲南部群山之上三万丈的云海之巅，是一座悬空大山。",
+      "sources": [
+        334
+      ]
+    },
+    {
+      "text": "门内自下而上为外门弟子、内门弟子、精英弟子、真传弟子、门派长老、掌门人与太上长老；三年小考、八年中考、十五年大考分别对应内门、精英与真传。",
+      "sources": [
+        335
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.zhong-zhou",
+      "label": "位于",
+      "sources": [
+        334
+      ]
+    }
+  ],
+  "tags": [
+    "中洲",
+    "门派",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 211
+  }
+}
