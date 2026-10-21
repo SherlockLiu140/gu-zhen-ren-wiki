@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-8840-5e55-5929-534e-86ca",
+  "type": "gu",
+  "name": "血幕天华蛊",
+  "aliases": [],
+  "summary": "古月一代独创的五转防御蛊，可形成血幕抵挡攻击，并允许主人出而不能再入。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "五转",
+    "类别": "防御",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "古月一代独创的五转防御蛊，可形成血幕抵挡攻击，并允许主人出而不能再入。",
+      "sources": [
+        194
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "五转",
+    "防御",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 194
+  }
+}

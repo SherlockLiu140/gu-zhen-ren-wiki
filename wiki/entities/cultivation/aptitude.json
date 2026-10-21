@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "aliases": [
+    "元海资质",
+    "资质等第"
+  ],
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "等第": "甲、乙、丙、丁",
+    "测试方式": "开窍大典中按前行步数判定",
+    "核心指标": "元海占空窍比例"
+  },
+  "facts": [
+    {
+      "text": "开窍测试以步数区分资质：十至二十步为丁等，二十至三十步为丙等，三十至四十步为乙等，四十至五十步为甲等。",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "text": "丁、丙、乙、甲等的元海比例依次约为两三成、四五成、六七成、八九成。",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "text": "资质越高通常越利于晋升，但并不等同于心性、悟性或最终成就。",
+      "sources": [
+        6,
+        7
+      ]
+    },
+    {
+      "text": "甲等并非资质顶点；第一卷后段揭示其上还有元海达到十成的十绝体。",
+      "sources": [
+        135
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "cultivation.aperture",
+      "label": "以元海比例体现",
+      "sources": [
+        6,
+        7
+      ]
+    },
+    {
+      "target": "character.fang-yuan",
+      "label": "第一卷测得丙等",
+      "sources": [
+        5,
+        6
+      ]
+    },
+    {
+      "target": "character.gu-yue-fang-zheng",
+      "label": "第一卷测得甲等",
+      "sources": [
+        6
+      ]
+    },
+    {
+      "target": "cultivation.ten-extreme-physiques",
+      "label": "甲等之上的特殊资质",
+      "sources": [
+        135
+      ]
+    }
+  ],
+  "tags": [
+    "基础设定",
+    "甲等",
+    "丙等",
+    "第一卷"
+  ],
+  "id": "cultivation.aptitude",
+  "type": "cultivation",
+  "name": "修行资质",
+  "summary": "资质以甲、乙、丙、丁四等划分，主要体现为元海占空窍的比例，并显著影响修行速度与通常可达境界。"
+}

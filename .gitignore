@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local novel corpus (not published to the public repository)
+/*.txt
+/corpus/source/*.txt
+/corpus/chapters/*.md
+/corpus/chapters/.generated-manifest.json

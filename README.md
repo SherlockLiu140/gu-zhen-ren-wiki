@@ -1,16 +1,26 @@
-# React + Vite
+# 蛊真人 Wiki
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+基于 React 与 Vite 构建的《蛊真人》资料站。
 
-Currently, two official plugins are available:
+## 本地开发
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm install
+npm run dev
+```
 
-## React Compiler
+## 生成小说语料索引
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+将 UTF-8 编码的原始文本放在 `corpus/source/蛊真人.txt`，然后运行：
 
-## Expanding the ESLint configuration
+```bash
+npm run corpus:build
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+该命令会：
+
+- 将序言和正文按章生成到 `corpus/chapters/`；
+- 生成可检索的 `corpus/index.json`；
+- 规范化 BOM 和 CRLF，但不修改原始文本。
+
+原始小说和拆分后的完整正文已被 `.gitignore` 排除，不会发布到公开仓库。转换脚本和轻量索引可以正常提交。

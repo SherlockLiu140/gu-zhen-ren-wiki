@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "aliases": [],
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "仙蛊（第一卷明确为六转）",
+    "类别": "时间、重生",
+    "第一卷使用者": "方源",
+    "代价": "献祭生命、身躯与修为"
+  },
+  "facts": [
+    {
+      "text": "能够借光阴之河逆流回到过去，方源以此回到五百年前。",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "催动需要将生命、身躯与全部修为作为力量，且结果存在风险。",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "text": "第一卷中其气息曾帮助方源压制酒虫意志。",
+      "sources": [
+        19
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "character.fang-yuan",
+      "label": "炼制与使用者",
+      "sources": [
+        1,
+        2,
+        19
+      ]
+    }
+  ],
+  "tags": [
+    "仙蛊",
+    "六转",
+    "重生",
+    "第一卷"
+  ],
+  "id": "gu.spring-autumn-cicada",
+  "type": "gu",
+  "name": "春秋蝉",
+  "summary": "与光阴和重生相关的核心蛊虫。方源在绝境中以生命和修为为代价催动它，回到五百年前。",
+  "firstMention": {
+    "chapterId": 1
+  },
+  "firstAppearance": {
+    "chapterId": 1
+  }
+}

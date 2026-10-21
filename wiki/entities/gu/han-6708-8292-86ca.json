@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-6708-8292-86ca",
+  "type": "gu",
+  "name": "月芒蛊",
+  "aliases": [],
+  "summary": "由月光蛊与两只小光蛊合炼，月刃攻击力达到月光蛊的三倍。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "二转",
+    "类别": "攻击",
+    "第一卷记录形态": "配方提及与实际炼成",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "由月光蛊与两只小光蛊合炼，月刃攻击力达到月光蛊的三倍。",
+      "sources": [
+        98,
+        106
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "二转",
+    "攻击",
+    "配方提及与实际炼成",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 98
+  }
+}

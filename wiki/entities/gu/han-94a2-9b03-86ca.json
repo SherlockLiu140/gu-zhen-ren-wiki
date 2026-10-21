@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-94a2-9b03-86ca",
+  "type": "gu",
+  "name": "钢鬃蛊",
+  "aliases": [],
+  "summary": "黑鬃蛊的三转晋升形态，能令毛发坚硬如钢针。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "三转",
+    "类别": "攻防一体",
+    "第一卷记录形态": "配方与修行知识提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "黑鬃蛊的三转晋升形态，能令毛发坚硬如钢针。",
+      "sources": [
+        47,
+        64
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "三转",
+    "攻防一体",
+    "配方与修行知识提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 47
+  }
+}

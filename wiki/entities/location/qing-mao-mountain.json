@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "aliases": [
+    "青矛山（原文偶见写法）"
+  ],
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "地域": "南疆",
+    "类型": "山脉",
+    "主要势力": "古月山寨、熊家寨、白家寨",
+    "特产环境": "矛竹、深山老林"
+  },
+  "facts": [
+    {
+      "text": "古月山寨位于青茅山，第一卷开篇和主要事件都在此展开。",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "text": "三大山寨中，熊家寨在前山，古月山寨在山腰，白家寨在后山瀑布。",
+      "sources": [
+        65
+      ]
+    },
+    {
+      "text": "三寨彼此竞争，并瓜分、控制山脚的凡人村庄。",
+      "sources": [
+        65,
+        74
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.gu-yue-village",
+      "label": "山腰聚落",
+      "sources": [
+        1,
+        65
+      ]
+    },
+    {
+      "target": "faction.gu-yue-clan",
+      "label": "当地势力",
+      "sources": [
+        1,
+        65
+      ]
+    },
+    {
+      "target": "faction.bai-clan",
+      "label": "当地势力",
+      "sources": [
+        1,
+        65
+      ]
+    },
+    {
+      "target": "faction.xiong-clan",
+      "label": "当地势力",
+      "sources": [
+        1,
+        65
+      ]
+    }
+  ],
+  "tags": [
+    "南疆",
+    "第一卷舞台",
+    "三寨",
+    "第一卷"
+  ],
+  "id": "location.qing-mao-mountain",
+  "type": "location",
+  "name": "青茅山",
+  "summary": "第一卷主要舞台，位于南疆。古月、熊家、白家三座山寨分据山腰、前山与后山，并共同控制山脚村庄。",
+  "firstMention": {
+    "chapterId": 1
+  },
+  "firstAppearance": {
+    "chapterId": 1
+  }
+}

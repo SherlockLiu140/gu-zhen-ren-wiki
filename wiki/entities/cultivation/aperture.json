@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "aliases": [
+    "元海空窍",
+    "紫府",
+    "华池"
+  ],
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "位置": "寄托于体内但不与脏腑同处一空间",
+    "内部结构": "元海",
+    "外层": "光膜"
+  },
+  "facts": [
+    {
+      "text": "空窍呈球形，表面光膜维持其稳定，内部是储存真元的元海。",
+      "sources": [
+        6
+      ]
+    },
+    {
+      "text": "开窍大典中，希望蛊汇入体内并形成空窍。",
+      "sources": [
+        5,
+        6
+      ]
+    },
+    {
+      "text": "元海占空窍的比例与资质等第相关。",
+      "sources": [
+        6,
+        7
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "gu.hope-gu",
+      "label": "协助开窍",
+      "sources": [
+        5,
+        6
+      ]
+    },
+    {
+      "target": "cultivation.primeval-essence",
+      "label": "储存于元海",
+      "sources": [
+        6
+      ]
+    },
+    {
+      "target": "cultivation.aptitude",
+      "label": "元海比例体现资质",
+      "sources": [
+        5,
+        7
+      ]
+    }
+  ],
+  "tags": [
+    "基础设定",
+    "元海",
+    "第一卷"
+  ],
+  "id": "cultivation.aperture",
+  "type": "cultivation",
+  "name": "空窍",
+  "summary": "蛊师体内承载元海与蛊虫的特殊空间。开窍成功意味着正式具备修行蛊师体系的基础。"
+}

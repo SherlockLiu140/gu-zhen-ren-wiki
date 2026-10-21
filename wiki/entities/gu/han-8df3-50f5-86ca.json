@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-8df3-50f5-86ca",
+  "type": "gu",
+  "name": "跳僵蛊",
+  "aliases": [],
+  "summary": "经典僵尸蛊系列的四转成员，承接三转毛僵蛊。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "四转",
+    "类别": "僵尸变化",
+    "第一卷记录形态": "系列知识提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "经典僵尸蛊系列的四转成员，承接三转毛僵蛊。",
+      "sources": [
+        192
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "四转",
+    "僵尸变化",
+    "系列知识提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 192
+  }
+}

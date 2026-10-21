@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "aliases": [
+    "白家"
+  ],
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "据点": "青茅山后山瀑布",
+    "类型": "蛊师家族",
+    "代表人物": "白凝冰",
+    "第一卷态势": "快速崛起"
+  },
+  "facts": [
+    {
+      "text": "白家寨是青茅山三大山寨之一，位于后山瀑布。",
+      "sources": [
+        65
+      ]
+    },
+    {
+      "text": "白凝冰的成长使白家寨实力上升，并动摇古月山寨的传统优势。",
+      "sources": [
+        1,
+        45
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.qing-mao-mountain",
+      "label": "所在地区",
+      "sources": [
+        1,
+        65
+      ]
+    },
+    {
+      "target": "character.bai-ning-bing",
+      "label": "代表性天才",
+      "sources": [
+        1,
+        45
+      ]
+    }
+  ],
+  "tags": [
+    "蛊师家族",
+    "青茅山三寨",
+    "第一卷"
+  ],
+  "id": "faction.bai-clan",
+  "type": "faction",
+  "name": "白家寨",
+  "summary": "位于青茅山后山瀑布区域的蛊师家族势力，因白凝冰的崛起而快速增强，并对古月一族的传统地位形成压力。",
+  "firstMention": {
+    "chapterId": 1
+  },
+  "firstAppearance": {
+    "chapterId": 1
+  }
+}

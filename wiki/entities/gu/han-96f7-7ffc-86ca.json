@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-96f7-7ffc-86ca",
+  "type": "gu",
+  "name": "雷翼蛊",
+  "aliases": [],
+  "summary": "催动后形成一对雷光羽翼，使蛊师在短时间内飞行。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "三转",
+    "类别": "飞行",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "催动后形成一对雷光羽翼，使蛊师在短时间内飞行。",
+      "sources": [
+        155
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "三转",
+    "飞行",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 150
+  }
+}

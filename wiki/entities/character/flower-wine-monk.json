@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "aliases": [],
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "阵营": "魔道",
+    "修为": "五转",
+    "状态": "第一卷开始前已死",
+    "遗留": "地下秘洞与传承"
+  },
+  "facts": [
+    {
+      "text": "古月一族公开叙事称其与四代族长交战并导致双方死亡。",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "text": "方源在地下秘洞发现其遗骸、酒虫和留影存声蛊记录，得知事件另有真相。",
+      "sources": [
+        14,
+        15,
+        16
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.flower-wine-inheritance-cave",
+      "label": "遗藏所在地",
+      "sources": [
+        14,
+        16
+      ]
+    },
+    {
+      "target": "gu.liquor-worm",
+      "label": "遗留本命蛊",
+      "sources": [
+        17,
+        19
+      ]
+    },
+    {
+      "target": "character.fang-yuan",
+      "label": "遗藏被其发现",
+      "sources": [
+        14,
+        16
+      ]
+    }
+  ],
+  "tags": [
+    "魔道",
+    "五转蛊师",
+    "传承",
+    "第一卷"
+  ],
+  "id": "character.flower-wine-monk",
+  "type": "character",
+  "name": "花酒行者",
+  "summary": "数百年前活动于青茅山的五转魔道蛊师，其遗留秘洞、酒虫和影像记录成为方源第一卷早期的重要机缘。",
+  "firstMention": {
+    "chapterId": 7
+  },
+  "firstAppearance": {
+    "chapterId": 15
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-8840-6c14-86ca",
+  "type": "gu",
+  "name": "血气蛊",
+  "aliases": [],
+  "summary": "能补充蛊师血气，适合搭配游僵蛊，也被用于合炼血月蛊。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "第一卷未明确",
+    "类别": "气血恢复",
+    "第一卷记录形态": "配方与搭配提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "能补充蛊师血气，适合搭配游僵蛊，也被用于合炼血月蛊。",
+      "sources": [
+        126,
+        157
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "第一卷未明确",
+    "气血恢复",
+    "配方与搭配提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 126
+  }
+}

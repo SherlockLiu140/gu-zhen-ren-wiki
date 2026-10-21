@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-6708-75d5-86ca",
+  "type": "gu",
+  "name": "月痕蛊",
+  "aliases": [],
+  "summary": "月光蛊与痕石蛊的合炼结果，攻击力不变但射程增至二十米。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "二转",
+    "类别": "攻击",
+    "第一卷记录形态": "配方提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "月光蛊与痕石蛊的合炼结果，攻击力不变但射程增至二十米。",
+      "sources": [
+        106,
+        156
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "二转",
+    "攻击",
+    "配方提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 106
+  }
+}

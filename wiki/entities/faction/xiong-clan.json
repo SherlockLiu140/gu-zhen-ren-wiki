@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "aliases": [
+    "熊家"
+  ],
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "据点": "青茅山前山",
+    "类型": "蛊师家族",
+    "第一卷地位": "青茅山三大山寨之一"
+  },
+  "facts": [
+    {
+      "text": "熊家寨位于青茅山前山，是青茅山三大山寨之一。",
+      "sources": [
+        65
+      ]
+    },
+    {
+      "text": "与古月、白家共同控制山脚村庄，同时在人才和资源上相互竞争。",
+      "sources": [
+        65,
+        74,
+        77
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.qing-mao-mountain",
+      "label": "所在地区",
+      "sources": [
+        1,
+        65
+      ]
+    }
+  ],
+  "tags": [
+    "蛊师家族",
+    "青茅山三寨",
+    "第一卷"
+  ],
+  "id": "faction.xiong-clan",
+  "type": "faction",
+  "name": "熊家寨",
+  "summary": "位于青茅山前山的蛊师家族势力，与古月山寨、白家寨共同构成第一卷的三寨格局。",
+  "firstMention": {
+    "chapterId": 1
+  },
+  "firstAppearance": {
+    "chapterId": 1
+  }
+}

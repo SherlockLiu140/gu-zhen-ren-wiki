@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-9ed1-9b03-86ca",
+  "type": "gu",
+  "name": "黑鬃蛊",
+  "aliases": [],
+  "summary": "由青丝蛊与黑豕蛊合炼，可继续晋升为三转钢鬃蛊。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "二转",
+    "类别": "攻防一体",
+    "第一卷记录形态": "配方提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "由青丝蛊与黑豕蛊合炼，可继续晋升为三转钢鬃蛊。",
+      "sources": [
+        47,
+        64
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "二转",
+    "攻防一体",
+    "配方提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 47
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-81f3-4eb2-8840-866b",
+  "type": "gu",
+  "name": "至亲血虫",
+  "aliases": [
+    "至亲血虫蛊"
+  ],
+  "summary": "以至亲心血合炼的五转追踪蛊，可指向血亲所在方向。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "五转",
+    "类别": "血脉追踪",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "以至亲心血合炼的五转追踪蛊，可指向血亲所在方向。",
+      "sources": [
+        190,
+        192
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "五转",
+    "血脉追踪",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 190
+  }
+}

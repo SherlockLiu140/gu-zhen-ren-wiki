@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "aliases": [
+    "蛊师体系"
+  ],
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "大境界": "一转至九转",
+    "小境界": "初阶、中阶、高阶、巅峰",
+    "核心环节": "养蛊、炼蛊、用蛊"
+  },
+  "facts": [
+    {
+      "text": "开辟空窍并以真元喂养、炼化、操控蛊虫的人被称为蛊师。",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "text": "蛊师共有九转，每一转又分初阶、中阶、高阶、巅峰四个小境界。",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "text": "修行、战斗、炼蛊和交易都会消耗元石等资源。",
+      "sources": [
+        17
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "cultivation.aperture",
+      "label": "修行基础",
+      "sources": [
+        6,
+        7
+      ]
+    },
+    {
+      "target": "cultivation.primeval-essence",
+      "label": "力量来源",
+      "sources": [
+        6,
+        10
+      ]
+    },
+    {
+      "target": "cultivation.aptitude",
+      "label": "影响修行上限与效率",
+      "sources": [
+        5,
+        7
+      ]
+    }
+  ],
+  "tags": [
+    "基础设定",
+    "境界",
+    "第一卷"
+  ],
+  "id": "cultivation.gu-master-system",
+  "type": "cultivation",
+  "name": "蛊师修行体系",
+  "summary": "蛊师通过开辟空窍、积蓄真元并炼化蛊虫获得超越凡人的能力；境界、资质、蛊虫与资源共同决定修行效率和战力。"
+}

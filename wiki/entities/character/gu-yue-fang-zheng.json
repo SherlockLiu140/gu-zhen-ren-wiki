@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "aliases": [
+    "方正"
+  ],
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "所属": "古月一族",
+    "资质": "甲等",
+    "培养者": "古月博",
+    "亲属": "方源（孪生哥哥）"
+  },
+  "facts": [
+    {
+      "text": "开窍大典走出四十三步，被认定为甲等资质。",
+      "sources": [
+        6
+      ]
+    },
+    {
+      "text": "由族长古月博亲自培养，承担家族对抗白家寨天才的期待。",
+      "sources": [
+        6,
+        25,
+        82
+      ]
+    },
+    {
+      "text": "努力炼化月光蛊，但学堂首次炼蛊考核的头名被方源取得。",
+      "sources": [
+        20,
+        21
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "character.fang-yuan",
+      "label": "孪生兄弟",
+      "sources": [
+        6,
+        21
+      ]
+    },
+    {
+      "target": "character.gu-yue-bo",
+      "label": "受其培养",
+      "sources": [
+        6,
+        25
+      ]
+    },
+    {
+      "target": "faction.gu-yue-clan",
+      "label": "所属家族",
+      "sources": [
+        6
+      ]
+    },
+    {
+      "target": "gu.moonlight-gu",
+      "label": "炼化并使用",
+      "sources": [
+        21,
+        22
+      ]
+    }
+  ],
+  "tags": [
+    "甲等资质",
+    "古月一族",
+    "第一卷"
+  ],
+  "id": "character.gu-yue-fang-zheng",
+  "type": "character",
+  "name": "古月方正",
+  "summary": "方源的孪生弟弟。开窍大典测得甲等资质，受到族长古月博重点培养，并在第一卷形成与方源对照鲜明的成长路线。",
+  "firstMention": {
+    "chapterId": 6
+  },
+  "firstAppearance": {
+    "chapterId": 6
+  }
+}

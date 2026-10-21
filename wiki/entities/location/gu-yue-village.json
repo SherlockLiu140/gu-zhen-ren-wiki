@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "aliases": [],
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "地域": "青茅山山腰",
+    "类型": "家族山寨",
+    "控制者": "古月一族",
+    "规模": "数千座高脚吊楼构成的聚落"
+  },
+  "facts": [
+    {
+      "text": "山寨以大量高脚吊楼构成，中央设有举行祭祀和家族活动的重要楼阁。",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "text": "设有学堂、蛊室、商铺、家主阁等修行和治理设施。",
+      "sources": [
+        7,
+        8,
+        54
+      ]
+    },
+    {
+      "text": "长期与白家寨、熊家寨争夺青茅山的资源和影响力。",
+      "sources": [
+        45,
+        74
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.qing-mao-mountain",
+      "label": "位于其山腰",
+      "sources": [
+        1,
+        65
+      ]
+    },
+    {
+      "target": "faction.gu-yue-clan",
+      "label": "聚居与治理者",
+      "sources": [
+        1
+      ]
+    }
+  ],
+  "tags": [
+    "山寨",
+    "古月一族",
+    "第一卷舞台",
+    "第一卷"
+  ],
+  "id": "location.gu-yue-village",
+  "type": "location",
+  "name": "古月山寨",
+  "summary": "坐落在青茅山山腰的大型山寨，是古月一族的聚居地，也是方源与方正第一卷修行生活的核心场所。",
+  "firstMention": {
+    "chapterId": 1
+  },
+  "firstAppearance": {
+    "chapterId": 1
+  }
+}

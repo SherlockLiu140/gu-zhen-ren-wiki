@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "aliases": [
+    "古月方源",
+    "方老魔"
+  ],
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "所属": "古月一族（第一卷）",
+    "资质": "丙等",
+    "第一卷修为": "由一转修至三转",
+    "身份": "重生者"
+  },
+  "facts": [
+    {
+      "text": "使用春秋蝉后回到五百年前的古月山寨，保留前世记忆与经验。",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "开窍测试走出二十七步，被判定为丙等资质，元海上限约四成四。",
+      "sources": [
+        5,
+        6,
+        17
+      ]
+    },
+    {
+      "text": "第一卷中先后炼化酒虫，并以多种蛊虫构建攻击、防御、侦察和移动能力。",
+      "sources": [
+        17,
+        127,
+        128,
+        155,
+        157
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "gu.spring-autumn-cicada",
+      "label": "重生手段",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "target": "gu.liquor-worm",
+      "label": "炼化并使用",
+      "sources": [
+        17
+      ]
+    },
+    {
+      "target": "gu.moonlight-gu",
+      "label": "早期选择与使用",
+      "sources": [
+        8,
+        10
+      ]
+    },
+    {
+      "target": "faction.gu-yue-clan",
+      "label": "第一卷所属家族",
+      "sources": [
+        1,
+        7
+      ]
+    },
+    {
+      "target": "character.gu-yue-fang-zheng",
+      "label": "孪生兄弟",
+      "sources": [
+        6,
+        21
+      ]
+    }
+  ],
+  "tags": [
+    "主角",
+    "重生",
+    "丙等资质",
+    "第一卷"
+  ],
+  "id": "character.fang-yuan",
+  "type": "character",
+  "name": "方源",
+  "summary": "第一卷主角。借春秋蝉回到少年时期，在古月山寨以丙等资质重新修行，并利用前世经验争取资源与生存空间。",
+  "firstMention": {
+    "chapterId": 1
+  },
+  "firstAppearance": {
+    "chapterId": 1
+  }
+}

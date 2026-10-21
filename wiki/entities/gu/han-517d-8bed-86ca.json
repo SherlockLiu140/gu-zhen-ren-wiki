@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-517d-8bed-86ca",
+  "type": "gu",
+  "name": "兽语蛊",
+  "aliases": [],
+  "summary": "能让蛊师从与野兽的对话中取得情报。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "第一卷未明确",
+    "类别": "侦察与交流",
+    "第一卷记录形态": "修行知识提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "能让蛊师从与野兽的对话中取得情报。",
+      "sources": [
+        127
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "第一卷未明确",
+    "侦察与交流",
+    "修行知识提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 127
+  }
+}

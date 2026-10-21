@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "aliases": [
+    "十绝天资",
+    "必死天资"
+  ],
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "层级": "凌驾于甲等资质",
+    "种类": "十种",
+    "元海比例": "十成",
+    "第一卷实例": "白凝冰的北冥冰魄体",
+    "主要风险": "空窍承压并最终自爆"
+  },
+  "facts": [
+    {
+      "text": "十绝体共有十种，对应《人祖传》中的人祖十子，属于凌驾于甲等之上的绝顶资质。",
+      "sources": [
+        135,
+        181
+      ]
+    },
+    {
+      "text": "最优秀的甲等资质元海可达九成九，而十绝体的元海为圆满十成，真元恢复速度也远超甲等。",
+      "sources": [
+        135,
+        136
+      ]
+    },
+    {
+      "text": "十绝体修行越深，资质与修行速度反而越强，但真元对空窍的压力也持续上升，最终可能导致空窍自爆，因此又被称为必死天资。",
+      "sources": [
+        135,
+        140,
+        144
+      ]
+    },
+    {
+      "text": "第一卷明确确认白凝冰具有十绝体之一的北冥冰魄体。",
+      "sources": [
+        135,
+        190
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "cultivation.aptitude",
+      "label": "凌驾于甲等的特殊资质",
+      "sources": [
+        135
+      ]
+    },
+    {
+      "target": "cultivation.aperture",
+      "label": "十成真元持续压迫空窍",
+      "sources": [
+        135,
+        140
+      ]
+    },
+    {
+      "target": "character.bai-ning-bing",
+      "label": "北冥冰魄体实例",
+      "sources": [
+        135,
+        190
+      ]
+    }
+  ],
+  "tags": [
+    "特殊资质",
+    "北冥冰魄体",
+    "必死天资",
+    "第一卷"
+  ],
+  "id": "cultivation.ten-extreme-physiques",
+  "type": "cultivation",
+  "name": "十绝体",
+  "summary": "凌驾于甲等之上的十种绝顶资质，元海达到圆满十成，拥有极高的修行速度和真元恢复能力，同时会因空窍承压不断加剧而面临自爆风险。",
+  "firstMention": {
+    "chapterId": 135
+  },
+  "firstAppearance": {
+    "chapterId": 135
+  }
+}

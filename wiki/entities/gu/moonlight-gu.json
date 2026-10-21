@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "aliases": [],
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "一转",
+    "类别": "攻击",
+    "所属体系": "古月一族镇族蛊",
+    "典型能力": "发出月刃"
+  },
+  "facts": [
+    {
+      "text": "由古月一族秘法培育，是族群标志性蛊虫，许多族人将其选作本命蛊。",
+      "sources": [
+        8
+      ]
+    },
+    {
+      "text": "炼化后可用真元催动月刃进行远程攻击。",
+      "sources": [
+        10,
+        22
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "faction.gu-yue-clan",
+      "label": "镇族蛊虫",
+      "sources": [
+        8
+      ]
+    },
+    {
+      "target": "character.fang-yuan",
+      "label": "早期炼化与使用",
+      "sources": [
+        8,
+        10
+      ]
+    },
+    {
+      "target": "character.gu-yue-fang-zheng",
+      "label": "炼化与使用",
+      "sources": [
+        21,
+        22
+      ]
+    }
+  ],
+  "tags": [
+    "一转",
+    "攻击蛊",
+    "月刃",
+    "第一卷"
+  ],
+  "id": "gu.moonlight-gu",
+  "type": "gu",
+  "name": "月光蛊",
+  "summary": "古月一族以秘法培育的一转镇族蛊虫，外形如蓝色月牙，是族人常见的本命蛊选择。",
+  "firstMention": {
+    "chapterId": 7
+  },
+  "firstAppearance": {
+    "chapterId": 8
+  }
+}

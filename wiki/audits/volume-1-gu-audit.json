@@ -1,0 +1,2434 @@
+{
+  "schemaVersion": 1,
+  "scope": {
+    "volume": 1,
+    "chapterStart": 1,
+    "chapterEnd": 199
+  },
+  "method": [
+    "按 corpus/index.json 的第一卷 199 个规范章节逐章核对，避免扫描冲突副本。",
+    "同时检查以“蛊”结尾的名称，以及虫、草、花、蝉、蝶、蟾、蛛、蜈等不以“蛊”结尾但被正文明确认定为蛊的名称。",
+    "区分实际出现、配方或知识提及、族库名录提及和《人祖传》提及；品阶不明确时不作推断。"
+  ],
+  "previousEntityCount": 7,
+  "auditedAdditionCount": 189,
+  "expectedEntityCount": 196,
+  "previousEntities": [
+    "白豕蛊",
+    "春秋蝉",
+    "地听肉耳草",
+    "酒虫",
+    "希望蛊",
+    "隐鳞蛊",
+    "月光蛊"
+  ],
+  "additions": [
+    {
+      "id": "gu.han-529b-91cf-86ca",
+      "name": "力量蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "传说蛊",
+      "recordKind": "《人祖传》提及",
+      "firstMention": 5,
+      "sources": [
+        5
+      ]
+    },
+    {
+      "id": "gu.han-667a-6167-86ca",
+      "name": "智慧蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "传说蛊",
+      "recordKind": "《人祖传》提及",
+      "firstMention": 5,
+      "sources": [
+        5
+      ]
+    },
+    {
+      "id": "gu.han-9152-56ca-82b1-86ca",
+      "name": "酒囊花蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "资源生产",
+      "recordKind": "遗藏实物与回忆",
+      "firstMention": 14,
+      "sources": [
+        14,
+        16
+      ]
+    },
+    {
+      "id": "gu.han-996d-888b-8349-86ca",
+      "name": "饭袋草蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "资源生产",
+      "recordKind": "遗藏实物与回忆",
+      "firstMention": 14,
+      "sources": [
+        14,
+        16
+      ]
+    },
+    {
+      "id": "gu.han-7559-5f71-5b58-58f0-86ca",
+      "name": "留影存声蛊",
+      "aliases": [],
+      "rank": "三转",
+      "category": "信息记录",
+      "recordKind": "实际出现",
+      "firstMention": 16,
+      "sources": [
+        16,
+        156
+      ]
+    },
+    {
+      "id": "gu.han-6708-5f71-86ca",
+      "name": "月影蛊",
+      "aliases": [],
+      "rank": "四转",
+      "category": "限制真元",
+      "recordKind": "实际出现与配方提及",
+      "firstMention": 15,
+      "sources": [
+        15,
+        156
+      ]
+    },
+    {
+      "id": "gu.han-5974-96b6-86ca",
+      "name": "奴隶蛊",
+      "aliases": [],
+      "rank": "五转",
+      "category": "奴役",
+      "recordKind": "对话提及",
+      "firstMention": 15,
+      "sources": [
+        15
+      ]
+    },
+    {
+      "id": "gu.han-8349-4eba-86ca",
+      "name": "草人蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "训练与傀儡",
+      "recordKind": "实际出现",
+      "firstMention": 22,
+      "sources": [
+        22
+      ]
+    },
+    {
+      "id": "gu.han-94dc-76ae-86ca",
+      "name": "铜皮蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "防御",
+      "recordKind": "实际出现",
+      "firstMention": 24,
+      "sources": [
+        24,
+        62
+      ]
+    },
+    {
+      "id": "gu.han-718a-529b-86ca",
+      "name": "熊力蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "力量增幅",
+      "recordKind": "势力标志提及",
+      "firstMention": 22,
+      "sources": [
+        22
+      ]
+    },
+    {
+      "id": "gu.han-6eaa-6d41-86ca",
+      "name": "溪流蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "水道",
+      "recordKind": "势力标志提及",
+      "firstMention": 22,
+      "sources": [
+        22,
+        123
+      ]
+    },
+    {
+      "id": "gu.han-5bff-86ca",
+      "name": "寿蛊",
+      "aliases": [
+        "百年寿蛊",
+        "千年寿蛊"
+      ],
+      "rank": "品阶随个体而异",
+      "category": "寿命",
+      "recordKind": "传说与修行知识提及",
+      "firstMention": 38,
+      "sources": [
+        38,
+        126
+      ]
+    },
+    {
+      "id": "gu.han-89c4-86ca",
+      "name": "规蛊",
+      "aliases": [
+        "规"
+      ],
+      "rank": "第一卷未明确",
+      "category": "传说蛊",
+      "recordKind": "《人祖传》提及",
+      "firstMention": 1,
+      "sources": [
+        38
+      ]
+    },
+    {
+      "id": "gu.han-77e9-86ca",
+      "name": "矩蛊",
+      "aliases": [
+        "矩"
+      ],
+      "rank": "第一卷未明确",
+      "category": "传说蛊",
+      "recordKind": "《人祖传》提及",
+      "firstMention": 23,
+      "sources": [
+        38
+      ]
+    },
+    {
+      "id": "gu.han-8336-86ca",
+      "name": "茶蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "资源消耗",
+      "recordKind": "商队叫卖提及",
+      "firstMention": 39,
+      "sources": [
+        39
+      ]
+    },
+    {
+      "id": "gu.han-86ee-529b-5929-725b-86ca",
+      "name": "蛮力天牛蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "力量增幅",
+      "recordKind": "实际出现",
+      "firstMention": 39,
+      "sources": [
+        39,
+        62
+      ]
+    },
+    {
+      "id": "gu.han-765e-571f-86e4-87c6",
+      "name": "癞土蛤蟆",
+      "aliases": [],
+      "rank": "二转",
+      "category": "合炼材料",
+      "recordKind": "实际出现",
+      "firstMention": 39,
+      "sources": [
+        42
+      ]
+    },
+    {
+      "id": "gu.han-5b9d-6c14-9ec4-94dc-87fe",
+      "name": "宝气黄铜蟾",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "运输与储物",
+      "recordKind": "实际出现与配方提及",
+      "firstMention": 39,
+      "sources": [
+        39,
+        42
+      ]
+    },
+    {
+      "id": "gu.han-6c34-6676-74e2-866b",
+      "name": "水晶瓢虫",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "储物",
+      "recordKind": "实际出现",
+      "firstMention": 44,
+      "sources": [
+        44
+      ]
+    },
+    {
+      "id": "gu.han-91d1-949f-86ca",
+      "name": "金钟蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "第一卷未明确",
+      "recordKind": "商队交易提及",
+      "firstMention": 44,
+      "sources": [
+        44
+      ]
+    },
+    {
+      "id": "gu.han-9ed1-8c55-86ca",
+      "name": "黑豕蛊",
+      "aliases": [
+        "黒豕蛊"
+      ],
+      "rank": "一转",
+      "category": "力量增幅",
+      "recordKind": "实际出现",
+      "firstMention": 44,
+      "sources": [
+        44,
+        62
+      ]
+    },
+    {
+      "id": "gu.han-81ed-5c41-80a5-866b",
+      "name": "臭屁肥虫",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "第一卷未明确",
+      "recordKind": "实际出现",
+      "firstMention": 44,
+      "sources": [
+        44,
+        88
+      ]
+    },
+    {
+      "id": "gu.han-4e00-6c14-91d1-5149-866b",
+      "name": "一气金光虫",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "防护与照明",
+      "recordKind": "实际出现",
+      "firstMention": 47,
+      "sources": [
+        47
+      ]
+    },
+    {
+      "id": "gu.han-9752-4e1d-86ca",
+      "name": "青丝蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "防御",
+      "recordKind": "实际出现",
+      "firstMention": 47,
+      "sources": [
+        47
+      ]
+    },
+    {
+      "id": "gu.han-9ed1-9b03-86ca",
+      "name": "黑鬃蛊",
+      "aliases": [],
+      "rank": "二转",
+      "category": "攻防一体",
+      "recordKind": "配方提及",
+      "firstMention": 47,
+      "sources": [
+        47,
+        64
+      ]
+    },
+    {
+      "id": "gu.han-94a2-9b03-86ca",
+      "name": "钢鬃蛊",
+      "aliases": [],
+      "rank": "三转",
+      "category": "攻防一体",
+      "recordKind": "配方与修行知识提及",
+      "firstMention": 47,
+      "sources": [
+        47,
+        64
+      ]
+    },
+    {
+      "id": "gu.han-6c34-86db-86ca",
+      "name": "水蛛蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "防御",
+      "recordKind": "实际出现",
+      "firstMention": 47,
+      "sources": [
+        47
+      ]
+    },
+    {
+      "id": "gu.han-51c0-6c34-86ca",
+      "name": "净水蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "空窍净化",
+      "recordKind": "交易与实际使用",
+      "firstMention": 50,
+      "sources": [
+        50,
+        155,
+        159
+      ]
+    },
+    {
+      "id": "gu.han-8db3-8ff9-86ca",
+      "name": "足迹蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "追踪",
+      "recordKind": "实际出现",
+      "firstMention": 57,
+      "sources": [
+        57
+      ]
+    },
+    {
+      "id": "gu.han-7af9-541b-5b50",
+      "name": "竹君子",
+      "aliases": [
+        "竹君子蛊"
+      ],
+      "rank": "第一卷未明确",
+      "category": "测谎",
+      "recordKind": "实际出现",
+      "firstMention": 57,
+      "sources": [
+        57
+      ]
+    },
+    {
+      "id": "gu.han-6001-5ea6-86ca",
+      "name": "态度蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "传说蛊",
+      "recordKind": "《人祖传》提及",
+      "firstMention": 59,
+      "sources": [
+        59,
+        87
+      ]
+    },
+    {
+      "id": "gu.han-76f8-4fe1-86ca",
+      "name": "相信蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "传说蛊",
+      "recordKind": "《人祖传》提及",
+      "firstMention": 59,
+      "sources": [
+        59
+      ]
+    },
+    {
+      "id": "gu.han-6000-7591-86ca",
+      "name": "怀疑蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "传说蛊",
+      "recordKind": "《人祖传》提及",
+      "firstMention": 59,
+      "sources": [
+        59
+      ]
+    },
+    {
+      "id": "gu.han-77f3-76ae-86ca",
+      "name": "石皮蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "防御",
+      "recordKind": "实际出现",
+      "firstMention": 62,
+      "sources": [
+        62,
+        76
+      ]
+    },
+    {
+      "id": "gu.han-94c1-76ae-86ca",
+      "name": "铁皮蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "防御",
+      "recordKind": "蛊室名录提及",
+      "firstMention": 62,
+      "sources": [
+        62
+      ]
+    },
+    {
+      "id": "gu.han-517d-76ae-86ca",
+      "name": "兽皮蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "防御",
+      "recordKind": "蛊室与野兽寄生提及",
+      "firstMention": 62,
+      "sources": [
+        62,
+        77
+      ]
+    },
+    {
+      "id": "gu.han-9ec4-9a86-5929-725b-86ca",
+      "name": "黄骆天牛蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "耐力增幅",
+      "recordKind": "实际出现",
+      "firstMention": 62,
+      "sources": [
+        62,
+        63
+      ]
+    },
+    {
+      "id": "gu.han-82b1-8c55-86ca",
+      "name": "花豕蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "力量增幅",
+      "recordKind": "实际出现",
+      "firstMention": 62,
+      "sources": [
+        62,
+        82
+      ]
+    },
+    {
+      "id": "gu.han-7c89-8c55-86ca",
+      "name": "粉豕蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "力量增幅",
+      "recordKind": "蛊室与野兽寄生提及",
+      "firstMention": 62,
+      "sources": [
+        62,
+        77
+      ]
+    },
+    {
+      "id": "gu.han-5c0f-5149-86ca",
+      "name": "小光蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "攻击辅助",
+      "recordKind": "实际出现",
+      "firstMention": 62,
+      "sources": [
+        62,
+        70
+      ]
+    },
+    {
+      "id": "gu.han-9f99-4e38-86d0-86d0-86ca",
+      "name": "龙丸蛐蛐蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "移动",
+      "recordKind": "实际出现",
+      "firstMention": 62,
+      "sources": [
+        62,
+        73
+      ]
+    },
+    {
+      "id": "gu.han-7389-76ae-86ca",
+      "name": "玉皮蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "防御",
+      "recordKind": "实际出现",
+      "firstMention": 62,
+      "sources": [
+        62,
+        63
+      ]
+    },
+    {
+      "id": "gu.han-5730-85cf-82b1-86ca",
+      "name": "地藏花蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "储藏与传承",
+      "recordKind": "实际出现",
+      "firstMention": 63,
+      "sources": [
+        63
+      ]
+    },
+    {
+      "id": "gu.han-767d-7389-86ca",
+      "name": "白玉蛊",
+      "aliases": [],
+      "rank": "二转",
+      "category": "防御",
+      "recordKind": "配方提及与实际炼成",
+      "firstMention": 64,
+      "sources": [
+        64,
+        99
+      ]
+    },
+    {
+      "id": "gu.han-5929-84ec-86ca",
+      "name": "天蓬蛊",
+      "aliases": [],
+      "rank": "三转",
+      "category": "防御",
+      "recordKind": "配方提及与实际炼成",
+      "firstMention": 64,
+      "sources": [
+        64,
+        155
+      ]
+    },
+    {
+      "id": "gu.han-9501-6c14-86ca",
+      "name": "锁气蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "隐匿",
+      "recordKind": "方案提及",
+      "firstMention": 70,
+      "sources": [
+        70
+      ]
+    },
+    {
+      "id": "gu.han-6084-6b65-86ca",
+      "name": "悄步蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "隐匿",
+      "recordKind": "方案提及",
+      "firstMention": 70,
+      "sources": [
+        70,
+        138
+      ]
+    },
+    {
+      "id": "gu.han-5e7d-5f71-968f-884c-86ca",
+      "name": "幽影随行蛊",
+      "aliases": [
+        "幽影虫"
+      ],
+      "rank": "二转",
+      "category": "隐匿与移动",
+      "recordKind": "实际出现",
+      "firstMention": 75,
+      "sources": [
+        75,
+        77
+      ]
+    },
+    {
+      "id": "gu.han-7231-522b-79bb",
+      "name": "爱别离",
+      "aliases": [
+        "爱生离"
+      ],
+      "rank": "二转",
+      "category": "毒道攻击",
+      "recordKind": "实际出现与族库收存",
+      "firstMention": 75,
+      "sources": [
+        76,
+        77,
+        160
+      ]
+    },
+    {
+      "id": "gu.han-95ea-5149-86ca",
+      "name": "闪光蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "光道克制",
+      "recordKind": "实际出现",
+      "firstMention": 76,
+      "sources": [
+        76
+      ]
+    },
+    {
+      "id": "gu.han-523a-6bdb-866b",
+      "name": "刺毛虫",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "野兽寄生",
+      "recordKind": "野兽寄生提及",
+      "firstMention": 77,
+      "sources": [
+        77
+      ]
+    },
+    {
+      "id": "gu.han-751f-606f-8349",
+      "name": "生息草",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "治疗",
+      "recordKind": "对话提及",
+      "firstMention": 75,
+      "sources": [
+        82
+      ]
+    },
+    {
+      "id": "gu.han-5927-809a-86d9",
+      "name": "大肚蛙",
+      "aliases": [
+        "金背蛙"
+      ],
+      "rank": "二转",
+      "category": "储物",
+      "recordKind": "实际出现",
+      "firstMention": 88,
+      "sources": [
+        88
+      ]
+    },
+    {
+      "id": "gu.han-86c7-4fe1-86ca",
+      "name": "蛇信蛊",
+      "aliases": [],
+      "rank": "二转",
+      "category": "侦察",
+      "recordKind": "实际出现",
+      "firstMention": 93,
+      "sources": [
+        93,
+        127
+      ]
+    },
+    {
+      "id": "gu.han-8150-8840-8349-86ca",
+      "name": "腐血草蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "治疗",
+      "recordKind": "实际出现",
+      "firstMention": 94,
+      "sources": [
+        94
+      ]
+    },
+    {
+      "id": "gu.han-7ea2-5ca9-87d2",
+      "name": "红岩蟒",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "战斗蛇蛊",
+      "recordKind": "实际出现",
+      "firstMention": 94,
+      "sources": [
+        96
+      ]
+    },
+    {
+      "id": "gu.han-6708-8292-86ca",
+      "name": "月芒蛊",
+      "aliases": [],
+      "rank": "二转",
+      "category": "攻击",
+      "recordKind": "配方提及与实际炼成",
+      "firstMention": 98,
+      "sources": [
+        98,
+        106
+      ]
+    },
+    {
+      "id": "gu.han-6708-9713-88f3",
+      "name": "月霓裳",
+      "aliases": [
+        "月霓裳蛊",
+        "霓裳蛊"
+      ],
+      "rank": "二转",
+      "category": "防御",
+      "recordKind": "实际炼成",
+      "firstMention": 98,
+      "sources": [
+        98,
+        104
+      ]
+    },
+    {
+      "id": "gu.han-5b9d-6708-5149-738b-86ca",
+      "name": "宝月光王蛊",
+      "aliases": [],
+      "rank": "五转",
+      "category": "月道",
+      "recordKind": "配方路线提及",
+      "firstMention": 98,
+      "sources": [
+        98
+      ]
+    },
+    {
+      "id": "gu.han-4e66-866b",
+      "name": "书虫",
+      "aliases": [],
+      "rank": "一转",
+      "category": "信息与记忆",
+      "recordKind": "修行知识提及",
+      "firstMention": 50,
+      "sources": [
+        50,
+        71
+      ]
+    },
+    {
+      "id": "gu.han-4e5d-53f6-751f-673a-8349",
+      "name": "九叶生机草",
+      "aliases": [
+        "九叶生机草蛊"
+      ],
+      "rank": "二转",
+      "category": "资源生产",
+      "recordKind": "实际出现",
+      "firstMention": 102,
+      "sources": [
+        102,
+        106,
+        161
+      ]
+    },
+    {
+      "id": "gu.han-751f-673a-53f6",
+      "name": "生机叶",
+      "aliases": [
+        "生机叶蛊"
+      ],
+      "rank": "一转",
+      "category": "治疗",
+      "recordKind": "实际出现",
+      "firstMention": 102,
+      "sources": [
+        106
+      ]
+    },
+    {
+      "id": "gu.han-56db-5473-9152-866b",
+      "name": "四味酒虫",
+      "aliases": [],
+      "rank": "二转",
+      "category": "辅助修行",
+      "recordKind": "实际炼成",
+      "firstMention": 105,
+      "sources": [
+        107,
+        121
+      ]
+    },
+    {
+      "id": "gu.han-9080-6708-86ca",
+      "name": "邀月蛊",
+      "aliases": [],
+      "rank": "二转",
+      "category": "辅助修行与月道",
+      "recordKind": "配方与实际使用提及",
+      "firstMention": 105,
+      "sources": [
+        105,
+        164
+      ]
+    },
+    {
+      "id": "gu.han-4e03-9999-9152-866b",
+      "name": "七香酒虫",
+      "aliases": [],
+      "rank": "三转",
+      "category": "辅助修行",
+      "recordKind": "配方路线提及",
+      "firstMention": 105,
+      "sources": [
+        105
+      ]
+    },
+    {
+      "id": "gu.han-9752-85e4-86ca",
+      "name": "青藤蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "木道攻击",
+      "recordKind": "实际出现",
+      "firstMention": 104,
+      "sources": [
+        104
+      ]
+    },
+    {
+      "id": "gu.han-677e-9488-86ca",
+      "name": "松针蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "木道攻击",
+      "recordKind": "实际出现",
+      "firstMention": 104,
+      "sources": [
+        104,
+        141
+      ]
+    },
+    {
+      "id": "gu.han-6708-65cb-86ca",
+      "name": "月旋蛊",
+      "aliases": [],
+      "rank": "二转",
+      "category": "攻击",
+      "recordKind": "实际出现与配方提及",
+      "firstMention": 104,
+      "sources": [
+        104,
+        106
+      ]
+    },
+    {
+      "id": "gu.han-75d5-77f3-86ca",
+      "name": "痕石蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "合炼材料",
+      "recordKind": "配方提及",
+      "firstMention": 106,
+      "sources": [
+        106,
+        156
+      ]
+    },
+    {
+      "id": "gu.han-6708-75d5-86ca",
+      "name": "月痕蛊",
+      "aliases": [],
+      "rank": "二转",
+      "category": "攻击",
+      "recordKind": "配方提及",
+      "firstMention": 106,
+      "sources": [
+        106,
+        156
+      ]
+    },
+    {
+      "id": "gu.han-65cb-98ce-86ca",
+      "name": "旋风蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "合炼材料",
+      "recordKind": "配方提及",
+      "firstMention": 106,
+      "sources": [
+        106
+      ]
+    },
+    {
+      "id": "gu.han-4e09-661f-6d1e",
+      "name": "三星洞",
+      "aliases": [
+        "三星洞树蛊"
+      ],
+      "rank": "三转",
+      "category": "屋蛊与储物",
+      "recordKind": "实际出现",
+      "firstMention": 109,
+      "sources": [
+        109
+      ]
+    },
+    {
+      "id": "gu.han-9752-94dc-820d-5229-86ca",
+      "name": "青铜舍利蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "提升修为",
+      "recordKind": "系列知识提及",
+      "firstMention": 111,
+      "sources": [
+        111
+      ]
+    },
+    {
+      "id": "gu.han-8d64-94c1-820d-5229-86ca",
+      "name": "赤铁舍利蛊",
+      "aliases": [],
+      "rank": "二转",
+      "category": "提升修为",
+      "recordKind": "实际出现",
+      "firstMention": 111,
+      "sources": [
+        111,
+        115
+      ]
+    },
+    {
+      "id": "gu.han-767d-94f6-820d-5229-86ca",
+      "name": "白银舍利蛊",
+      "aliases": [],
+      "rank": "三转",
+      "category": "提升修为",
+      "recordKind": "实际出现",
+      "firstMention": 111,
+      "sources": [
+        111
+      ]
+    },
+    {
+      "id": "gu.han-9ec4-91d1-820d-5229-86ca",
+      "name": "黄金舍利蛊",
+      "aliases": [],
+      "rank": "四转",
+      "category": "提升修为",
+      "recordKind": "系列知识提及",
+      "firstMention": 111,
+      "sources": [
+        111
+      ]
+    },
+    {
+      "id": "gu.han-5e61-7136-86ca",
+      "name": "幡然蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "逆炼",
+      "recordKind": "实际出现",
+      "firstMention": 113,
+      "sources": [
+        113
+      ]
+    },
+    {
+      "id": "gu.han-9690-77f3-86ca",
+      "name": "隐石蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "隐匿",
+      "recordKind": "实际出现",
+      "firstMention": 116,
+      "sources": [
+        116,
+        121
+      ]
+    },
+    {
+      "id": "gu.han-541e-6c5f-87fe",
+      "name": "吞江蟾",
+      "aliases": [],
+      "rank": "五转",
+      "category": "水道",
+      "recordKind": "实际出现",
+      "firstMention": 117,
+      "sources": [
+        117,
+        118
+      ]
+    },
+    {
+      "id": "gu.han-718a-8c6a-86ca",
+      "name": "熊豪蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "力量增幅",
+      "recordKind": "实际出现",
+      "firstMention": 121,
+      "sources": [
+        121,
+        135
+      ]
+    },
+    {
+      "id": "gu.han-68d5-718a-672c-529b-86ca",
+      "name": "棕熊本力蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "力量增幅",
+      "recordKind": "实际持有提及",
+      "firstMention": 121,
+      "sources": [
+        121,
+        126
+      ]
+    },
+    {
+      "id": "gu.han-53cc-7a8d-706b-7089-86ca",
+      "name": "双窍火炉蛊",
+      "aliases": [
+        "火炉蛊"
+      ],
+      "rank": "二转",
+      "category": "火道攻击",
+      "recordKind": "实际出现",
+      "firstMention": 123,
+      "sources": [
+        123
+      ]
+    },
+    {
+      "id": "gu.han-9c7c-9cde-86ca",
+      "name": "鱼鳞蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "防御与合炼材料",
+      "recordKind": "交易与配方提及",
+      "firstMention": 123,
+      "sources": [
+        123,
+        127
+      ]
+    },
+    {
+      "id": "gu.han-9cde-7532-86ca",
+      "name": "鳞甲蛊",
+      "aliases": [],
+      "rank": "二转",
+      "category": "防御",
+      "recordKind": "配方路线提及",
+      "firstMention": 123,
+      "sources": [
+        123
+      ]
+    },
+    {
+      "id": "gu.han-6c34-8c5a-86ca",
+      "name": "水豚蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "第一卷未明确",
+      "recordKind": "人物介绍提及",
+      "firstMention": 124,
+      "sources": [
+        124
+      ]
+    },
+    {
+      "id": "gu.han-6c34-94bb-86ca",
+      "name": "水钻蛊",
+      "aliases": [],
+      "rank": "二转",
+      "category": "攻击",
+      "recordKind": "实际出现",
+      "firstMention": 125,
+      "sources": [
+        125
+      ]
+    },
+    {
+      "id": "gu.han-6e38-50f5-86ca",
+      "name": "游僵蛊",
+      "aliases": [],
+      "rank": "二转",
+      "category": "变化",
+      "recordKind": "实际出现",
+      "firstMention": 125,
+      "sources": [
+        125,
+        192
+      ]
+    },
+    {
+      "id": "gu.han-5f71-6b87-86ca",
+      "name": "影殇蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "伤害连接",
+      "recordKind": "实际出现",
+      "firstMention": 125,
+      "sources": [
+        125,
+        137
+      ]
+    },
+    {
+      "id": "gu.han-6728-9b45-86ca",
+      "name": "木魅蛊",
+      "aliases": [],
+      "rank": "三转",
+      "category": "变化",
+      "recordKind": "实际出现",
+      "firstMention": 126,
+      "sources": [
+        126
+      ]
+    },
+    {
+      "id": "gu.han-767e-5e74-6728-9b45",
+      "name": "百年木魅",
+      "aliases": [],
+      "rank": "四转",
+      "category": "变化",
+      "recordKind": "晋升路线提及",
+      "firstMention": 126,
+      "sources": [
+        126
+      ]
+    },
+    {
+      "id": "gu.han-5343-5e74-6728-9b45",
+      "name": "千年木魅",
+      "aliases": [],
+      "rank": "五转",
+      "category": "变化",
+      "recordKind": "晋升路线提及",
+      "firstMention": 126,
+      "sources": [
+        126
+      ]
+    },
+    {
+      "id": "gu.han-8840-6c14-86ca",
+      "name": "血气蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "气血恢复",
+      "recordKind": "配方与搭配提及",
+      "firstMention": 126,
+      "sources": [
+        126,
+        157
+      ]
+    },
+    {
+      "id": "gu.han-517d-8bed-86ca",
+      "name": "兽语蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "侦察与交流",
+      "recordKind": "修行知识提及",
+      "firstMention": 127,
+      "sources": [
+        127
+      ]
+    },
+    {
+      "id": "gu.han-987a-98ce-8033-86ca",
+      "name": "顺风耳蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "侦察",
+      "recordKind": "修行知识提及",
+      "firstMention": 127,
+      "sources": [
+        127
+      ]
+    },
+    {
+      "id": "gu.han-7535-773c-86ca",
+      "name": "电眼蛊",
+      "aliases": [],
+      "rank": "三转",
+      "category": "侦察",
+      "recordKind": "野兽寄生与实际使用",
+      "firstMention": 127,
+      "sources": [
+        127,
+        167
+      ]
+    },
+    {
+      "id": "gu.han-6e38-5b57-86ca",
+      "name": "游字蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "信息显示",
+      "recordKind": "实际出现",
+      "firstMention": 127,
+      "sources": [
+        127
+      ]
+    },
+    {
+      "id": "gu.han-4fe1-53f7-86ca",
+      "name": "信号蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "传讯",
+      "recordKind": "实际出现",
+      "firstMention": 133,
+      "sources": [
+        133
+      ]
+    },
+    {
+      "id": "gu.han-78d0-77f3-86ca",
+      "name": "磐石蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "防御与变化",
+      "recordKind": "实际出现",
+      "firstMention": 108,
+      "sources": [
+        108,
+        134
+      ]
+    },
+    {
+      "id": "gu.han-5f3a-53d6-86ca",
+      "name": "强取蛊",
+      "aliases": [],
+      "rank": "二转",
+      "category": "夺取蛊虫",
+      "recordKind": "实际出现",
+      "firstMention": 131,
+      "sources": [
+        131,
+        138,
+        143
+      ]
+    },
+    {
+      "id": "gu.han-84dd-9e1f-51b0-68fa-86ca",
+      "name": "蓝鸟冰棺蛊",
+      "aliases": [],
+      "rank": "三转",
+      "category": "冰道攻击",
+      "recordKind": "实际出现",
+      "firstMention": 136,
+      "sources": [
+        136,
+        140
+      ]
+    },
+    {
+      "id": "gu.han-51b0-808c-86ca",
+      "name": "冰肌蛊",
+      "aliases": [],
+      "rank": "三转",
+      "category": "身体改造",
+      "recordKind": "实际使用提及",
+      "firstMention": 137,
+      "sources": [
+        137
+      ]
+    },
+    {
+      "id": "gu.han-971c-5996-86ca",
+      "name": "霜妖蛊",
+      "aliases": [],
+      "rank": "三转",
+      "category": "变化与攻击",
+      "recordKind": "实际使用提及",
+      "firstMention": 137,
+      "sources": [
+        137,
+        140
+      ]
+    },
+    {
+      "id": "gu.han-51b0-5203-86ca",
+      "name": "冰刃蛊",
+      "aliases": [],
+      "rank": "二转",
+      "category": "冰道攻击",
+      "recordKind": "实际出现",
+      "firstMention": 140,
+      "sources": [
+        140
+      ]
+    },
+    {
+      "id": "gu.han-94a2-8863-86ca",
+      "name": "钢衣蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "防御",
+      "recordKind": "实际出现",
+      "firstMention": 140,
+      "sources": [
+        140
+      ]
+    },
+    {
+      "id": "gu.han-6c34-7f69-86ca",
+      "name": "水罩蛊",
+      "aliases": [],
+      "rank": "二转",
+      "category": "防御",
+      "recordKind": "实际出现",
+      "firstMention": 136,
+      "sources": [
+        136,
+        143
+      ]
+    },
+    {
+      "id": "gu.han-77f3-7a8d-86ca",
+      "name": "石窍蛊",
+      "aliases": [],
+      "rank": "三转",
+      "category": "空窍改造",
+      "recordKind": "实际出现",
+      "firstMention": 143,
+      "sources": [
+        143,
+        144
+      ]
+    },
+    {
+      "id": "gu.han-4e09-6b65-82b3-8349-86ca",
+      "name": "三步芳草蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "移动",
+      "recordKind": "物资榜提及",
+      "firstMention": 132,
+      "sources": [
+        132,
+        148
+      ]
+    },
+    {
+      "id": "gu.han-9a6d-718a-86ca",
+      "name": "驭熊蛊",
+      "aliases": [],
+      "rank": "二转",
+      "category": "奴役",
+      "recordKind": "实际出现",
+      "firstMention": 146,
+      "sources": [
+        146
+      ]
+    },
+    {
+      "id": "gu.han-94c1-85e4-86ca",
+      "name": "铁藤蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "防御工事",
+      "recordKind": "实际出现",
+      "firstMention": 147,
+      "sources": [
+        147
+      ]
+    },
+    {
+      "id": "gu.han-6bd2-82b1-86ca",
+      "name": "毒花蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "防御工事与毒道",
+      "recordKind": "实际出现",
+      "firstMention": 147,
+      "sources": [
+        147
+      ]
+    },
+    {
+      "id": "gu.han-4eba-517d-846c-751f-86ca",
+      "name": "人兽葬生蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "提升修为",
+      "recordKind": "实际炼成与使用",
+      "firstMention": 148,
+      "sources": [
+        148,
+        152
+      ]
+    },
+    {
+      "id": "gu.han-70b8-96f7-86ca",
+      "name": "炸雷蛊",
+      "aliases": [],
+      "rank": "三转",
+      "category": "雷道攻击",
+      "recordKind": "野兽寄生与实际发动",
+      "firstMention": 150,
+      "sources": [
+        150
+      ]
+    },
+    {
+      "id": "gu.han-96f7-5578-86ca",
+      "name": "雷啸蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "音道攻击",
+      "recordKind": "野兽寄生提及",
+      "firstMention": 150,
+      "sources": [
+        150
+      ]
+    },
+    {
+      "id": "gu.han-655b-606f-86ca",
+      "name": "敛息蛊",
+      "aliases": [],
+      "rank": "三转",
+      "category": "隐匿",
+      "recordKind": "野兽寄生提及",
+      "firstMention": 150,
+      "sources": [
+        150
+      ]
+    },
+    {
+      "id": "gu.han-6708-6bd2-86ca",
+      "name": "月毒蛊",
+      "aliases": [],
+      "rank": "三转",
+      "category": "毒道",
+      "recordKind": "实际出现",
+      "firstMention": 150,
+      "sources": [
+        150
+      ]
+    },
+    {
+      "id": "gu.han-97f3-6d6a-86ca",
+      "name": "音浪蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "音道攻击",
+      "recordKind": "实际出现",
+      "firstMention": 150,
+      "sources": [
+        150
+      ]
+    },
+    {
+      "id": "gu.han-9a6d-72fc-86ca",
+      "name": "驭狼蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "奴役",
+      "recordKind": "合炼材料举例",
+      "firstMention": 152,
+      "sources": [
+        152
+      ]
+    },
+    {
+      "id": "gu.han-9a6d-864e-86ca",
+      "name": "驭虎蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "奴役",
+      "recordKind": "合炼材料举例",
+      "firstMention": 152,
+      "sources": [
+        152
+      ]
+    },
+    {
+      "id": "gu.han-9a6d-9e7f-86ca",
+      "name": "驭鹿蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "奴役",
+      "recordKind": "合炼材料举例",
+      "firstMention": 152,
+      "sources": [
+        152
+      ]
+    },
+    {
+      "id": "gu.han-9a6d-725b-86ca",
+      "name": "驭牛蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "奴役",
+      "recordKind": "合炼材料举例",
+      "firstMention": 152,
+      "sources": [
+        152
+      ]
+    },
+    {
+      "id": "gu.han-5355-7a8d-706b-70ad-86ca",
+      "name": "单窍火炭蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "火道",
+      "recordKind": "实际出现",
+      "firstMention": 152,
+      "sources": [
+        152
+      ]
+    },
+    {
+      "id": "gu.han-706b-6cb9-86ca",
+      "name": "火油蛊",
+      "aliases": [],
+      "rank": "一转",
+      "category": "火道",
+      "recordKind": "实际出现",
+      "firstMention": 152,
+      "sources": [
+        152
+      ]
+    },
+    {
+      "id": "gu.han-96f7-7ffc-86ca",
+      "name": "雷翼蛊",
+      "aliases": [],
+      "rank": "三转",
+      "category": "飞行",
+      "recordKind": "实际出现",
+      "firstMention": 150,
+      "sources": [
+        155
+      ]
+    },
+    {
+      "id": "gu.han-7167-5f71-86ca",
+      "name": "照影蛊",
+      "aliases": [],
+      "rank": "二转",
+      "category": "信息记录",
+      "recordKind": "实际出现",
+      "firstMention": 156,
+      "sources": [
+        156
+      ]
+    },
+    {
+      "id": "gu.han-6c34-5149-86ca",
+      "name": "水光蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "照明",
+      "recordKind": "实际出现",
+      "firstMention": 156,
+      "sources": [
+        156
+      ]
+    },
+    {
+      "id": "gu.han-971c-9716-6708-86ca",
+      "name": "霜霖月蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "月道与冰道攻击",
+      "recordKind": "配方提及",
+      "firstMention": 156,
+      "sources": [
+        156
+      ]
+    },
+    {
+      "id": "gu.han-5e7b-5f71-6708-86ca",
+      "name": "幻影月蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "幻术",
+      "recordKind": "配方提及",
+      "firstMention": 156,
+      "sources": [
+        156
+      ]
+    },
+    {
+      "id": "gu.han-8840-6708-86ca",
+      "name": "血月蛊",
+      "aliases": [],
+      "rank": "三转",
+      "category": "攻击与血道",
+      "recordKind": "实际炼成",
+      "firstMention": 157,
+      "sources": [
+        157,
+        159
+      ]
+    },
+    {
+      "id": "gu.han-5b54-5ba3-8349",
+      "name": "孔宣草",
+      "aliases": [],
+      "rank": "二至四转之一，具体未明确",
+      "category": "第一卷未明确",
+      "recordKind": "族库名录提及",
+      "firstMention": 160,
+      "sources": [
+        160
+      ]
+    },
+    {
+      "id": "gu.han-5f52-7a7a-8749",
+      "name": "归空蝉",
+      "aliases": [],
+      "rank": "二至四转之一，具体未明确",
+      "category": "第一卷未明确",
+      "recordKind": "族库名录提及",
+      "firstMention": 160,
+      "sources": [
+        160
+      ]
+    },
+    {
+      "id": "gu.han-67af-9aa8-873b-8713",
+      "name": "枯骨蜻蜓",
+      "aliases": [],
+      "rank": "二至四转之一，具体未明确",
+      "category": "第一卷未明确",
+      "recordKind": "族库名录提及",
+      "firstMention": 160,
+      "sources": [
+        160
+      ]
+    },
+    {
+      "id": "gu.han-51e4-7ffc-8776",
+      "name": "凤翼蝶",
+      "aliases": [],
+      "rank": "二至四转之一，具体未明确",
+      "category": "第一卷未明确",
+      "recordKind": "族库名录提及",
+      "firstMention": 160,
+      "sources": [
+        160
+      ]
+    },
+    {
+      "id": "gu.han-515c-7387-82b1",
+      "name": "兜率花",
+      "aliases": [],
+      "rank": "三转",
+      "category": "储物",
+      "recordKind": "实际出现",
+      "firstMention": 160,
+      "sources": [
+        160,
+        161
+      ]
+    },
+    {
+      "id": "gu.han-515c-7b3c-8349",
+      "name": "兜笼草",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "储物",
+      "recordKind": "同类对照提及",
+      "firstMention": 160,
+      "sources": [
+        160
+      ]
+    },
+    {
+      "id": "gu.han-751f-751f-4e0d-606f-86ca",
+      "name": "生生不息蛊",
+      "aliases": [],
+      "rank": "三转",
+      "category": "治疗",
+      "recordKind": "方案提及",
+      "firstMention": 161,
+      "sources": [
+        161
+      ]
+    },
+    {
+      "id": "gu.han-4e0d-6b7b-8349",
+      "name": "不死草",
+      "aliases": [],
+      "rank": "三转",
+      "category": "治疗与保命",
+      "recordKind": "方案提及",
+      "firstMention": 161,
+      "sources": [
+        161
+      ]
+    },
+    {
+      "id": "gu.han-81ea-529b-66f4-751f-86ca",
+      "name": "自力更生蛊",
+      "aliases": [],
+      "rank": "三转",
+      "category": "治疗",
+      "recordKind": "方案提及",
+      "firstMention": 161,
+      "sources": [
+        161
+      ]
+    },
+    {
+      "id": "gu.han-5929-5143-5b9d-83b2",
+      "name": "天元宝莲",
+      "aliases": [],
+      "rank": "三转",
+      "category": "资源生产",
+      "recordKind": "实际出现",
+      "firstMention": 162,
+      "sources": [
+        162,
+        163
+      ]
+    },
+    {
+      "id": "gu.han-5929-5143-5b9d-7687-83b2",
+      "name": "天元宝皇莲",
+      "aliases": [],
+      "rank": "六转",
+      "category": "资源生产",
+      "recordKind": "晋升路线提及",
+      "firstMention": 163,
+      "sources": [
+        163
+      ]
+    },
+    {
+      "id": "gu.han-7597-5149-86ca",
+      "name": "疗光蛊",
+      "aliases": [],
+      "rank": "三转",
+      "category": "治疗",
+      "recordKind": "实际出现",
+      "firstMention": 164,
+      "sources": [
+        164
+      ]
+    },
+    {
+      "id": "gu.han-5080-5121-86ca",
+      "name": "傀儡蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "傀儡",
+      "recordKind": "实际出现",
+      "firstMention": 164,
+      "sources": [
+        164
+      ]
+    },
+    {
+      "id": "gu.han-72c2-66b4-86ca",
+      "name": "狂暴蛊",
+      "aliases": [],
+      "rank": "四转",
+      "category": "状态增幅",
+      "recordKind": "实际出现",
+      "firstMention": 164,
+      "sources": [
+        164
+      ]
+    },
+    {
+      "id": "gu.han-98ce-7d22-86ca",
+      "name": "风索蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "控制",
+      "recordKind": "实际出现",
+      "firstMention": 164,
+      "sources": [
+        164
+      ]
+    },
+    {
+      "id": "gu.han-6ce5-6cbc-86ca",
+      "name": "泥沼蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "控制",
+      "recordKind": "实际出现",
+      "firstMention": 164,
+      "sources": [
+        164
+      ]
+    },
+    {
+      "id": "gu.han-8840-6ef4-5b50",
+      "name": "血滴子",
+      "aliases": [],
+      "rank": "五转",
+      "category": "血道与群体攻击",
+      "recordKind": "实际出现",
+      "firstMention": 165,
+      "sources": [
+        165
+      ]
+    },
+    {
+      "id": "gu.han-8840-795e-5b50",
+      "name": "血神子",
+      "aliases": [],
+      "rank": "六转",
+      "category": "血道",
+      "recordKind": "晋升路线提及",
+      "firstMention": 165,
+      "sources": [
+        165
+      ]
+    },
+    {
+      "id": "gu.han-7535-9f7f-6740-4eba-8708",
+      "name": "电齿杀人蜈",
+      "aliases": [],
+      "rank": "四转",
+      "category": "攻击",
+      "recordKind": "晋升路线提及",
+      "firstMention": 166,
+      "sources": [
+        166
+      ]
+    },
+    {
+      "id": "gu.han-96f7-76fe-86ca",
+      "name": "雷盾蛊",
+      "aliases": [
+        "雷壳蛊"
+      ],
+      "rank": "三转",
+      "category": "防御",
+      "recordKind": "野兽寄生与实际出现",
+      "firstMention": 167,
+      "sources": [
+        167,
+        168
+      ]
+    },
+    {
+      "id": "gu.han-6c34-7b3c-86ca",
+      "name": "水笼蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "控制",
+      "recordKind": "实际出现",
+      "firstMention": 167,
+      "sources": [
+        167
+      ]
+    },
+    {
+      "id": "gu.han-72fc-70df-86ca",
+      "name": "狼烟蛊",
+      "aliases": [],
+      "rank": "四转",
+      "category": "遮蔽与控制战场",
+      "recordKind": "野兽寄生与实际发动",
+      "firstMention": 168,
+      "sources": [
+        168
+      ]
+    },
+    {
+      "id": "gu.han-6b63-6c14-86ca",
+      "name": "正气蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "心道与压制",
+      "recordKind": "实际出现",
+      "firstMention": 170,
+      "sources": [
+        170,
+        184
+      ]
+    },
+    {
+      "id": "gu.han-94c1-624b-64d2-62ff-86ca",
+      "name": "铁手擒拿蛊",
+      "aliases": [],
+      "rank": "五转",
+      "category": "擒拿",
+      "recordKind": "实际出现",
+      "firstMention": 170,
+      "sources": [
+        170,
+        185
+      ]
+    },
+    {
+      "id": "gu.han-767d-76f8-4ed9-86c7-86ca",
+      "name": "白相仙蛇蛊",
+      "aliases": [
+        "白相仙蛇"
+      ],
+      "rank": "五转",
+      "category": "水道与传承",
+      "recordKind": "实际出现",
+      "firstMention": 173,
+      "sources": [
+        173
+      ]
+    },
+    {
+      "id": "gu.han-76f4-89c9-86ca",
+      "name": "直觉蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "侦察与判断",
+      "recordKind": "实际持有提及",
+      "firstMention": 173,
+      "sources": [
+        173,
+        177
+      ]
+    },
+    {
+      "id": "gu.han-751f-94c1-86ca",
+      "name": "生铁蛊",
+      "aliases": [],
+      "rank": "二转",
+      "category": "治疗蛊虫",
+      "recordKind": "实际出现",
+      "firstMention": 176,
+      "sources": [
+        176,
+        177
+      ]
+    },
+    {
+      "id": "gu.han-4ed9-4eba-6307",
+      "name": "仙人指",
+      "aliases": [],
+      "rank": "三转",
+      "category": "启发与合炼辅助",
+      "recordKind": "实际使用",
+      "firstMention": 179,
+      "sources": [
+        179
+      ]
+    },
+    {
+      "id": "gu.han-9ed1-9b13-86ca",
+      "name": "黑鬓蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "身体改造",
+      "recordKind": "修行知识提及",
+      "firstMention": 180,
+      "sources": [
+        180
+      ]
+    },
+    {
+      "id": "gu.han-5200-7fc5-8840-8760-86ca",
+      "name": "刀翅血蝠蛊",
+      "aliases": [
+        "刀翅血蝠"
+      ],
+      "rank": "三转",
+      "category": "血道与群体攻击",
+      "recordKind": "实际出现",
+      "firstMention": 183,
+      "sources": [
+        183
+      ]
+    },
+    {
+      "id": "gu.han-8840-72c2-86ca",
+      "name": "血狂蛊",
+      "aliases": [],
+      "rank": "四转",
+      "category": "血道与寄生",
+      "recordKind": "实际出现",
+      "firstMention": 183,
+      "sources": [
+        183,
+        184
+      ]
+    },
+    {
+      "id": "gu.han-8840-6cb3-87d2",
+      "name": "血河蟒",
+      "aliases": [
+        "血蟒蛊"
+      ],
+      "rank": "五转",
+      "category": "血道攻击",
+      "recordKind": "实际出现",
+      "firstMention": 117,
+      "sources": [
+        184,
+        185
+      ]
+    },
+    {
+      "id": "gu.han-5929-5730-5b8f-97f3-86ca",
+      "name": "天地宏音蛊",
+      "aliases": [],
+      "rank": "五转",
+      "category": "音道群攻",
+      "recordKind": "实际出现",
+      "firstMention": 184,
+      "sources": [
+        184,
+        186
+      ]
+    },
+    {
+      "id": "gu.han-611f-540c-8eab-53d7-86ca",
+      "name": "感同身受蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "追踪与感知",
+      "recordKind": "实际布置提及",
+      "firstMention": 184,
+      "sources": [
+        184
+      ]
+    },
+    {
+      "id": "gu.han-6cb9-9f99-86ca",
+      "name": "油龙蛊",
+      "aliases": [],
+      "rank": "四转",
+      "category": "攻击",
+      "recordKind": "实际出现",
+      "firstMention": 185,
+      "sources": [
+        185
+      ]
+    },
+    {
+      "id": "gu.han-706b-9f99-86ca",
+      "name": "火龙蛊",
+      "aliases": [],
+      "rank": "四转",
+      "category": "火道攻击",
+      "recordKind": "实际出现",
+      "firstMention": 185,
+      "sources": [
+        185
+      ]
+    },
+    {
+      "id": "gu.han-5c71-4e18-5de8-5080-86ca",
+      "name": "山丘巨傀蛊",
+      "aliases": [],
+      "rank": "五转",
+      "category": "变化",
+      "recordKind": "实际出现",
+      "firstMention": 185,
+      "sources": [
+        185,
+        190
+      ]
+    },
+    {
+      "id": "gu.han-8840-9b3c-5c38-86ca",
+      "name": "血鬼尸蛊",
+      "aliases": [
+        "血鬼尸本命蛊"
+      ],
+      "rank": "五转",
+      "category": "僵尸变化",
+      "recordKind": "实际出现",
+      "firstMention": 185,
+      "sources": [
+        185
+      ]
+    },
+    {
+      "id": "gu.han-4fee-7f57-5c38",
+      "name": "修罗尸",
+      "aliases": [],
+      "rank": "五转飞僵分支",
+      "category": "僵尸变化",
+      "recordKind": "系列名录提及",
+      "firstMention": 185,
+      "sources": [
+        185
+      ]
+    },
+    {
+      "id": "gu.han-5929-9b54-5c38",
+      "name": "天魔尸",
+      "aliases": [],
+      "rank": "五转飞僵分支",
+      "category": "僵尸变化",
+      "recordKind": "系列名录提及",
+      "firstMention": 185,
+      "sources": [
+        185
+      ]
+    },
+    {
+      "id": "gu.han-68a6-9b47-5c38",
+      "name": "梦魇尸",
+      "aliases": [],
+      "rank": "五转飞僵分支",
+      "category": "僵尸变化",
+      "recordKind": "系列名录提及",
+      "firstMention": 185,
+      "sources": [
+        185
+      ]
+    },
+    {
+      "id": "gu.han-75c5-761f-5c38",
+      "name": "病瘟尸",
+      "aliases": [],
+      "rank": "五转飞僵分支",
+      "category": "僵尸变化",
+      "recordKind": "系列名录提及",
+      "firstMention": 185,
+      "sources": [
+        185
+      ]
+    },
+    {
+      "id": "gu.han-6c34-5e55-5929-534e-86ca",
+      "name": "水幕天华蛊",
+      "aliases": [],
+      "rank": "四转",
+      "category": "防御",
+      "recordKind": "修行知识提及",
+      "firstMention": 187,
+      "sources": [
+        187
+      ]
+    },
+    {
+      "id": "gu.han-5343-91cc-5730-72fc-86db",
+      "name": "千里地狼蛛",
+      "aliases": [],
+      "rank": "五转",
+      "category": "坐骑与移动",
+      "recordKind": "实际出现",
+      "firstMention": 46,
+      "sources": [
+        188
+      ]
+    },
+    {
+      "id": "gu.han-81f3-4eb2-8840-866b",
+      "name": "至亲血虫",
+      "aliases": [
+        "至亲血虫蛊"
+      ],
+      "rank": "五转",
+      "category": "血脉追踪",
+      "recordKind": "实际出现",
+      "firstMention": 190,
+      "sources": [
+        190,
+        192
+      ]
+    },
+    {
+      "id": "gu.han-5fa1-9e64-86ca",
+      "name": "御鹤蛊",
+      "aliases": [],
+      "rank": "五转",
+      "category": "奴役",
+      "recordKind": "人物经历提及",
+      "firstMention": 192,
+      "sources": [
+        192
+      ]
+    },
+    {
+      "id": "gu.han-5b58-606f-7389-846c-86ca",
+      "name": "存息玉葬蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "保命与沉眠",
+      "recordKind": "实际使用提及",
+      "firstMention": 192,
+      "sources": [
+        192
+      ]
+    },
+    {
+      "id": "gu.han-6bdb-50f5-86ca",
+      "name": "毛僵蛊",
+      "aliases": [],
+      "rank": "三转",
+      "category": "僵尸变化",
+      "recordKind": "系列知识提及",
+      "firstMention": 192,
+      "sources": [
+        192
+      ]
+    },
+    {
+      "id": "gu.han-8df3-50f5-86ca",
+      "name": "跳僵蛊",
+      "aliases": [],
+      "rank": "四转",
+      "category": "僵尸变化",
+      "recordKind": "系列知识提及",
+      "firstMention": 192,
+      "sources": [
+        192
+      ]
+    },
+    {
+      "id": "gu.han-98de-50f5-86ca",
+      "name": "飞僵蛊",
+      "aliases": [],
+      "rank": "五转",
+      "category": "僵尸变化",
+      "recordKind": "系列知识提及",
+      "firstMention": 192,
+      "sources": [
+        192
+      ]
+    },
+    {
+      "id": "gu.han-626c-7709-5410-6c14-86ca",
+      "name": "扬眉吐气蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "真元消耗",
+      "recordKind": "实际出现",
+      "firstMention": 192,
+      "sources": [
+        192
+      ]
+    },
+    {
+      "id": "gu.han-9547-9b54-94c1-7d22-86ca",
+      "name": "镇魔铁索蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "束缚",
+      "recordKind": "实际出现",
+      "firstMention": 193,
+      "sources": [
+        193
+      ]
+    },
+    {
+      "id": "gu.han-7b26-5e95-62bd-85aa-86ca",
+      "name": "符底抽薪蛊",
+      "aliases": [
+        "釜底抽薪蛊"
+      ],
+      "rank": "第一卷未明确",
+      "category": "封印蛊虫",
+      "recordKind": "实际出现",
+      "firstMention": 193,
+      "sources": [
+        193
+      ]
+    },
+    {
+      "id": "gu.han-8840-9885-86ca",
+      "name": "血颅蛊",
+      "aliases": [],
+      "rank": "四转",
+      "category": "血道与资质提升",
+      "recordKind": "实际出现",
+      "firstMention": 193,
+      "sources": [
+        193,
+        194,
+        198
+      ]
+    },
+    {
+      "id": "gu.han-9634-9633-8f6c-8eab-86ca",
+      "name": "阴阳转身蛊",
+      "aliases": [
+        "阴蛊",
+        "阳蛊"
+      ],
+      "rank": "四转",
+      "category": "治疗与转身",
+      "recordKind": "实际出现",
+      "firstMention": 194,
+      "sources": [
+        194,
+        199
+      ]
+    },
+    {
+      "id": "gu.han-8840-5e55-5929-534e-86ca",
+      "name": "血幕天华蛊",
+      "aliases": [],
+      "rank": "五转",
+      "category": "防御",
+      "recordKind": "实际出现",
+      "firstMention": 194,
+      "sources": [
+        194
+      ]
+    },
+    {
+      "id": "gu.han-51b0-9525-86ca",
+      "name": "冰锥蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "冰道攻击",
+      "recordKind": "实际出现",
+      "firstMention": 141,
+      "sources": [
+        141,
+        166,
+        190
+      ]
+    },
+    {
+      "id": "gu.han-65cb-8e35-86ca",
+      "name": "旋踵蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "移动与旋转",
+      "recordKind": "实际出现",
+      "firstMention": 167,
+      "sources": [
+        167
+      ]
+    },
+    {
+      "id": "gu.han-72c2-98ce-86ca",
+      "name": "狂风蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "风道",
+      "recordKind": "实际出现",
+      "firstMention": 167,
+      "sources": [
+        167
+      ]
+    },
+    {
+      "id": "gu.han-901a-5811-86ca",
+      "name": "通堑蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "空间阻隔",
+      "recordKind": "实际出现",
+      "firstMention": 163,
+      "sources": [
+        163,
+        182
+      ]
+    },
+    {
+      "id": "gu.han-5f80-751f-8349-86ca",
+      "name": "往生草蛊",
+      "aliases": [],
+      "rank": "第一卷未明确",
+      "category": "治疗",
+      "recordKind": "交易条件提及",
+      "firstMention": 176,
+      "sources": [
+        176
+      ]
+    }
+  ],
+  "excludedGenericTerms": [
+    "蛊虫",
+    "本命蛊",
+    "野生蛊",
+    "治疗蛊",
+    "侦察蛊",
+    "防御蛊",
+    "消耗蛊",
+    "毒蛊",
+    "草蛊",
+    "花蛊",
+    "蛇蛊",
+    "蟾蛊"
+  ]
+}

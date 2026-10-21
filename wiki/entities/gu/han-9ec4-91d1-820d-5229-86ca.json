@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-9ec4-91d1-820d-5229-86ca",
+  "type": "gu",
+  "name": "黄金舍利蛊",
+  "aliases": [],
+  "summary": "舍利蛊系列的四转成员，用于提升四转蛊师的小境界。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "四转",
+    "类别": "提升修为",
+    "第一卷记录形态": "系列知识提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "舍利蛊系列的四转成员，用于提升四转蛊师的小境界。",
+      "sources": [
+        111
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "四转",
+    "提升修为",
+    "系列知识提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 111
+  }
+}

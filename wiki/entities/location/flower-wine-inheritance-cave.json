@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "aliases": [
+    "山壁秘洞",
+    "石缝秘洞",
+    "花酒遗藏"
+  ],
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "地域": "青茅山、古月山寨附近",
+    "类型": "地下传承秘洞",
+    "原主人": "花酒行者",
+    "发现者": "方源"
+  },
+  "facts": [
+    {
+      "text": "方源借酒香吸引酒虫并跟踪其进入山缝，发现地下秘洞。",
+      "sources": [
+        7,
+        14
+      ]
+    },
+    {
+      "text": "秘洞内保存花酒行者遗骸和留影存声蛊形成的影像记录。",
+      "sources": [
+        15,
+        16
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "character.flower-wine-monk",
+      "label": "遗藏主人",
+      "sources": [
+        14,
+        16
+      ]
+    },
+    {
+      "target": "character.fang-yuan",
+      "label": "发现者",
+      "sources": [
+        14
+      ]
+    },
+    {
+      "target": "gu.liquor-worm",
+      "label": "遗藏蛊虫",
+      "sources": [
+        14,
+        17
+      ]
+    },
+    {
+      "target": "location.qing-mao-mountain",
+      "label": "位于山体内部",
+      "sources": [
+        14
+      ]
+    }
+  ],
+  "tags": [
+    "传承",
+    "秘洞",
+    "青茅山",
+    "第一卷"
+  ],
+  "id": "location.flower-wine-inheritance-cave",
+  "type": "location",
+  "name": "花酒行者遗藏秘洞",
+  "summary": "隐藏在古月山寨附近山体中的地下秘洞，保存花酒行者遗骸、酒虫、影壁以及后续传承线索。",
+  "firstMention": {
+    "chapterId": 7
+  },
+  "firstAppearance": {
+    "chapterId": 14
+  }
+}

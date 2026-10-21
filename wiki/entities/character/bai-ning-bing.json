@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "aliases": [],
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "所属": "白家寨",
+    "资质": "十绝体之一：北冥冰魄体",
+    "第一卷修为": "三转",
+    "地位": "白家寨崛起的代表性天才"
+  },
+  "facts": [
+    {
+      "text": "第一卷开篇即被古月一族视为白家寨极具威胁的年轻天才。",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "text": "在青茅山三寨的年轻一辈中率先达到三转，影响三寨力量格局。",
+      "sources": [
+        45,
+        74
+      ]
+    },
+    {
+      "text": "第一卷后段在狼潮期间正式现身，表现出冷漠而追求刺激的性格。",
+      "sources": [
+        131,
+        132
+      ]
+    },
+    {
+      "text": "第一卷揭示其真实资质为十绝体之一的北冥冰魄体，元海达到十成，并承受空窍最终自爆的危机。",
+      "sources": [
+        135,
+        140,
+        144
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "faction.bai-clan",
+      "label": "所属家族",
+      "sources": [
+        1,
+        45
+      ]
+    },
+    {
+      "target": "location.qing-mao-mountain",
+      "label": "主要活动地区",
+      "sources": [
+        1,
+        131
+      ]
+    },
+    {
+      "target": "cultivation.ten-extreme-physiques",
+      "label": "具有北冥冰魄体",
+      "sources": [
+        135,
+        190
+      ]
+    }
+  ],
+  "tags": [
+    "甲等资质",
+    "三转蛊师",
+    "北冥冰魄体",
+    "十绝体",
+    "白家寨",
+    "第一卷"
+  ],
+  "id": "character.bai-ning-bing",
+  "type": "character",
+  "name": "白凝冰",
+  "summary": "白家寨的甲等天才，年纪轻轻便达到三转。其存在改变青茅山三寨的力量平衡，并在第一卷后段正式登场。",
+  "firstMention": {
+    "chapterId": 1
+  },
+  "firstAppearance": {
+    "chapterId": 131
+  }
+}

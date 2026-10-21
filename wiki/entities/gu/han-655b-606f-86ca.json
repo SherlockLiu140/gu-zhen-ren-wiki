@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-655b-606f-86ca",
+  "type": "gu",
+  "name": "敛息蛊",
+  "aliases": [],
+  "summary": "能收敛气息并帮助狂电狼混入普通电狼群。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "三转",
+    "类别": "隐匿",
+    "第一卷记录形态": "野兽寄生提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "能收敛气息并帮助狂电狼混入普通电狼群。",
+      "sources": [
+        150
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "三转",
+    "隐匿",
+    "野兽寄生提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 150
+  }
+}

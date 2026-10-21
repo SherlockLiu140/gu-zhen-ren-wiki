@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-751f-606f-8349",
+  "type": "gu",
+  "name": "生息草",
+  "aliases": [],
+  "summary": "被一名学员炼为本命蛊的治疗草蛊，第一卷只作简短点名。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "第一卷未明确",
+    "类别": "治疗",
+    "第一卷记录形态": "对话提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "被一名学员炼为本命蛊的治疗草蛊，第一卷只作简短点名。",
+      "sources": [
+        82
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "第一卷未明确",
+    "治疗",
+    "对话提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 75
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-5f3a-53d6-86ca",
+  "type": "gu",
+  "name": "强取蛊",
+  "aliases": [],
+  "summary": "持续催动时可从目标身上强行摄取蛊虫，但二转级数使其结果难以精确控制。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "二转",
+    "类别": "夺取蛊虫",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "持续催动时可从目标身上强行摄取蛊虫，但二转级数使其结果难以精确控制。",
+      "sources": [
+        131,
+        138,
+        143
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "二转",
+    "夺取蛊虫",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 131
+  }
+}

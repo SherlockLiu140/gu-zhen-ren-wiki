@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-5974-96b6-86ca",
+  "type": "gu",
+  "name": "奴隶蛊",
+  "aliases": [],
+  "summary": "能使服用者成为受制于蛊师的奴仆；第一卷仅在花酒行者与四代族长的对话中说明。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "五转",
+    "类别": "奴役",
+    "第一卷记录形态": "对话提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "能使服用者成为受制于蛊师的奴仆；第一卷仅在花酒行者与四代族长的对话中说明。",
+      "sources": [
+        15
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "五转",
+    "奴役",
+    "对话提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 15
+  }
+}

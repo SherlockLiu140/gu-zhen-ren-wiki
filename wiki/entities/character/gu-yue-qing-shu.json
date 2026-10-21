@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "aliases": [
+    "青书"
+  ],
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "所属": "古月一族",
+    "资质": "乙等（接近甲等）",
+    "身份": "小组领袖、族长候选培养对象",
+    "养父": "古月博"
+  },
+  "facts": [
+    {
+      "text": "由古月博抚养并亲自教导，乙等资质在同等中十分突出。",
+      "sources": [
+        105
+      ]
+    },
+    {
+      "text": "担任族长一系小组的组长，负责带领和约束组员。",
+      "sources": [
+        82,
+        104
+      ]
+    },
+    {
+      "text": "第一卷中使用木道手段参与狼潮战斗。",
+      "sources": [
+        126
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "character.gu-yue-bo",
+      "label": "养父与导师",
+      "sources": [
+        105
+      ]
+    },
+    {
+      "target": "faction.gu-yue-clan",
+      "label": "所属家族",
+      "sources": [
+        82,
+        105
+      ]
+    },
+    {
+      "target": "character.gu-yue-fang-zheng",
+      "label": "同组成员",
+      "sources": [
+        104
+      ]
+    }
+  ],
+  "tags": [
+    "乙等资质",
+    "木道",
+    "古月一族",
+    "第一卷"
+  ],
+  "id": "character.gu-yue-qing-shu",
+  "type": "character",
+  "name": "古月青书",
+  "summary": "古月博养子和族长一系的重要青年蛊师，乙等资质出众，在狼潮时期担任小组领袖。",
+  "firstMention": {
+    "chapterId": 82
+  },
+  "firstAppearance": {
+    "chapterId": 82
+  }
+}

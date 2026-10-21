@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-5b9d-6c14-9ec4-94dc-87fe",
+  "type": "gu",
+  "name": "宝气黄铜蟾",
+  "aliases": [],
+  "summary": "商队使用的大型蟾类蛊虫；癞土蛤蟆是其合炼所需的主蛊。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "第一卷未明确",
+    "类别": "运输与储物",
+    "第一卷记录形态": "实际出现与配方提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "商队使用的大型蟾类蛊虫；癞土蛤蟆是其合炼所需的主蛊。",
+      "sources": [
+        39,
+        42
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "第一卷未明确",
+    "运输与储物",
+    "实际出现与配方提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 39
+  }
+}

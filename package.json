@@ -6,8 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "corpus:build": "node scripts/split-novel.mjs",
+    "data:build": "npm run corpus:build && npm run wiki:build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "wiki:audit:gu": "node scripts/audit-volume-1-gu.mjs",
+    "wiki:build": "node scripts/build-wiki.mjs",
+    "wiki:check": "node scripts/build-wiki.mjs --check"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.0",

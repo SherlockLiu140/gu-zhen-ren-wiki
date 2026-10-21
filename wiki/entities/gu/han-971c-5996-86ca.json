@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-971c-5996-86ca",
+  "type": "gu",
+  "name": "霜妖蛊",
+  "aliases": [],
+  "summary": "能令蛊师化身霜妖并发挥强力冰道攻势，过度使用会冻伤甚至冻结自身。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "三转",
+    "类别": "变化与攻击",
+    "第一卷记录形态": "实际使用提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "能令蛊师化身霜妖并发挥强力冰道攻势，过度使用会冻伤甚至冻结自身。",
+      "sources": [
+        137,
+        140
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "三转",
+    "变化与攻击",
+    "实际使用提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 137
+  }
+}

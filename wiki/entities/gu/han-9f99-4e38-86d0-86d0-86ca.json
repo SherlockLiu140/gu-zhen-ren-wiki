@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-9f99-4e38-86d0-86d0-86ca",
+  "type": "gu",
+  "name": "龙丸蛐蛐蛊",
+  "aliases": [],
+  "summary": "能显著增强跳跃与闪避能力，古月赤城将其作为第二只蛊。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "一转",
+    "类别": "移动",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "能显著增强跳跃与闪避能力，古月赤城将其作为第二只蛊。",
+      "sources": [
+        62,
+        73
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "一转",
+    "移动",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 62
+  }
+}

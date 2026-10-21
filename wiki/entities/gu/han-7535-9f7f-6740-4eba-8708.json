@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-7535-9f7f-6740-4eba-8708",
+  "type": "gu",
+  "name": "电齿杀人蜈",
+  "aliases": [],
+  "summary": "锯齿金蜈的一条四转晋升方向，第一卷通过后世人物的使用经历提及。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "四转",
+    "类别": "攻击",
+    "第一卷记录形态": "晋升路线提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "锯齿金蜈的一条四转晋升方向，第一卷通过后世人物的使用经历提及。",
+      "sources": [
+        166
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "四转",
+    "攻击",
+    "晋升路线提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 166
+  }
+}

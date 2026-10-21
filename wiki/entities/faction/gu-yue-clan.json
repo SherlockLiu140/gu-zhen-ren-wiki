@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "aliases": [
+    "古月家族"
+  ],
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "据点": "古月山寨",
+    "领导者": "古月博",
+    "类型": "蛊师家族",
+    "标志性蛊虫": "月光蛊"
+  },
+  "facts": [
+    {
+      "text": "由一代族长建立古月山寨，家族以开窍大典和学堂培养新蛊师。",
+      "sources": [
+        1,
+        7
+      ]
+    },
+    {
+      "text": "月光蛊是古月一族秘法培育的镇族蛊虫。",
+      "sources": [
+        8
+      ]
+    },
+    {
+      "text": "在青茅山与白家、熊家长期竞争，并重点培养甲等资质的古月方正。",
+      "sources": [
+        6,
+        74
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.gu-yue-village",
+      "label": "家族据点",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "target": "character.gu-yue-bo",
+      "label": "第一卷族长",
+      "sources": [
+        1,
+        55
+      ]
+    },
+    {
+      "target": "gu.moonlight-gu",
+      "label": "镇族蛊虫",
+      "sources": [
+        8
+      ]
+    }
+  ],
+  "tags": [
+    "蛊师家族",
+    "青茅山三寨",
+    "第一卷"
+  ],
+  "id": "faction.gu-yue-clan",
+  "type": "faction",
+  "name": "古月一族",
+  "summary": "以古月山寨为根基的青茅山三大蛊师家族之一，第一卷开始时保持传统优势，由族长古月博领导。",
+  "firstMention": {
+    "chapterId": 1
+  },
+  "firstAppearance": {
+    "chapterId": 1
+  }
+}

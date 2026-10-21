@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.han-8d64-94c1-820d-5229-86ca",
+  "type": "gu",
+  "name": "赤铁舍利蛊",
+  "aliases": [],
+  "summary": "一次性二转舍利蛊，可令二转蛊师立即提升一个小境界。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "二转",
+    "类别": "提升修为",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "一次性二转舍利蛊，可令二转蛊师立即提升一个小境界。",
+      "sources": [
+        111,
+        115
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "二转",
+    "提升修为",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 111
+  }
+}

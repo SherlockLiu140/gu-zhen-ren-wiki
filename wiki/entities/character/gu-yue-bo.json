@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "aliases": [
+    "古月族长"
+  ],
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "所属": "古月一族",
+    "职位": "族长",
+    "修为": "四转（第一卷）",
+    "培养对象": "古月方正"
+  },
+  "facts": [
+    {
+      "text": "在开窍大典后决定亲自培养甲等资质的古月方正。",
+      "sources": [
+        6
+      ]
+    },
+    {
+      "text": "作为族长主持家族高层议事，并在商队纠纷等事件中代表古月一族决策。",
+      "sources": [
+        54,
+        55,
+        59
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "character.gu-yue-fang-zheng",
+      "label": "培养对象",
+      "sources": [
+        6,
+        25
+      ]
+    },
+    {
+      "target": "character.gu-yue-qing-shu",
+      "label": "养父与导师",
+      "sources": [
+        105
+      ]
+    },
+    {
+      "target": "faction.gu-yue-clan",
+      "label": "族长",
+      "sources": [
+        1,
+        55
+      ]
+    }
+  ],
+  "tags": [
+    "族长",
+    "四转蛊师",
+    "第一卷"
+  ],
+  "id": "character.gu-yue-bo",
+  "type": "character",
+  "name": "古月博",
+  "summary": "第一卷时期的古月一族族长，主持家族事务并亲自培养甲等资质的古月方正。",
+  "firstMention": {
+    "chapterId": 6
+  },
+  "firstAppearance": {
+    "chapterId": 1
+  }
+}

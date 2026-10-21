@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "aliases": [
+    "元海真元"
+  ],
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "储存位置": "空窍元海",
+    "一转形态": "青铜真元",
+    "用途": "炼化与催动蛊虫"
+  },
+  "facts": [
+    {
+      "text": "一转蛊师拥有青铜真元，元海中的每一滴真元都代表蛊师精气神与生命潜能的凝结。",
+      "sources": [
+        6
+      ]
+    },
+    {
+      "text": "炼化与催动蛊虫都要调动真元，真元因此被视为蛊师的力量之源。",
+      "sources": [
+        10
+      ]
+    },
+    {
+      "text": "酒虫能够把一转初阶真元凝练为中阶层次的真元。",
+      "sources": [
+        17
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "cultivation.aperture",
+      "label": "储存于元海",
+      "sources": [
+        6
+      ]
+    },
+    {
+      "target": "gu.liquor-worm",
+      "label": "可被其凝练",
+      "sources": [
+        17
+      ]
+    }
+  ],
+  "tags": [
+    "基础设定",
+    "资源",
+    "第一卷"
+  ],
+  "id": "cultivation.primeval-essence",
+  "type": "cultivation",
+  "name": "真元",
+  "summary": "真元储存在空窍元海中，是蛊师炼化和催动蛊虫的直接力量来源；品阶与凝练程度随境界变化。"
+}
