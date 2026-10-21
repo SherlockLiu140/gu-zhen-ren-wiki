@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.qing-si-gu",
+  "type": "gu",
+  "name": "青丝蛊",
+  "aliases": [],
+  "summary": "能形成青丝用于抵挡打击，与黑豕蛊合炼可晋升为黑鬃蛊。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "一转",
+    "类别": "防御",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "能形成青丝用于抵挡打击，与黑豕蛊合炼可晋升为黑鬃蛊。",
+      "sources": [
+        47
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "一转",
+    "防御",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 47
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.yu-hu-gu",
+  "type": "gu",
+  "name": "驭虎蛊",
+  "aliases": [],
+  "summary": "驭兽蛊的一种，可作为炼制人兽葬生蛊时控制肉食野兽的材料。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "第一卷未明确",
+    "类别": "奴役",
+    "第一卷记录形态": "合炼材料举例",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "驭兽蛊的一种，可作为炼制人兽葬生蛊时控制肉食野兽的材料。",
+      "sources": [
+        152
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "第一卷未明确",
+    "奴役",
+    "合炼材料举例",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 152
+  }
+}

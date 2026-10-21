@@ -24,7 +24,7 @@
   ],
   "additions": [
     {
-      "id": "gu.han-529b-91cf-86ca",
+      "id": "gu.li-liang-gu",
       "name": "力量蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "id": "gu.han-667a-6167-86ca",
+      "id": "gu.zhi-hui-gu",
       "name": "智慧蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "id": "gu.han-9152-56ca-82b1-86ca",
+      "id": "gu.jiu-nang-hua-gu",
       "name": "酒囊花蛊",
       "aliases": [],
       "rank": "一转",
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "id": "gu.han-996d-888b-8349-86ca",
+      "id": "gu.fan-dai-cao-gu",
       "name": "饭袋草蛊",
       "aliases": [],
       "rank": "一转",
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "id": "gu.han-7559-5f71-5b58-58f0-86ca",
+      "id": "gu.liu-ying-cun-sheng-gu",
       "name": "留影存声蛊",
       "aliases": [],
       "rank": "三转",
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "id": "gu.han-6708-5f71-86ca",
+      "id": "gu.yue-ying-gu",
       "name": "月影蛊",
       "aliases": [],
       "rank": "四转",
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "id": "gu.han-5974-96b6-86ca",
+      "id": "gu.nu-li-gu",
       "name": "奴隶蛊",
       "aliases": [],
       "rank": "五转",
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "id": "gu.han-8349-4eba-86ca",
+      "id": "gu.cao-ren-gu",
       "name": "草人蛊",
       "aliases": [],
       "rank": "一转",
@@ -124,7 +124,7 @@
       ]
     },
     {
-      "id": "gu.han-94dc-76ae-86ca",
+      "id": "gu.tong-pi-gu",
       "name": "铜皮蛊",
       "aliases": [],
       "rank": "一转",
@@ -137,7 +137,7 @@
       ]
     },
     {
-      "id": "gu.han-718a-529b-86ca",
+      "id": "gu.xiong-li-gu",
       "name": "熊力蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -149,7 +149,7 @@
       ]
     },
     {
-      "id": "gu.han-6eaa-6d41-86ca",
+      "id": "gu.xi-liu-gu",
       "name": "溪流蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "id": "gu.han-5bff-86ca",
+      "id": "gu.shou-gu",
       "name": "寿蛊",
       "aliases": [
         "百年寿蛊",
@@ -178,7 +178,7 @@
       ]
     },
     {
-      "id": "gu.han-89c4-86ca",
+      "id": "gu.gui-gu",
       "name": "规蛊",
       "aliases": [
         "规"
@@ -192,7 +192,7 @@
       ]
     },
     {
-      "id": "gu.han-77e9-86ca",
+      "id": "gu.ju-gu",
       "name": "矩蛊",
       "aliases": [
         "矩"
@@ -206,7 +206,7 @@
       ]
     },
     {
-      "id": "gu.han-8336-86ca",
+      "id": "gu.cha-gu",
       "name": "茶蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -218,7 +218,7 @@
       ]
     },
     {
-      "id": "gu.han-86ee-529b-5929-725b-86ca",
+      "id": "gu.man-li-tian-niu-gu",
       "name": "蛮力天牛蛊",
       "aliases": [],
       "rank": "一转",
@@ -231,7 +231,7 @@
       ]
     },
     {
-      "id": "gu.han-765e-571f-86e4-87c6",
+      "id": "gu.lai-tu-ha-ma",
       "name": "癞土蛤蟆",
       "aliases": [],
       "rank": "二转",
@@ -243,7 +243,7 @@
       ]
     },
     {
-      "id": "gu.han-5b9d-6c14-9ec4-94dc-87fe",
+      "id": "gu.bao-qi-huang-tong-chan",
       "name": "宝气黄铜蟾",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -256,7 +256,7 @@
       ]
     },
     {
-      "id": "gu.han-6c34-6676-74e2-866b",
+      "id": "gu.shui-jing-piao-chong",
       "name": "水晶瓢虫",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -268,7 +268,7 @@
       ]
     },
     {
-      "id": "gu.han-91d1-949f-86ca",
+      "id": "gu.jin-zhong-gu",
       "name": "金钟蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "id": "gu.han-9ed1-8c55-86ca",
+      "id": "gu.hei-shi-gu",
       "name": "黑豕蛊",
       "aliases": [
         "黒豕蛊"
@@ -295,7 +295,7 @@
       ]
     },
     {
-      "id": "gu.han-81ed-5c41-80a5-866b",
+      "id": "gu.chou-pi-fei-chong",
       "name": "臭屁肥虫",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -308,7 +308,7 @@
       ]
     },
     {
-      "id": "gu.han-4e00-6c14-91d1-5149-866b",
+      "id": "gu.yi-qi-jin-guang-chong",
       "name": "一气金光虫",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -320,7 +320,7 @@
       ]
     },
     {
-      "id": "gu.han-9752-4e1d-86ca",
+      "id": "gu.qing-si-gu",
       "name": "青丝蛊",
       "aliases": [],
       "rank": "一转",
@@ -332,7 +332,7 @@
       ]
     },
     {
-      "id": "gu.han-9ed1-9b03-86ca",
+      "id": "gu.hei-zong-gu",
       "name": "黑鬃蛊",
       "aliases": [],
       "rank": "二转",
@@ -345,7 +345,7 @@
       ]
     },
     {
-      "id": "gu.han-94a2-9b03-86ca",
+      "id": "gu.gang-zong-gu",
       "name": "钢鬃蛊",
       "aliases": [],
       "rank": "三转",
@@ -358,7 +358,7 @@
       ]
     },
     {
-      "id": "gu.han-6c34-86db-86ca",
+      "id": "gu.shui-zhu-gu",
       "name": "水蛛蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -370,7 +370,7 @@
       ]
     },
     {
-      "id": "gu.han-51c0-6c34-86ca",
+      "id": "gu.jing-shui-gu",
       "name": "净水蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -384,7 +384,7 @@
       ]
     },
     {
-      "id": "gu.han-8db3-8ff9-86ca",
+      "id": "gu.zu-ji-gu",
       "name": "足迹蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -396,7 +396,7 @@
       ]
     },
     {
-      "id": "gu.han-7af9-541b-5b50",
+      "id": "gu.zhu-jun-zi",
       "name": "竹君子",
       "aliases": [
         "竹君子蛊"
@@ -410,7 +410,7 @@
       ]
     },
     {
-      "id": "gu.han-6001-5ea6-86ca",
+      "id": "gu.tai-du-gu",
       "name": "态度蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -423,7 +423,7 @@
       ]
     },
     {
-      "id": "gu.han-76f8-4fe1-86ca",
+      "id": "gu.xiang-xin-gu",
       "name": "相信蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -435,7 +435,7 @@
       ]
     },
     {
-      "id": "gu.han-6000-7591-86ca",
+      "id": "gu.huai-yi-gu",
       "name": "怀疑蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -447,7 +447,7 @@
       ]
     },
     {
-      "id": "gu.han-77f3-76ae-86ca",
+      "id": "gu.shi-pi-gu",
       "name": "石皮蛊",
       "aliases": [],
       "rank": "一转",
@@ -460,7 +460,7 @@
       ]
     },
     {
-      "id": "gu.han-94c1-76ae-86ca",
+      "id": "gu.tie-pi-gu",
       "name": "铁皮蛊",
       "aliases": [],
       "rank": "一转",
@@ -472,7 +472,7 @@
       ]
     },
     {
-      "id": "gu.han-517d-76ae-86ca",
+      "id": "gu.shou-pi-gu",
       "name": "兽皮蛊",
       "aliases": [],
       "rank": "一转",
@@ -485,7 +485,7 @@
       ]
     },
     {
-      "id": "gu.han-9ec4-9a86-5929-725b-86ca",
+      "id": "gu.huang-luo-tian-niu-gu",
       "name": "黄骆天牛蛊",
       "aliases": [],
       "rank": "一转",
@@ -498,7 +498,7 @@
       ]
     },
     {
-      "id": "gu.han-82b1-8c55-86ca",
+      "id": "gu.hua-shi-gu",
       "name": "花豕蛊",
       "aliases": [],
       "rank": "一转",
@@ -511,7 +511,7 @@
       ]
     },
     {
-      "id": "gu.han-7c89-8c55-86ca",
+      "id": "gu.fen-shi-gu",
       "name": "粉豕蛊",
       "aliases": [],
       "rank": "一转",
@@ -524,7 +524,7 @@
       ]
     },
     {
-      "id": "gu.han-5c0f-5149-86ca",
+      "id": "gu.xiao-guang-gu",
       "name": "小光蛊",
       "aliases": [],
       "rank": "一转",
@@ -537,7 +537,7 @@
       ]
     },
     {
-      "id": "gu.han-9f99-4e38-86d0-86d0-86ca",
+      "id": "gu.long-wan-qu-qu-gu",
       "name": "龙丸蛐蛐蛊",
       "aliases": [],
       "rank": "一转",
@@ -550,7 +550,7 @@
       ]
     },
     {
-      "id": "gu.han-7389-76ae-86ca",
+      "id": "gu.yu-pi-gu",
       "name": "玉皮蛊",
       "aliases": [],
       "rank": "一转",
@@ -563,7 +563,7 @@
       ]
     },
     {
-      "id": "gu.han-5730-85cf-82b1-86ca",
+      "id": "gu.di-zang-hua-gu",
       "name": "地藏花蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -575,7 +575,7 @@
       ]
     },
     {
-      "id": "gu.han-767d-7389-86ca",
+      "id": "gu.bai-yu-gu",
       "name": "白玉蛊",
       "aliases": [],
       "rank": "二转",
@@ -588,7 +588,7 @@
       ]
     },
     {
-      "id": "gu.han-5929-84ec-86ca",
+      "id": "gu.tian-peng-gu",
       "name": "天蓬蛊",
       "aliases": [],
       "rank": "三转",
@@ -601,7 +601,7 @@
       ]
     },
     {
-      "id": "gu.han-9501-6c14-86ca",
+      "id": "gu.suo-qi-gu",
       "name": "锁气蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -613,7 +613,7 @@
       ]
     },
     {
-      "id": "gu.han-6084-6b65-86ca",
+      "id": "gu.qiao-bu-gu",
       "name": "悄步蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -626,7 +626,7 @@
       ]
     },
     {
-      "id": "gu.han-5e7d-5f71-968f-884c-86ca",
+      "id": "gu.you-ying-sui-xing-gu",
       "name": "幽影随行蛊",
       "aliases": [
         "幽影虫"
@@ -641,7 +641,7 @@
       ]
     },
     {
-      "id": "gu.han-7231-522b-79bb",
+      "id": "gu.ai-bie-li",
       "name": "爱别离",
       "aliases": [
         "爱生离"
@@ -657,7 +657,7 @@
       ]
     },
     {
-      "id": "gu.han-95ea-5149-86ca",
+      "id": "gu.shan-guang-gu",
       "name": "闪光蛊",
       "aliases": [],
       "rank": "一转",
@@ -669,7 +669,7 @@
       ]
     },
     {
-      "id": "gu.han-523a-6bdb-866b",
+      "id": "gu.ci-mao-chong",
       "name": "刺毛虫",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -681,7 +681,7 @@
       ]
     },
     {
-      "id": "gu.han-751f-606f-8349",
+      "id": "gu.sheng-xi-cao",
       "name": "生息草",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -693,7 +693,7 @@
       ]
     },
     {
-      "id": "gu.han-5927-809a-86d9",
+      "id": "gu.da-du-wa",
       "name": "大肚蛙",
       "aliases": [
         "金背蛙"
@@ -707,7 +707,7 @@
       ]
     },
     {
-      "id": "gu.han-86c7-4fe1-86ca",
+      "id": "gu.she-xin-gu",
       "name": "蛇信蛊",
       "aliases": [],
       "rank": "二转",
@@ -720,7 +720,7 @@
       ]
     },
     {
-      "id": "gu.han-8150-8840-8349-86ca",
+      "id": "gu.fu-xue-cao-gu",
       "name": "腐血草蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -732,7 +732,7 @@
       ]
     },
     {
-      "id": "gu.han-7ea2-5ca9-87d2",
+      "id": "gu.hong-yan-mang",
       "name": "红岩蟒",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -744,7 +744,7 @@
       ]
     },
     {
-      "id": "gu.han-6708-8292-86ca",
+      "id": "gu.yue-mang-gu",
       "name": "月芒蛊",
       "aliases": [],
       "rank": "二转",
@@ -757,7 +757,7 @@
       ]
     },
     {
-      "id": "gu.han-6708-9713-88f3",
+      "id": "gu.yue-ni-chang",
       "name": "月霓裳",
       "aliases": [
         "月霓裳蛊",
@@ -773,7 +773,7 @@
       ]
     },
     {
-      "id": "gu.han-5b9d-6708-5149-738b-86ca",
+      "id": "gu.bao-yue-guang-wang-gu",
       "name": "宝月光王蛊",
       "aliases": [],
       "rank": "五转",
@@ -785,7 +785,7 @@
       ]
     },
     {
-      "id": "gu.han-4e66-866b",
+      "id": "gu.shu-chong",
       "name": "书虫",
       "aliases": [],
       "rank": "一转",
@@ -798,7 +798,7 @@
       ]
     },
     {
-      "id": "gu.han-4e5d-53f6-751f-673a-8349",
+      "id": "gu.jiu-ye-sheng-ji-cao",
       "name": "九叶生机草",
       "aliases": [
         "九叶生机草蛊"
@@ -814,7 +814,7 @@
       ]
     },
     {
-      "id": "gu.han-751f-673a-53f6",
+      "id": "gu.sheng-ji-ye",
       "name": "生机叶",
       "aliases": [
         "生机叶蛊"
@@ -828,7 +828,7 @@
       ]
     },
     {
-      "id": "gu.han-56db-5473-9152-866b",
+      "id": "gu.si-wei-jiu-chong",
       "name": "四味酒虫",
       "aliases": [],
       "rank": "二转",
@@ -841,7 +841,7 @@
       ]
     },
     {
-      "id": "gu.han-9080-6708-86ca",
+      "id": "gu.yao-yue-gu",
       "name": "邀月蛊",
       "aliases": [],
       "rank": "二转",
@@ -854,7 +854,7 @@
       ]
     },
     {
-      "id": "gu.han-4e03-9999-9152-866b",
+      "id": "gu.qi-xiang-jiu-chong",
       "name": "七香酒虫",
       "aliases": [],
       "rank": "三转",
@@ -866,7 +866,7 @@
       ]
     },
     {
-      "id": "gu.han-9752-85e4-86ca",
+      "id": "gu.qing-teng-gu",
       "name": "青藤蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -878,7 +878,7 @@
       ]
     },
     {
-      "id": "gu.han-677e-9488-86ca",
+      "id": "gu.song-zhen-gu",
       "name": "松针蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -891,7 +891,7 @@
       ]
     },
     {
-      "id": "gu.han-6708-65cb-86ca",
+      "id": "gu.yue-xuan-gu",
       "name": "月旋蛊",
       "aliases": [],
       "rank": "二转",
@@ -904,7 +904,7 @@
       ]
     },
     {
-      "id": "gu.han-75d5-77f3-86ca",
+      "id": "gu.hen-shi-gu",
       "name": "痕石蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -917,7 +917,7 @@
       ]
     },
     {
-      "id": "gu.han-6708-75d5-86ca",
+      "id": "gu.yue-hen-gu",
       "name": "月痕蛊",
       "aliases": [],
       "rank": "二转",
@@ -930,7 +930,7 @@
       ]
     },
     {
-      "id": "gu.han-65cb-98ce-86ca",
+      "id": "gu.xuan-feng-gu",
       "name": "旋风蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -942,7 +942,7 @@
       ]
     },
     {
-      "id": "gu.han-4e09-661f-6d1e",
+      "id": "gu.san-xing-dong",
       "name": "三星洞",
       "aliases": [
         "三星洞树蛊"
@@ -956,7 +956,7 @@
       ]
     },
     {
-      "id": "gu.han-9752-94dc-820d-5229-86ca",
+      "id": "gu.qing-tong-she-li-gu",
       "name": "青铜舍利蛊",
       "aliases": [],
       "rank": "一转",
@@ -968,7 +968,7 @@
       ]
     },
     {
-      "id": "gu.han-8d64-94c1-820d-5229-86ca",
+      "id": "gu.chi-tie-she-li-gu",
       "name": "赤铁舍利蛊",
       "aliases": [],
       "rank": "二转",
@@ -981,7 +981,7 @@
       ]
     },
     {
-      "id": "gu.han-767d-94f6-820d-5229-86ca",
+      "id": "gu.bai-yin-she-li-gu",
       "name": "白银舍利蛊",
       "aliases": [],
       "rank": "三转",
@@ -993,7 +993,7 @@
       ]
     },
     {
-      "id": "gu.han-9ec4-91d1-820d-5229-86ca",
+      "id": "gu.huang-jin-she-li-gu",
       "name": "黄金舍利蛊",
       "aliases": [],
       "rank": "四转",
@@ -1005,7 +1005,7 @@
       ]
     },
     {
-      "id": "gu.han-5e61-7136-86ca",
+      "id": "gu.fan-ran-gu",
       "name": "幡然蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1017,7 +1017,7 @@
       ]
     },
     {
-      "id": "gu.han-9690-77f3-86ca",
+      "id": "gu.yin-shi-gu",
       "name": "隐石蛊",
       "aliases": [],
       "rank": "一转",
@@ -1030,7 +1030,7 @@
       ]
     },
     {
-      "id": "gu.han-541e-6c5f-87fe",
+      "id": "gu.tun-jiang-chan",
       "name": "吞江蟾",
       "aliases": [],
       "rank": "五转",
@@ -1043,7 +1043,7 @@
       ]
     },
     {
-      "id": "gu.han-718a-8c6a-86ca",
+      "id": "gu.xiong-hao-gu",
       "name": "熊豪蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1056,7 +1056,7 @@
       ]
     },
     {
-      "id": "gu.han-68d5-718a-672c-529b-86ca",
+      "id": "gu.zong-xiong-ben-li-gu",
       "name": "棕熊本力蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1069,7 +1069,7 @@
       ]
     },
     {
-      "id": "gu.han-53cc-7a8d-706b-7089-86ca",
+      "id": "gu.shuang-qiao-huo-lu-gu",
       "name": "双窍火炉蛊",
       "aliases": [
         "火炉蛊"
@@ -1083,7 +1083,7 @@
       ]
     },
     {
-      "id": "gu.han-9c7c-9cde-86ca",
+      "id": "gu.yu-lin-gu",
       "name": "鱼鳞蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1096,7 +1096,7 @@
       ]
     },
     {
-      "id": "gu.han-9cde-7532-86ca",
+      "id": "gu.lin-jia-gu",
       "name": "鳞甲蛊",
       "aliases": [],
       "rank": "二转",
@@ -1108,7 +1108,7 @@
       ]
     },
     {
-      "id": "gu.han-6c34-8c5a-86ca",
+      "id": "gu.shui-tun-gu",
       "name": "水豚蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1120,7 +1120,7 @@
       ]
     },
     {
-      "id": "gu.han-6c34-94bb-86ca",
+      "id": "gu.shui-zuan-gu",
       "name": "水钻蛊",
       "aliases": [],
       "rank": "二转",
@@ -1132,7 +1132,7 @@
       ]
     },
     {
-      "id": "gu.han-6e38-50f5-86ca",
+      "id": "gu.you-jiang-gu",
       "name": "游僵蛊",
       "aliases": [],
       "rank": "二转",
@@ -1145,7 +1145,7 @@
       ]
     },
     {
-      "id": "gu.han-5f71-6b87-86ca",
+      "id": "gu.ying-shang-gu",
       "name": "影殇蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1158,7 +1158,7 @@
       ]
     },
     {
-      "id": "gu.han-6728-9b45-86ca",
+      "id": "gu.mu-mei-gu",
       "name": "木魅蛊",
       "aliases": [],
       "rank": "三转",
@@ -1170,7 +1170,7 @@
       ]
     },
     {
-      "id": "gu.han-767e-5e74-6728-9b45",
+      "id": "gu.bai-nian-mu-mei",
       "name": "百年木魅",
       "aliases": [],
       "rank": "四转",
@@ -1182,7 +1182,7 @@
       ]
     },
     {
-      "id": "gu.han-5343-5e74-6728-9b45",
+      "id": "gu.qian-nian-mu-mei",
       "name": "千年木魅",
       "aliases": [],
       "rank": "五转",
@@ -1194,7 +1194,7 @@
       ]
     },
     {
-      "id": "gu.han-8840-6c14-86ca",
+      "id": "gu.xue-qi-gu",
       "name": "血气蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1207,7 +1207,7 @@
       ]
     },
     {
-      "id": "gu.han-517d-8bed-86ca",
+      "id": "gu.shou-yu-gu",
       "name": "兽语蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1219,7 +1219,7 @@
       ]
     },
     {
-      "id": "gu.han-987a-98ce-8033-86ca",
+      "id": "gu.shun-feng-er-gu",
       "name": "顺风耳蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1231,7 +1231,7 @@
       ]
     },
     {
-      "id": "gu.han-7535-773c-86ca",
+      "id": "gu.dian-yan-gu",
       "name": "电眼蛊",
       "aliases": [],
       "rank": "三转",
@@ -1244,7 +1244,7 @@
       ]
     },
     {
-      "id": "gu.han-6e38-5b57-86ca",
+      "id": "gu.you-zi-gu",
       "name": "游字蛊",
       "aliases": [],
       "rank": "一转",
@@ -1256,7 +1256,7 @@
       ]
     },
     {
-      "id": "gu.han-4fe1-53f7-86ca",
+      "id": "gu.xin-hao-gu",
       "name": "信号蛊",
       "aliases": [],
       "rank": "一转",
@@ -1268,7 +1268,7 @@
       ]
     },
     {
-      "id": "gu.han-78d0-77f3-86ca",
+      "id": "gu.pan-shi-gu",
       "name": "磐石蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1281,7 +1281,7 @@
       ]
     },
     {
-      "id": "gu.han-5f3a-53d6-86ca",
+      "id": "gu.qiang-qu-gu",
       "name": "强取蛊",
       "aliases": [],
       "rank": "二转",
@@ -1295,7 +1295,7 @@
       ]
     },
     {
-      "id": "gu.han-84dd-9e1f-51b0-68fa-86ca",
+      "id": "gu.lan-niao-bing-guan-gu",
       "name": "蓝鸟冰棺蛊",
       "aliases": [],
       "rank": "三转",
@@ -1308,7 +1308,7 @@
       ]
     },
     {
-      "id": "gu.han-51b0-808c-86ca",
+      "id": "gu.bing-ji-gu",
       "name": "冰肌蛊",
       "aliases": [],
       "rank": "三转",
@@ -1320,7 +1320,7 @@
       ]
     },
     {
-      "id": "gu.han-971c-5996-86ca",
+      "id": "gu.shuang-yao-gu",
       "name": "霜妖蛊",
       "aliases": [],
       "rank": "三转",
@@ -1333,7 +1333,7 @@
       ]
     },
     {
-      "id": "gu.han-51b0-5203-86ca",
+      "id": "gu.bing-ren-gu",
       "name": "冰刃蛊",
       "aliases": [],
       "rank": "二转",
@@ -1345,7 +1345,7 @@
       ]
     },
     {
-      "id": "gu.han-94a2-8863-86ca",
+      "id": "gu.gang-yi-gu",
       "name": "钢衣蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1357,7 +1357,7 @@
       ]
     },
     {
-      "id": "gu.han-6c34-7f69-86ca",
+      "id": "gu.shui-zhao-gu",
       "name": "水罩蛊",
       "aliases": [],
       "rank": "二转",
@@ -1370,7 +1370,7 @@
       ]
     },
     {
-      "id": "gu.han-77f3-7a8d-86ca",
+      "id": "gu.shi-qiao-gu",
       "name": "石窍蛊",
       "aliases": [],
       "rank": "三转",
@@ -1383,7 +1383,7 @@
       ]
     },
     {
-      "id": "gu.han-4e09-6b65-82b3-8349-86ca",
+      "id": "gu.san-bu-fang-cao-gu",
       "name": "三步芳草蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1396,7 +1396,7 @@
       ]
     },
     {
-      "id": "gu.han-9a6d-718a-86ca",
+      "id": "gu.yu-xiong-gu",
       "name": "驭熊蛊",
       "aliases": [],
       "rank": "二转",
@@ -1408,7 +1408,7 @@
       ]
     },
     {
-      "id": "gu.han-94c1-85e4-86ca",
+      "id": "gu.tie-teng-gu",
       "name": "铁藤蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1420,7 +1420,7 @@
       ]
     },
     {
-      "id": "gu.han-6bd2-82b1-86ca",
+      "id": "gu.du-hua-gu",
       "name": "毒花蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1432,7 +1432,7 @@
       ]
     },
     {
-      "id": "gu.han-4eba-517d-846c-751f-86ca",
+      "id": "gu.ren-shou-zang-sheng-gu",
       "name": "人兽葬生蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1445,7 +1445,7 @@
       ]
     },
     {
-      "id": "gu.han-70b8-96f7-86ca",
+      "id": "gu.zha-lei-gu",
       "name": "炸雷蛊",
       "aliases": [],
       "rank": "三转",
@@ -1457,7 +1457,7 @@
       ]
     },
     {
-      "id": "gu.han-96f7-5578-86ca",
+      "id": "gu.lei-xiao-gu",
       "name": "雷啸蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1469,7 +1469,7 @@
       ]
     },
     {
-      "id": "gu.han-655b-606f-86ca",
+      "id": "gu.lian-xi-gu",
       "name": "敛息蛊",
       "aliases": [],
       "rank": "三转",
@@ -1481,7 +1481,7 @@
       ]
     },
     {
-      "id": "gu.han-6708-6bd2-86ca",
+      "id": "gu.yue-du-gu",
       "name": "月毒蛊",
       "aliases": [],
       "rank": "三转",
@@ -1493,7 +1493,7 @@
       ]
     },
     {
-      "id": "gu.han-97f3-6d6a-86ca",
+      "id": "gu.yin-lang-gu",
       "name": "音浪蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1505,7 +1505,7 @@
       ]
     },
     {
-      "id": "gu.han-9a6d-72fc-86ca",
+      "id": "gu.yu-lang-gu",
       "name": "驭狼蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1517,7 +1517,7 @@
       ]
     },
     {
-      "id": "gu.han-9a6d-864e-86ca",
+      "id": "gu.yu-hu-gu",
       "name": "驭虎蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1529,7 +1529,7 @@
       ]
     },
     {
-      "id": "gu.han-9a6d-9e7f-86ca",
+      "id": "gu.yu-lu-gu",
       "name": "驭鹿蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1541,7 +1541,7 @@
       ]
     },
     {
-      "id": "gu.han-9a6d-725b-86ca",
+      "id": "gu.yu-niu-gu",
       "name": "驭牛蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1553,7 +1553,7 @@
       ]
     },
     {
-      "id": "gu.han-5355-7a8d-706b-70ad-86ca",
+      "id": "gu.dan-qiao-huo-tan-gu",
       "name": "单窍火炭蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1565,7 +1565,7 @@
       ]
     },
     {
-      "id": "gu.han-706b-6cb9-86ca",
+      "id": "gu.huo-you-gu",
       "name": "火油蛊",
       "aliases": [],
       "rank": "一转",
@@ -1577,7 +1577,7 @@
       ]
     },
     {
-      "id": "gu.han-96f7-7ffc-86ca",
+      "id": "gu.lei-yi-gu",
       "name": "雷翼蛊",
       "aliases": [],
       "rank": "三转",
@@ -1589,7 +1589,7 @@
       ]
     },
     {
-      "id": "gu.han-7167-5f71-86ca",
+      "id": "gu.zhao-ying-gu",
       "name": "照影蛊",
       "aliases": [],
       "rank": "二转",
@@ -1601,7 +1601,7 @@
       ]
     },
     {
-      "id": "gu.han-6c34-5149-86ca",
+      "id": "gu.shui-guang-gu",
       "name": "水光蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1613,7 +1613,7 @@
       ]
     },
     {
-      "id": "gu.han-971c-9716-6708-86ca",
+      "id": "gu.shuang-lin-yue-gu",
       "name": "霜霖月蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1625,7 +1625,7 @@
       ]
     },
     {
-      "id": "gu.han-5e7b-5f71-6708-86ca",
+      "id": "gu.huan-ying-yue-gu",
       "name": "幻影月蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1637,7 +1637,7 @@
       ]
     },
     {
-      "id": "gu.han-8840-6708-86ca",
+      "id": "gu.xue-yue-gu",
       "name": "血月蛊",
       "aliases": [],
       "rank": "三转",
@@ -1650,7 +1650,7 @@
       ]
     },
     {
-      "id": "gu.han-5b54-5ba3-8349",
+      "id": "gu.kong-xuan-cao",
       "name": "孔宣草",
       "aliases": [],
       "rank": "二至四转之一，具体未明确",
@@ -1662,7 +1662,7 @@
       ]
     },
     {
-      "id": "gu.han-5f52-7a7a-8749",
+      "id": "gu.gui-kong-chan",
       "name": "归空蝉",
       "aliases": [],
       "rank": "二至四转之一，具体未明确",
@@ -1674,7 +1674,7 @@
       ]
     },
     {
-      "id": "gu.han-67af-9aa8-873b-8713",
+      "id": "gu.ku-gu-qing-ting",
       "name": "枯骨蜻蜓",
       "aliases": [],
       "rank": "二至四转之一，具体未明确",
@@ -1686,7 +1686,7 @@
       ]
     },
     {
-      "id": "gu.han-51e4-7ffc-8776",
+      "id": "gu.feng-yi-die",
       "name": "凤翼蝶",
       "aliases": [],
       "rank": "二至四转之一，具体未明确",
@@ -1698,7 +1698,7 @@
       ]
     },
     {
-      "id": "gu.han-515c-7387-82b1",
+      "id": "gu.dou-shuai-hua",
       "name": "兜率花",
       "aliases": [],
       "rank": "三转",
@@ -1711,7 +1711,7 @@
       ]
     },
     {
-      "id": "gu.han-515c-7b3c-8349",
+      "id": "gu.dou-long-cao",
       "name": "兜笼草",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1723,7 +1723,7 @@
       ]
     },
     {
-      "id": "gu.han-751f-751f-4e0d-606f-86ca",
+      "id": "gu.sheng-sheng-bu-xi-gu",
       "name": "生生不息蛊",
       "aliases": [],
       "rank": "三转",
@@ -1735,7 +1735,7 @@
       ]
     },
     {
-      "id": "gu.han-4e0d-6b7b-8349",
+      "id": "gu.bu-si-cao",
       "name": "不死草",
       "aliases": [],
       "rank": "三转",
@@ -1747,7 +1747,7 @@
       ]
     },
     {
-      "id": "gu.han-81ea-529b-66f4-751f-86ca",
+      "id": "gu.zi-li-geng-sheng-gu",
       "name": "自力更生蛊",
       "aliases": [],
       "rank": "三转",
@@ -1759,7 +1759,7 @@
       ]
     },
     {
-      "id": "gu.han-5929-5143-5b9d-83b2",
+      "id": "gu.tian-yuan-bao-lian",
       "name": "天元宝莲",
       "aliases": [],
       "rank": "三转",
@@ -1772,7 +1772,7 @@
       ]
     },
     {
-      "id": "gu.han-5929-5143-5b9d-7687-83b2",
+      "id": "gu.tian-yuan-bao-huang-lian",
       "name": "天元宝皇莲",
       "aliases": [],
       "rank": "六转",
@@ -1784,7 +1784,7 @@
       ]
     },
     {
-      "id": "gu.han-7597-5149-86ca",
+      "id": "gu.liao-guang-gu",
       "name": "疗光蛊",
       "aliases": [],
       "rank": "三转",
@@ -1796,7 +1796,7 @@
       ]
     },
     {
-      "id": "gu.han-5080-5121-86ca",
+      "id": "gu.kui-lei-gu",
       "name": "傀儡蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1808,7 +1808,7 @@
       ]
     },
     {
-      "id": "gu.han-72c2-66b4-86ca",
+      "id": "gu.kuang-bao-gu",
       "name": "狂暴蛊",
       "aliases": [],
       "rank": "四转",
@@ -1820,7 +1820,7 @@
       ]
     },
     {
-      "id": "gu.han-98ce-7d22-86ca",
+      "id": "gu.feng-suo-gu",
       "name": "风索蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1832,7 +1832,7 @@
       ]
     },
     {
-      "id": "gu.han-6ce5-6cbc-86ca",
+      "id": "gu.ni-zhao-gu",
       "name": "泥沼蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1844,7 +1844,7 @@
       ]
     },
     {
-      "id": "gu.han-8840-6ef4-5b50",
+      "id": "gu.xue-di-zi",
       "name": "血滴子",
       "aliases": [],
       "rank": "五转",
@@ -1856,7 +1856,7 @@
       ]
     },
     {
-      "id": "gu.han-8840-795e-5b50",
+      "id": "gu.xue-shen-zi",
       "name": "血神子",
       "aliases": [],
       "rank": "六转",
@@ -1868,7 +1868,7 @@
       ]
     },
     {
-      "id": "gu.han-7535-9f7f-6740-4eba-8708",
+      "id": "gu.dian-chi-sha-ren-wu",
       "name": "电齿杀人蜈",
       "aliases": [],
       "rank": "四转",
@@ -1880,7 +1880,7 @@
       ]
     },
     {
-      "id": "gu.han-96f7-76fe-86ca",
+      "id": "gu.lei-dun-gu",
       "name": "雷盾蛊",
       "aliases": [
         "雷壳蛊"
@@ -1895,7 +1895,7 @@
       ]
     },
     {
-      "id": "gu.han-6c34-7b3c-86ca",
+      "id": "gu.shui-long-gu",
       "name": "水笼蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1907,7 +1907,7 @@
       ]
     },
     {
-      "id": "gu.han-72fc-70df-86ca",
+      "id": "gu.lang-yan-gu",
       "name": "狼烟蛊",
       "aliases": [],
       "rank": "四转",
@@ -1919,7 +1919,7 @@
       ]
     },
     {
-      "id": "gu.han-6b63-6c14-86ca",
+      "id": "gu.zheng-qi-gu",
       "name": "正气蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1932,7 +1932,7 @@
       ]
     },
     {
-      "id": "gu.han-94c1-624b-64d2-62ff-86ca",
+      "id": "gu.tie-shou-qin-na-gu",
       "name": "铁手擒拿蛊",
       "aliases": [],
       "rank": "五转",
@@ -1945,7 +1945,7 @@
       ]
     },
     {
-      "id": "gu.han-767d-76f8-4ed9-86c7-86ca",
+      "id": "gu.bai-xiang-xian-she-gu",
       "name": "白相仙蛇蛊",
       "aliases": [
         "白相仙蛇"
@@ -1959,7 +1959,7 @@
       ]
     },
     {
-      "id": "gu.han-76f4-89c9-86ca",
+      "id": "gu.zhi-jue-gu",
       "name": "直觉蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -1972,7 +1972,7 @@
       ]
     },
     {
-      "id": "gu.han-751f-94c1-86ca",
+      "id": "gu.sheng-tie-gu",
       "name": "生铁蛊",
       "aliases": [],
       "rank": "二转",
@@ -1985,7 +1985,7 @@
       ]
     },
     {
-      "id": "gu.han-4ed9-4eba-6307",
+      "id": "gu.xian-ren-zhi",
       "name": "仙人指",
       "aliases": [],
       "rank": "三转",
@@ -1997,7 +1997,7 @@
       ]
     },
     {
-      "id": "gu.han-9ed1-9b13-86ca",
+      "id": "gu.hei-bin-gu",
       "name": "黑鬓蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -2009,7 +2009,7 @@
       ]
     },
     {
-      "id": "gu.han-5200-7fc5-8840-8760-86ca",
+      "id": "gu.dao-chi-xue-fu-gu",
       "name": "刀翅血蝠蛊",
       "aliases": [
         "刀翅血蝠"
@@ -2023,7 +2023,7 @@
       ]
     },
     {
-      "id": "gu.han-8840-72c2-86ca",
+      "id": "gu.xue-kuang-gu",
       "name": "血狂蛊",
       "aliases": [],
       "rank": "四转",
@@ -2036,7 +2036,7 @@
       ]
     },
     {
-      "id": "gu.han-8840-6cb3-87d2",
+      "id": "gu.xue-he-mang",
       "name": "血河蟒",
       "aliases": [
         "血蟒蛊"
@@ -2051,7 +2051,7 @@
       ]
     },
     {
-      "id": "gu.han-5929-5730-5b8f-97f3-86ca",
+      "id": "gu.tian-di-hong-yin-gu",
       "name": "天地宏音蛊",
       "aliases": [],
       "rank": "五转",
@@ -2064,7 +2064,7 @@
       ]
     },
     {
-      "id": "gu.han-611f-540c-8eab-53d7-86ca",
+      "id": "gu.gan-tong-shen-shou-gu",
       "name": "感同身受蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -2076,7 +2076,7 @@
       ]
     },
     {
-      "id": "gu.han-6cb9-9f99-86ca",
+      "id": "gu.you-long-gu",
       "name": "油龙蛊",
       "aliases": [],
       "rank": "四转",
@@ -2088,7 +2088,7 @@
       ]
     },
     {
-      "id": "gu.han-706b-9f99-86ca",
+      "id": "gu.huo-long-gu",
       "name": "火龙蛊",
       "aliases": [],
       "rank": "四转",
@@ -2100,7 +2100,7 @@
       ]
     },
     {
-      "id": "gu.han-5c71-4e18-5de8-5080-86ca",
+      "id": "gu.shan-qiu-ju-gui-gu",
       "name": "山丘巨傀蛊",
       "aliases": [],
       "rank": "五转",
@@ -2113,7 +2113,7 @@
       ]
     },
     {
-      "id": "gu.han-8840-9b3c-5c38-86ca",
+      "id": "gu.xue-gui-shi-gu",
       "name": "血鬼尸蛊",
       "aliases": [
         "血鬼尸本命蛊"
@@ -2127,7 +2127,7 @@
       ]
     },
     {
-      "id": "gu.han-4fee-7f57-5c38",
+      "id": "gu.xiu-luo-shi",
       "name": "修罗尸",
       "aliases": [],
       "rank": "五转飞僵分支",
@@ -2139,7 +2139,7 @@
       ]
     },
     {
-      "id": "gu.han-5929-9b54-5c38",
+      "id": "gu.tian-mo-shi",
       "name": "天魔尸",
       "aliases": [],
       "rank": "五转飞僵分支",
@@ -2151,7 +2151,7 @@
       ]
     },
     {
-      "id": "gu.han-68a6-9b47-5c38",
+      "id": "gu.meng-yan-shi",
       "name": "梦魇尸",
       "aliases": [],
       "rank": "五转飞僵分支",
@@ -2163,7 +2163,7 @@
       ]
     },
     {
-      "id": "gu.han-75c5-761f-5c38",
+      "id": "gu.bing-wen-shi",
       "name": "病瘟尸",
       "aliases": [],
       "rank": "五转飞僵分支",
@@ -2175,7 +2175,7 @@
       ]
     },
     {
-      "id": "gu.han-6c34-5e55-5929-534e-86ca",
+      "id": "gu.shui-mu-tian-hua-gu",
       "name": "水幕天华蛊",
       "aliases": [],
       "rank": "四转",
@@ -2187,7 +2187,7 @@
       ]
     },
     {
-      "id": "gu.han-5343-91cc-5730-72fc-86db",
+      "id": "gu.qian-li-di-lang-zhu",
       "name": "千里地狼蛛",
       "aliases": [],
       "rank": "五转",
@@ -2199,7 +2199,7 @@
       ]
     },
     {
-      "id": "gu.han-81f3-4eb2-8840-866b",
+      "id": "gu.zhi-qin-xue-chong",
       "name": "至亲血虫",
       "aliases": [
         "至亲血虫蛊"
@@ -2214,7 +2214,7 @@
       ]
     },
     {
-      "id": "gu.han-5fa1-9e64-86ca",
+      "id": "gu.yu-he-gu",
       "name": "御鹤蛊",
       "aliases": [],
       "rank": "五转",
@@ -2226,7 +2226,7 @@
       ]
     },
     {
-      "id": "gu.han-5b58-606f-7389-846c-86ca",
+      "id": "gu.cun-xi-yu-zang-gu",
       "name": "存息玉葬蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -2238,7 +2238,7 @@
       ]
     },
     {
-      "id": "gu.han-6bdb-50f5-86ca",
+      "id": "gu.mao-jiang-gu",
       "name": "毛僵蛊",
       "aliases": [],
       "rank": "三转",
@@ -2250,7 +2250,7 @@
       ]
     },
     {
-      "id": "gu.han-8df3-50f5-86ca",
+      "id": "gu.tiao-jiang-gu",
       "name": "跳僵蛊",
       "aliases": [],
       "rank": "四转",
@@ -2262,7 +2262,7 @@
       ]
     },
     {
-      "id": "gu.han-98de-50f5-86ca",
+      "id": "gu.fei-jiang-gu",
       "name": "飞僵蛊",
       "aliases": [],
       "rank": "五转",
@@ -2274,7 +2274,7 @@
       ]
     },
     {
-      "id": "gu.han-626c-7709-5410-6c14-86ca",
+      "id": "gu.yang-mei-tu-qi-gu",
       "name": "扬眉吐气蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -2286,7 +2286,7 @@
       ]
     },
     {
-      "id": "gu.han-9547-9b54-94c1-7d22-86ca",
+      "id": "gu.zhen-mo-tie-suo-gu",
       "name": "镇魔铁索蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -2298,7 +2298,7 @@
       ]
     },
     {
-      "id": "gu.han-7b26-5e95-62bd-85aa-86ca",
+      "id": "gu.fu-di-chou-xin-gu",
       "name": "符底抽薪蛊",
       "aliases": [
         "釜底抽薪蛊"
@@ -2312,7 +2312,7 @@
       ]
     },
     {
-      "id": "gu.han-8840-9885-86ca",
+      "id": "gu.xue-lu-gu",
       "name": "血颅蛊",
       "aliases": [],
       "rank": "四转",
@@ -2326,7 +2326,7 @@
       ]
     },
     {
-      "id": "gu.han-9634-9633-8f6c-8eab-86ca",
+      "id": "gu.yin-yang-zhuan-shen-gu",
       "name": "阴阳转身蛊",
       "aliases": [
         "阴蛊",
@@ -2342,7 +2342,7 @@
       ]
     },
     {
-      "id": "gu.han-8840-5e55-5929-534e-86ca",
+      "id": "gu.xue-mu-tian-hua-gu",
       "name": "血幕天华蛊",
       "aliases": [],
       "rank": "五转",
@@ -2354,7 +2354,7 @@
       ]
     },
     {
-      "id": "gu.han-51b0-9525-86ca",
+      "id": "gu.bing-zhui-gu",
       "name": "冰锥蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -2368,7 +2368,7 @@
       ]
     },
     {
-      "id": "gu.han-65cb-8e35-86ca",
+      "id": "gu.xuan-zhong-gu",
       "name": "旋踵蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -2380,7 +2380,7 @@
       ]
     },
     {
-      "id": "gu.han-72c2-98ce-86ca",
+      "id": "gu.kuang-feng-gu",
       "name": "狂风蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -2392,7 +2392,7 @@
       ]
     },
     {
-      "id": "gu.han-901a-5811-86ca",
+      "id": "gu.tong-qian-gu",
       "name": "通堑蛊",
       "aliases": [],
       "rank": "第一卷未明确",
@@ -2405,7 +2405,7 @@
       ]
     },
     {
-      "id": "gu.han-5f80-751f-8349-86ca",
+      "id": "gu.wang-sheng-cao-gu",
       "name": "往生草蛊",
       "aliases": [],
       "rank": "第一卷未明确",

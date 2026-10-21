@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.xiao-guang-gu",
+  "type": "gu",
+  "name": "小光蛊",
+  "aliases": [],
+  "summary": "月光蛊的常见辅助蛊，能增强月刃威力，也是合炼月芒蛊的材料。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "一转",
+    "类别": "攻击辅助",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "月光蛊的常见辅助蛊，能增强月刃威力，也是合炼月芒蛊的材料。",
+      "sources": [
+        62,
+        70
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "一转",
+    "攻击辅助",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 62
+  }
+}

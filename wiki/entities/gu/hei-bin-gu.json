@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.hei-bin-gu",
+  "type": "gu",
+  "name": "黑鬓蛊",
+  "aliases": [],
+  "summary": "需要长发才能更好发挥的一种蛊，第一卷只作举例提及。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "第一卷未明确",
+    "类别": "身体改造",
+    "第一卷记录形态": "修行知识提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "需要长发才能更好发挥的一种蛊，第一卷只作举例提及。",
+      "sources": [
+        180
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "第一卷未明确",
+    "身体改造",
+    "修行知识提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 180
+  }
+}

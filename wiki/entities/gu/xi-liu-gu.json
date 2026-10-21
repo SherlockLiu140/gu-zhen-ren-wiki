@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.xi-liu-gu",
+  "type": "gu",
+  "name": "溪流蛊",
+  "aliases": [],
+  "summary": "白家寨的标志性蛊虫；第一卷只明确其家族代表性，未完整说明能力。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "第一卷未明确",
+    "类别": "水道",
+    "第一卷记录形态": "势力标志提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "白家寨的标志性蛊虫；第一卷只明确其家族代表性，未完整说明能力。",
+      "sources": [
+        22,
+        123
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "第一卷未明确",
+    "水道",
+    "势力标志提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 22
+  }
+}

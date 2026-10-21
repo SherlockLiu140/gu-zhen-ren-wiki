@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.tian-di-hong-yin-gu",
+  "type": "gu",
+  "name": "天地宏音蛊",
+  "aliases": [],
+  "summary": "五转音道群攻蛊，能形成覆盖极广的宏大音浪。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "五转",
+    "类别": "音道群攻",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "五转音道群攻蛊，能形成覆盖极广的宏大音浪。",
+      "sources": [
+        184,
+        186
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "五转",
+    "音道群攻",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 184
+  }
+}

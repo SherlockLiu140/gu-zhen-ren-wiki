@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.xue-lu-gu",
+  "type": "gu",
+  "name": "血颅蛊",
+  "aliases": [],
+  "summary": "水晶头骨形态的四转血蛊，可吸取亲族精血形成血泉以提升资质。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "四转",
+    "类别": "血道与资质提升",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "水晶头骨形态的四转血蛊，可吸取亲族精血形成血泉以提升资质。",
+      "sources": [
+        193,
+        194,
+        198
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "四转",
+    "血道与资质提升",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 193
+  }
+}

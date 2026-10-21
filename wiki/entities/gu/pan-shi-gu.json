@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.pan-shi-gu",
+  "type": "gu",
+  "name": "磐石蛊",
+  "aliases": [],
+  "summary": "能让使用者形成厚重石皮并化作石头人，防御力强。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "第一卷未明确",
+    "类别": "防御与变化",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "能让使用者形成厚重石皮并化作石头人，防御力强。",
+      "sources": [
+        108,
+        134
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "第一卷未明确",
+    "防御与变化",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 108
+  }
+}

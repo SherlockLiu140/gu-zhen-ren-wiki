@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.tong-pi-gu",
+  "type": "gu",
+  "name": "铜皮蛊",
+  "aliases": [],
+  "summary": "能强化皮肤防御，是学堂蛊室中常见的近战防御蛊。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "一转",
+    "类别": "防御",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "能强化皮肤防御，是学堂蛊室中常见的近战防御蛊。",
+      "sources": [
+        24,
+        62
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "一转",
+    "防御",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 24
+  }
+}

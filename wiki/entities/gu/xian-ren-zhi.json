@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.xian-ren-zhi",
+  "type": "gu",
+  "name": "仙人指",
+  "aliases": [],
+  "summary": "一次性三转草蛊，可为陷入瓶颈的蛊师提供灵感。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "三转",
+    "类别": "启发与合炼辅助",
+    "第一卷记录形态": "实际使用",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "一次性三转草蛊，可为陷入瓶颈的蛊师提供灵感。",
+      "sources": [
+        179
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "三转",
+    "启发与合炼辅助",
+    "实际使用",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 179
+  }
+}

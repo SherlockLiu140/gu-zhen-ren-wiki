@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.yin-shi-gu",
+  "type": "gu",
+  "name": "隐石蛊",
+  "aliases": [],
+  "summary": "天然一转隐身蛊，可隐藏身体但不能同时隐藏衣物，是隐鳞蛊的合炼材料。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "一转",
+    "类别": "隐匿",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "天然一转隐身蛊，可隐藏身体但不能同时隐藏衣物，是隐鳞蛊的合炼材料。",
+      "sources": [
+        116,
+        121
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "一转",
+    "隐匿",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 116
+  }
+}

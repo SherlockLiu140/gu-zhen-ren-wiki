@@ -205,8 +205,12 @@ function assert(condition, message) {
   if (!condition) throw new Error(message)
 }
 
+const guSlugMap = JSON.parse(await readFile(path.join(projectRoot, 'scripts/gu-slug-map.json'), 'utf8'))
+
 function slugFor(name) {
-  return `han-${[...name].map((character) => character.codePointAt(0).toString(16)).join('-')}`
+  const slug = guSlugMap[name]
+  if (!slug) throw new Error(`scripts/gu-slug-map.json 缺少「${name}」的拼音 slug`)
+  return slug
 }
 
 const volumeChapters = corpusIndex.chapters.filter((chapter) => chapter.volumeId === 1)

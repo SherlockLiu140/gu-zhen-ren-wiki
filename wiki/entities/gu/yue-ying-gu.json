@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.yue-ying-gu",
+  "type": "gu",
+  "name": "月影蛊",
+  "aliases": [],
+  "summary": "擅长隐藏并能限制空窍真元，四代族长曾用它暗算花酒行者。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "四转",
+    "类别": "限制真元",
+    "第一卷记录形态": "实际出现与配方提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "擅长隐藏并能限制空窍真元，四代族长曾用它暗算花酒行者。",
+      "sources": [
+        15,
+        156
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "四转",
+    "限制真元",
+    "实际出现与配方提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 15
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.san-bu-fang-cao-gu",
+  "type": "gu",
+  "name": "三步芳草蛊",
+  "aliases": [],
+  "summary": "能辅助移动并提高奔跑速度，方源曾计划用战功兑换。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "第一卷未明确",
+    "类别": "移动",
+    "第一卷记录形态": "物资榜提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "能辅助移动并提高奔跑速度，方源曾计划用战功兑换。",
+      "sources": [
+        132,
+        148
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "第一卷未明确",
+    "移动",
+    "物资榜提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 132
+  }
+}

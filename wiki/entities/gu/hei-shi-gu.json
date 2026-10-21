@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.hei-shi-gu",
+  "type": "gu",
+  "name": "黑豕蛊",
+  "aliases": [
+    "黒豕蛊"
+  ],
+  "summary": "珍稀一转豕蛊，能从根本上增长蛊师气力，并可与白豕蛊的效果叠加。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "一转",
+    "类别": "力量增幅",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "珍稀一转豕蛊，能从根本上增长蛊师气力，并可与白豕蛊的效果叠加。",
+      "sources": [
+        44,
+        62
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "一转",
+    "力量增幅",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 44
+  }
+}

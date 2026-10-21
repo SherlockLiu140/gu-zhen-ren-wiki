@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.da-du-wa",
+  "type": "gu",
+  "name": "大肚蛙",
+  "aliases": [
+    "金背蛙"
+  ],
+  "summary": "腹内具有储物空间，古月空井用它存放并吐出任务工具。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "二转",
+    "类别": "储物",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "腹内具有储物空间，古月空井用它存放并吐出任务工具。",
+      "sources": [
+        88
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "二转",
+    "储物",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 88
+  }
+}

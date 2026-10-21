@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.xue-shen-zi",
+  "type": "gu",
+  "name": "血神子",
+  "aliases": [],
+  "summary": "血滴子的六转晋升形态，被列入天下十大魔蛊。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "六转",
+    "类别": "血道",
+    "第一卷记录形态": "晋升路线提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "血滴子的六转晋升形态，被列入天下十大魔蛊。",
+      "sources": [
+        165
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "六转",
+    "血道",
+    "晋升路线提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 165
+  }
+}

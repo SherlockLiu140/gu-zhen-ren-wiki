@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.shui-zhu-gu",
+  "type": "gu",
+  "name": "水蛛蛊",
+  "aliases": [],
+  "summary": "能在使用者体表形成淡蓝水衣，商队蛊师用它在雨中防护。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "第一卷未明确",
+    "类别": "防御",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "能在使用者体表形成淡蓝水衣，商队蛊师用它在雨中防护。",
+      "sources": [
+        47
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "第一卷未明确",
+    "防御",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 47
+  }
+}

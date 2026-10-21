@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.dian-yan-gu",
+  "type": "gu",
+  "name": "电眼蛊",
+  "aliases": [],
+  "summary": "能窥破隐形，常寄生于雷冠头狼双眼，白凝冰也持有一只。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "三转",
+    "类别": "侦察",
+    "第一卷记录形态": "野兽寄生与实际使用",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "能窥破隐形，常寄生于雷冠头狼双眼，白凝冰也持有一只。",
+      "sources": [
+        127,
+        167
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "三转",
+    "侦察",
+    "野兽寄生与实际使用",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 127
+  }
+}

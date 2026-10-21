@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.qian-nian-mu-mei",
+  "type": "gu",
+  "name": "千年木魅",
+  "aliases": [],
+  "summary": "百年木魅再与千年寿蛊合炼的五转晋升形态，第一卷未实际出现。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "五转",
+    "类别": "变化",
+    "第一卷记录形态": "晋升路线提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "百年木魅再与千年寿蛊合炼的五转晋升形态，第一卷未实际出现。",
+      "sources": [
+        126
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "五转",
+    "变化",
+    "晋升路线提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 126
+  }
+}

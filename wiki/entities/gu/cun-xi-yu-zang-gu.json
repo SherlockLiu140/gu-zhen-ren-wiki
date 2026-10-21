@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.cun-xi-yu-zang-gu",
+  "type": "gu",
+  "name": "存息玉葬蛊",
+  "aliases": [],
+  "summary": "能封闭自身、吊住一线性命进行长期沉眠，但不真正增加寿命。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "第一卷未明确",
+    "类别": "保命与沉眠",
+    "第一卷记录形态": "实际使用提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "能封闭自身、吊住一线性命进行长期沉眠，但不真正增加寿命。",
+      "sources": [
+        192
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "第一卷未明确",
+    "保命与沉眠",
+    "实际使用提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 192
+  }
+}

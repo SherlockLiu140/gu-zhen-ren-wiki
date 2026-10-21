@@ -44,7 +44,7 @@
   ],
   "relations": [
     {
-      "target": "gu.spring-autumn-cicada",
+      "target": "gu.chun-qiu-chan",
       "label": "重生手段",
       "sources": [
         1,
@@ -52,14 +52,14 @@
       ]
     },
     {
-      "target": "gu.liquor-worm",
+      "target": "gu.jiu-chong",
       "label": "炼化并使用",
       "sources": [
         17
       ]
     },
     {
-      "target": "gu.moonlight-gu",
+      "target": "gu.yue-guang-gu",
       "label": "早期选择与使用",
       "sources": [
         8,

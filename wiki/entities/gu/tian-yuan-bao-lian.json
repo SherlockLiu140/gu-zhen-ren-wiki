@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.tian-yuan-bao-lian",
+  "type": "gu",
+  "name": "天元宝莲",
+  "aliases": [],
+  "summary": "号称移动元泉的三转花蛊，能持续提供天然真元并帮助蛊师恢复。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "三转",
+    "类别": "资源生产",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "号称移动元泉的三转花蛊，能持续提供天然真元并帮助蛊师恢复。",
+      "sources": [
+        162,
+        163
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "三转",
+    "资源生产",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 162
+  }
+}

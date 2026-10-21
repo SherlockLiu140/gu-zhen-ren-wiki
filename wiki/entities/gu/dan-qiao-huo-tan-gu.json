@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.dan-qiao-huo-tan-gu",
+  "type": "gu",
+  "name": "单窍火炭蛊",
+  "aliases": [],
+  "summary": "方源炼制人兽葬生蛊时使用的火道蛊虫，用于在兽体内点燃火势。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "第一卷未明确",
+    "类别": "火道",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "方源炼制人兽葬生蛊时使用的火道蛊虫，用于在兽体内点燃火势。",
+      "sources": [
+        152
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "第一卷未明确",
+    "火道",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 152
+  }
+}

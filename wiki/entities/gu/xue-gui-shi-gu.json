@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.xue-gui-shi-gu",
+  "type": "gu",
+  "name": "血鬼尸蛊",
+  "aliases": [
+    "血鬼尸本命蛊"
+  ],
+  "summary": "游僵蛊的一条五转飞僵分支，古月一代以此化为血鬼尸。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "五转",
+    "类别": "僵尸变化",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "游僵蛊的一条五转飞僵分支，古月一代以此化为血鬼尸。",
+      "sources": [
+        185
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "五转",
+    "僵尸变化",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 185
+  }
+}

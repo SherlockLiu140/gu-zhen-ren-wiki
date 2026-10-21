@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.she-xin-gu",
+  "type": "gu",
+  "name": "蛇信蛊",
+  "aliases": [],
+  "summary": "能够感知热量，但范围较小、容易受干扰，也无法探测冷血生物。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "二转",
+    "类别": "侦察",
+    "第一卷记录形态": "实际出现",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "能够感知热量，但范围较小、容易受干扰，也无法探测冷血生物。",
+      "sources": [
+        93,
+        127
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "二转",
+    "侦察",
+    "实际出现",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 93
+  }
+}

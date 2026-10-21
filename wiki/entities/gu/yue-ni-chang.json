@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.yue-ni-chang",
+  "type": "gu",
+  "name": "月霓裳",
+  "aliases": [
+    "月霓裳蛊",
+    "霓裳蛊"
+  ],
+  "summary": "由月光蛊和玉皮蛊合炼的二转防御蛊，可削减来袭力量与攻击。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "二转",
+    "类别": "防御",
+    "第一卷记录形态": "实际炼成",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "由月光蛊和玉皮蛊合炼的二转防御蛊，可削减来袭力量与攻击。",
+      "sources": [
+        98,
+        104
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "二转",
+    "防御",
+    "实际炼成",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 98
+  }
+}

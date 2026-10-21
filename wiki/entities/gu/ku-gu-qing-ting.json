@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.ku-gu-qing-ting",
+  "type": "gu",
+  "name": "枯骨蜻蜓",
+  "aliases": [],
+  "summary": "古月一族地下虫洞收藏的珍稀蛊虫之一，第一卷只将其与数种二至四转蛊并列点名。",
+  "status": "verified-volume-1",
+  "scope": {
+    "volume": 1,
+    "maxChapter": 199
+  },
+  "attributes": {
+    "品阶": "二至四转之一，具体未明确",
+    "类别": "第一卷未明确",
+    "第一卷记录形态": "族库名录提及",
+    "审计批次": "第一卷蛊虫全面复核"
+  },
+  "facts": [
+    {
+      "text": "古月一族地下虫洞收藏的珍稀蛊虫之一，第一卷只将其与数种二至四转蛊并列点名。",
+      "sources": [
+        160
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "二至四转之一，具体未明确",
+    "第一卷未明确",
+    "族库名录提及",
+    "第一卷"
+  ],
+  "firstMention": {
+    "chapterId": 160
+  }
+}
