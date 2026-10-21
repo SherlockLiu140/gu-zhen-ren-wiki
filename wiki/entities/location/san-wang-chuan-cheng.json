@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "location.san-wang-chuan-cheng",
+  "type": "location",
+  "name": "三王传承",
+  "aliases": [],
+  "summary": "三叉山现世的传承，分为犬王、信王、爆王三支，各有对应的入门蛊虫要求；其地本为六转蛊仙的福地。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 326
+  },
+  "attributes": {
+    "位置": "三叉山",
+    "分支": "犬王、信王、爆王",
+    "前身": "六转蛊仙福地"
+  },
+  "facts": [
+    {
+      "text": "传承现世时黄、蓝、红三道光柱冲天；黄柱为犬王传承，需至少炼化一转驭犬蛊；蓝柱为信王传承，需拥有纸鹤蛊；红柱为爆王传承，需掌握爆蛋蛊。",
+      "sources": [
+        324
+      ]
+    },
+    {
+      "text": "三王传承之地就是当年六转蛊仙的福地，消息传出后世人哗然。",
+      "sources": [
+        326
+      ]
+    },
+    {
+      "text": "方源在商家城时刻意选择力道修行，正是为几年后的三王传承布局。",
+      "sources": [
+        275
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.san-cha-shan",
+      "label": "位于",
+      "sources": [
+        326
+      ]
+    },
+    {
+      "target": "location.quan-wang-chuan-cheng",
+      "label": "分支",
+      "sources": [
+        324
+      ]
+    }
+  ],
+  "tags": [
+    "传承之地",
+    "六转蛊仙",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 323
+  }
+}

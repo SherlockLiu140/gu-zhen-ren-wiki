@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "location.san-cha-shan",
+  "type": "location",
+  "name": "三叉山",
+  "aliases": [],
+  "summary": "位于左家冷颤山与车家飞来山之间的山岭，左、车两家为争夺它缠斗近百年；三王传承现世于此。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 326
+  },
+  "attributes": {
+    "位置": "南疆，冷颤山与飞来山之间",
+    "争夺方": "左家、车家",
+    "事件": "三王传承现世"
+  },
+  "facts": [
+    {
+      "text": "三叉山位于左家的冷颤山与车家的飞来山之间；左家有六百多年历史，车家屹立五百八十年，两家是世仇。",
+      "sources": [
+        323
+      ]
+    },
+    {
+      "text": "近百年来两家为占据三叉山大打出手。",
+      "sources": [
+        323
+      ]
+    },
+    {
+      "text": "三王传承现世于三叉山，各方势力与魔道人物随之涌入。",
+      "sources": [
+        326
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.san-wang-chuan-cheng",
+      "label": "现世之地",
+      "sources": [
+        326
+      ]
+    }
+  ],
+  "tags": [
+    "南疆",
+    "家族纷争",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 323
+  }
+}

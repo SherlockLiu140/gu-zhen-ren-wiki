@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "character.shang-yan-fei",
+  "type": "character",
+  "name": "商燕飞",
+  "aliases": [],
+  "summary": "商家族长，五转高阶修为，距巅峰只差一步；因族务缠身而修行时间有限，最终循血脉感应认回商心慈。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 259
+  },
+  "attributes": {
+    "身份": "商家族长",
+    "修为": "五转高阶",
+    "外貌": "黑袍血发"
+  },
+  "facts": [
+    {
+      "text": "作为商家族长每日被家族事务缠身，真正修行的时间不多，但凭资质与悟性仍修到五转高阶，距巅峰只差一步。",
+      "sources": [
+        258
+      ]
+    },
+    {
+      "text": "修行时盘坐虚空、浑身沐浴猩红如血的火焰。",
+      "sources": [
+        258
+      ]
+    },
+    {
+      "text": "循血脉间的感应找到流落在商家城外的商心慈，与她父女相认。",
+      "sources": [
+        259
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "faction.shang-clan",
+      "label": "族长",
+      "sources": [
+        258
+      ]
+    },
+    {
+      "target": "character.shang-xin-ci",
+      "label": "父女",
+      "sources": [
+        259
+      ]
+    }
+  ],
+  "tags": [
+    "商家",
+    "族长",
+    "第五转",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 258
+  }
+}

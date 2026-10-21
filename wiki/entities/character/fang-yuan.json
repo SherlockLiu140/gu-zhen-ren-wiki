@@ -1,13 +1,17 @@
 {
   "schemaVersion": 1,
+  "id": "character.fang-yuan",
+  "type": "character",
+  "name": "方源",
   "aliases": [
     "古月方源",
     "方老魔"
   ],
-  "status": "verified-volume-1",
+  "summary": "第一卷主角。借春秋蝉回到少年时期，在古月山寨以丙等资质重新修行，并利用前世经验争取资源与生存空间。",
+  "status": "verified-volume-2",
   "scope": {
-    "volume": 1,
-    "maxChapter": 199
+    "volume": 2,
+    "maxChapter": 344
   },
   "attributes": {
     "所属": "古月一族（第一卷）",
@@ -39,6 +43,18 @@
         128,
         155,
         157
+      ]
+    },
+    {
+      "text": "在商家城的演武场与人交手，对手魏央催动刀光蛊凝成两柄光刀。",
+      "sources": [
+        265
+      ]
+    },
+    {
+      "text": "第二卷后期实际修为为四转初阶，借九眼酒虫把淡金真元提纯为亮金真元，相当于真元质量高一个小境界。",
+      "sources": [
+        344
       ]
     }
   ],
@@ -81,6 +97,13 @@
         6,
         21
       ]
+    },
+    {
+      "target": "gu.jiu-yan-jiu-chong",
+      "label": "持有",
+      "sources": [
+        344
+      ]
     }
   ],
   "tags": [
@@ -89,10 +112,6 @@
     "丙等资质",
     "第一卷"
   ],
-  "id": "character.fang-yuan",
-  "type": "character",
-  "name": "方源",
-  "summary": "第一卷主角。借春秋蝉回到少年时期，在古月山寨以丙等资质重新修行，并利用前世经验争取资源与生存空间。",
   "firstMention": {
     "chapterId": 1
   },

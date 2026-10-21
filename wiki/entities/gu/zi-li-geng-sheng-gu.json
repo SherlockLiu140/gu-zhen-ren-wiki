@@ -5,10 +5,10 @@
   "name": "自力更生蛊",
   "aliases": [],
   "summary": "依附使用者自身力量促进新陈代谢；力量越大，治疗效果越强。",
-  "status": "verified-volume-1",
+  "status": "verified-volume-2",
   "scope": {
-    "volume": 1,
-    "maxChapter": 199
+    "volume": 2,
+    "maxChapter": 292
   },
   "attributes": {
     "品阶": "三转",
@@ -21,6 +21,24 @@
       "text": "依附使用者自身力量促进新陈代谢；力量越大，治疗效果越强。",
       "sources": [
         161
+      ]
+    },
+    {
+      "text": "属珍稀蛊，价格高达四万五千块元石，比剑影蛊还贵得多。",
+      "sources": [
+        292
+      ]
+    },
+    {
+      "text": "只能用于蛊师自身，无法为他人治疗，这是它最大的局限。",
+      "sources": [
+        292
+      ]
+    },
+    {
+      "text": "随蛊师力量增长，其疗效还能继续提升，超越三转治疗蛊「肉白骨」。",
+      "sources": [
+        292
       ]
     }
   ],

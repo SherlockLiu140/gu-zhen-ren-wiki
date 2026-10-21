@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "location.quan-wang-chuan-cheng",
+  "type": "location",
+  "name": "犬王传承",
+  "aliases": [],
+  "summary": "三王传承中以黄色光柱为入口的一支，需炼化一转驭犬蛊方可进入；内部是一片灰白荒野。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 346
+  },
+  "attributes": {
+    "入口": "黄色光柱",
+    "进入条件": "至少炼化一转驭犬蛊",
+    "内部": "灰白荒野"
+  },
+  "facts": [
+    {
+      "text": "进入黄色光柱的犬王传承，需要蛊师至少炼化了一转驭犬蛊。",
+      "sources": [
+        324
+      ]
+    },
+    {
+      "text": "四转巅峰的武神通选择了犬王传承。",
+      "sources": [
+        345
+      ]
+    },
+    {
+      "text": "传承内部是空旷荒野：天空灰白，地面由灰白岩石与干硬土地构成，只有白、灰、黄三种颜色。",
+      "sources": [
+        346
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.san-wang-chuan-cheng",
+      "label": "分支",
+      "sources": [
+        324
+      ]
+    }
+  ],
+  "tags": [
+    "传承之地",
+    "三王传承",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 324
+  }
+}

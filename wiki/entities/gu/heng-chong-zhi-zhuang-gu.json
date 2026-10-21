@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.heng-chong-zhi-zhuang-gu",
+  "type": "gu",
+  "name": "横冲直撞蛊",
+  "aliases": [],
+  "summary": "由横冲蛊与直撞蛊合炼而成的四转移动蛊，冲锋距离翻倍、连发间隔减半，但真元消耗更高。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 345
+  },
+  "attributes": {
+    "品阶": "四转",
+    "来源": "横冲蛊＋直撞蛊合炼",
+    "类别": "移动"
+  },
+  "facts": [
+    {
+      "text": "横冲蛊、直撞蛊单独的冲锋距离只有一百步；合炼后的横冲直撞蛊将冲锋距离扩至两百步。",
+      "sources": [
+        345
+      ]
+    },
+    {
+      "text": "连续两次催动的间隔缩短为原先的一半，代价是真元损耗增加。",
+      "sources": [
+        345
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "四转",
+    "移动",
+    "合炼",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 345
+  }
+}

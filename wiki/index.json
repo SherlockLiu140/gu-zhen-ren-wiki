@@ -7,7 +7,7 @@
       "subtitle": "魔性不改",
       "chapterStart": 1,
       "chapterEnd": 199,
-      "entityCount": 213
+      "entityCount": 211
     },
     {
       "id": 2,
@@ -15,7 +15,7 @@
       "subtitle": "魔子出山",
       "chapterStart": 200,
       "chapterEnd": 405,
-      "entityCount": 12
+      "entityCount": 19
     },
     {
       "id": 3,
@@ -61,19 +61,19 @@
       "type": "character",
       "key": "characters",
       "label": "人物",
-      "count": 7
+      "count": 8
     },
     {
       "type": "gu",
       "key": "gu",
       "label": "蛊虫",
-      "count": 201
+      "count": 202
     },
     {
       "type": "location",
       "key": "locations",
       "label": "地区",
-      "count": 7
+      "count": 10
     },
     {
       "type": "faction",
@@ -90,9 +90,9 @@
   ],
   "typeCounts": {
     "cultivation": 5,
-    "characters": 7,
-    "gu": 201,
-    "locations": 7,
+    "characters": 8,
+    "gu": 202,
+    "locations": 10,
     "factions": 5,
     "guHouses": 0
   },
@@ -763,14 +763,18 @@
     },
     {
       "schemaVersion": 1,
+      "id": "character.fang-yuan",
+      "type": "character",
+      "name": "方源",
       "aliases": [
         "古月方源",
         "方老魔"
       ],
-      "status": "verified-volume-1",
+      "summary": "第一卷主角。借春秋蝉回到少年时期，在古月山寨以丙等资质重新修行，并利用前世经验争取资源与生存空间。",
+      "status": "verified-volume-2",
       "scope": {
-        "volume": 1,
-        "maxChapter": 199
+        "volume": 2,
+        "maxChapter": 344
       },
       "attributes": {
         "所属": "古月一族（第一卷）",
@@ -849,6 +853,30 @@
               "title": "第一百五十七节：血月蛊"
             }
           ]
+        },
+        {
+          "text": "在商家城的演武场与人交手，对手魏央催动刀光蛊凝成两柄光刀。",
+          "sources": [
+            265
+          ],
+          "sourceChapters": [
+            {
+              "id": 265,
+              "title": "第六十六节：刀光对骨枪"
+            }
+          ]
+        },
+        {
+          "text": "第二卷后期实际修为为四转初阶，借九眼酒虫把淡金真元提纯为亮金真元，相当于真元质量高一个小境界。",
+          "sources": [
+            344
+          ],
+          "sourceChapters": [
+            {
+              "id": 344,
+              "title": "第一百四十五节：有才无德"
+            }
+          ]
         }
       ],
       "relations": [
@@ -890,6 +918,13 @@
             6,
             21
           ]
+        },
+        {
+          "target": "gu.jiu-yan-jiu-chong",
+          "label": "持有",
+          "sources": [
+            344
+          ]
         }
       ],
       "tags": [
@@ -898,17 +933,13 @@
         "丙等资质",
         "第一卷"
       ],
-      "id": "character.fang-yuan",
-      "type": "character",
-      "name": "方源",
-      "summary": "第一卷主角。借春秋蝉回到少年时期，在古月山寨以丙等资质重新修行，并利用前世经验争取资源与生存空间。",
       "firstMention": {
         "chapterId": 1
       },
       "firstAppearance": {
         "chapterId": 1
       },
-      "volume": 1,
+      "volume": 2,
       "category": "characters",
       "categoryLabel": "人物"
     },
@@ -1401,6 +1432,90 @@
       ],
       "firstMention": {
         "chapterId": 235
+      },
+      "volume": 2,
+      "category": "characters",
+      "categoryLabel": "人物"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "character.shang-yan-fei",
+      "type": "character",
+      "name": "商燕飞",
+      "aliases": [],
+      "summary": "商家族长，五转高阶修为，距巅峰只差一步；因族务缠身而修行时间有限，最终循血脉感应认回商心慈。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 259
+      },
+      "attributes": {
+        "身份": "商家族长",
+        "修为": "五转高阶",
+        "外貌": "黑袍血发"
+      },
+      "facts": [
+        {
+          "text": "作为商家族长每日被家族事务缠身，真正修行的时间不多，但凭资质与悟性仍修到五转高阶，距巅峰只差一步。",
+          "sources": [
+            258
+          ],
+          "sourceChapters": [
+            {
+              "id": 258,
+              "title": "第五十九节：计划中的分别"
+            }
+          ]
+        },
+        {
+          "text": "修行时盘坐虚空、浑身沐浴猩红如血的火焰。",
+          "sources": [
+            258
+          ],
+          "sourceChapters": [
+            {
+              "id": 258,
+              "title": "第五十九节：计划中的分别"
+            }
+          ]
+        },
+        {
+          "text": "循血脉间的感应找到流落在商家城外的商心慈，与她父女相认。",
+          "sources": [
+            259
+          ],
+          "sourceChapters": [
+            {
+              "id": 259,
+              "title": "第六十节：父女相认"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "faction.shang-clan",
+          "label": "族长",
+          "sources": [
+            258
+          ]
+        },
+        {
+          "target": "character.shang-xin-ci",
+          "label": "父女",
+          "sources": [
+            259
+          ]
+        }
+      ],
+      "tags": [
+        "商家",
+        "族长",
+        "第五转",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 258
       },
       "volume": 2,
       "category": "characters",
@@ -3752,6 +3867,63 @@
         "chapterId": 106
       },
       "volume": 1,
+      "category": "gu",
+      "categoryLabel": "蛊虫"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "gu.heng-chong-zhi-zhuang-gu",
+      "type": "gu",
+      "name": "横冲直撞蛊",
+      "aliases": [],
+      "summary": "由横冲蛊与直撞蛊合炼而成的四转移动蛊，冲锋距离翻倍、连发间隔减半，但真元消耗更高。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 345
+      },
+      "attributes": {
+        "品阶": "四转",
+        "来源": "横冲蛊＋直撞蛊合炼",
+        "类别": "移动"
+      },
+      "facts": [
+        {
+          "text": "横冲蛊、直撞蛊单独的冲锋距离只有一百步；合炼后的横冲直撞蛊将冲锋距离扩至两百步。",
+          "sources": [
+            345
+          ],
+          "sourceChapters": [
+            {
+              "id": 345,
+              "title": "第一百四十六节：横冲直撞蛊"
+            }
+          ]
+        },
+        {
+          "text": "连续两次催动的间隔缩短为原先的一半，代价是真元损耗增加。",
+          "sources": [
+            345
+          ],
+          "sourceChapters": [
+            {
+              "id": 345,
+              "title": "第一百四十六节：横冲直撞蛊"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "四转",
+        "移动",
+        "合炼",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 345
+      },
+      "volume": 2,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -11291,10 +11463,10 @@
       "name": "自力更生蛊",
       "aliases": [],
       "summary": "依附使用者自身力量促进新陈代谢；力量越大，治疗效果越强。",
-      "status": "verified-volume-1",
+      "status": "verified-volume-2",
       "scope": {
-        "volume": 1,
-        "maxChapter": 199
+        "volume": 2,
+        "maxChapter": 292
       },
       "attributes": {
         "品阶": "三转",
@@ -11314,6 +11486,42 @@
               "title": "第一百六十一节：心甘情愿被剥削"
             }
           ]
+        },
+        {
+          "text": "属珍稀蛊，价格高达四万五千块元石，比剑影蛊还贵得多。",
+          "sources": [
+            292
+          ],
+          "sourceChapters": [
+            {
+              "id": 292,
+              "title": "第九十三节：法则碎片，大道之痕"
+            }
+          ]
+        },
+        {
+          "text": "只能用于蛊师自身，无法为他人治疗，这是它最大的局限。",
+          "sources": [
+            292
+          ],
+          "sourceChapters": [
+            {
+              "id": 292,
+              "title": "第九十三节：法则碎片，大道之痕"
+            }
+          ]
+        },
+        {
+          "text": "随蛊师力量增长，其疗效还能继续提升，超越三转治疗蛊「肉白骨」。",
+          "sources": [
+            292
+          ],
+          "sourceChapters": [
+            {
+              "id": 292,
+              "title": "第九十三节：法则碎片，大道之痕"
+            }
+          ]
         }
       ],
       "relations": [],
@@ -11326,7 +11534,7 @@
       "firstMention": {
         "chapterId": 161
       },
-      "volume": 1,
+      "volume": 2,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -11897,6 +12105,241 @@
         "chapterId": 1
       },
       "volume": 1,
+      "category": "locations",
+      "categoryLabel": "地区"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "location.quan-wang-chuan-cheng",
+      "type": "location",
+      "name": "犬王传承",
+      "aliases": [],
+      "summary": "三王传承中以黄色光柱为入口的一支，需炼化一转驭犬蛊方可进入；内部是一片灰白荒野。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 346
+      },
+      "attributes": {
+        "入口": "黄色光柱",
+        "进入条件": "至少炼化一转驭犬蛊",
+        "内部": "灰白荒野"
+      },
+      "facts": [
+        {
+          "text": "进入黄色光柱的犬王传承，需要蛊师至少炼化了一转驭犬蛊。",
+          "sources": [
+            324
+          ],
+          "sourceChapters": [
+            {
+              "id": 324,
+              "title": "第一百二十五节：大赚一笔"
+            }
+          ]
+        },
+        {
+          "text": "四转巅峰的武神通选择了犬王传承。",
+          "sources": [
+            345
+          ],
+          "sourceChapters": [
+            {
+              "id": 345,
+              "title": "第一百四十六节：横冲直撞蛊"
+            }
+          ]
+        },
+        {
+          "text": "传承内部是空旷荒野：天空灰白，地面由灰白岩石与干硬土地构成，只有白、灰、黄三种颜色。",
+          "sources": [
+            346
+          ],
+          "sourceChapters": [
+            {
+              "id": 346,
+              "title": "第一百四十七节：初入犬王传承"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "location.san-wang-chuan-cheng",
+          "label": "分支",
+          "sources": [
+            324
+          ]
+        }
+      ],
+      "tags": [
+        "传承之地",
+        "三王传承",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 324
+      },
+      "volume": 2,
+      "category": "locations",
+      "categoryLabel": "地区"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "location.san-cha-shan",
+      "type": "location",
+      "name": "三叉山",
+      "aliases": [],
+      "summary": "位于左家冷颤山与车家飞来山之间的山岭，左、车两家为争夺它缠斗近百年；三王传承现世于此。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 326
+      },
+      "attributes": {
+        "位置": "南疆，冷颤山与飞来山之间",
+        "争夺方": "左家、车家",
+        "事件": "三王传承现世"
+      },
+      "facts": [
+        {
+          "text": "三叉山位于左家的冷颤山与车家的飞来山之间；左家有六百多年历史，车家屹立五百八十年，两家是世仇。",
+          "sources": [
+            323
+          ],
+          "sourceChapters": [
+            {
+              "id": 323,
+              "title": "第一百二十四节：三王传承开启"
+            }
+          ]
+        },
+        {
+          "text": "近百年来两家为占据三叉山大打出手。",
+          "sources": [
+            323
+          ],
+          "sourceChapters": [
+            {
+              "id": 323,
+              "title": "第一百二十四节：三王传承开启"
+            }
+          ]
+        },
+        {
+          "text": "三王传承现世于三叉山，各方势力与魔道人物随之涌入。",
+          "sources": [
+            326
+          ],
+          "sourceChapters": [
+            {
+              "id": 326,
+              "title": "第一百二十七节：九眼酒虫"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "location.san-wang-chuan-cheng",
+          "label": "现世之地",
+          "sources": [
+            326
+          ]
+        }
+      ],
+      "tags": [
+        "南疆",
+        "家族纷争",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 323
+      },
+      "volume": 2,
+      "category": "locations",
+      "categoryLabel": "地区"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "location.san-wang-chuan-cheng",
+      "type": "location",
+      "name": "三王传承",
+      "aliases": [],
+      "summary": "三叉山现世的传承，分为犬王、信王、爆王三支，各有对应的入门蛊虫要求；其地本为六转蛊仙的福地。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 326
+      },
+      "attributes": {
+        "位置": "三叉山",
+        "分支": "犬王、信王、爆王",
+        "前身": "六转蛊仙福地"
+      },
+      "facts": [
+        {
+          "text": "传承现世时黄、蓝、红三道光柱冲天；黄柱为犬王传承，需至少炼化一转驭犬蛊；蓝柱为信王传承，需拥有纸鹤蛊；红柱为爆王传承，需掌握爆蛋蛊。",
+          "sources": [
+            324
+          ],
+          "sourceChapters": [
+            {
+              "id": 324,
+              "title": "第一百二十五节：大赚一笔"
+            }
+          ]
+        },
+        {
+          "text": "三王传承之地就是当年六转蛊仙的福地，消息传出后世人哗然。",
+          "sources": [
+            326
+          ],
+          "sourceChapters": [
+            {
+              "id": 326,
+              "title": "第一百二十七节：九眼酒虫"
+            }
+          ]
+        },
+        {
+          "text": "方源在商家城时刻意选择力道修行，正是为几年后的三王传承布局。",
+          "sources": [
+            275
+          ],
+          "sourceChapters": [
+            {
+              "id": 275,
+              "title": "第七十六节：力道和冰道"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "location.san-cha-shan",
+          "label": "位于",
+          "sources": [
+            326
+          ]
+        },
+        {
+          "target": "location.quan-wang-chuan-cheng",
+          "label": "分支",
+          "sources": [
+            324
+          ]
+        }
+      ],
+      "tags": [
+        "传承之地",
+        "六转蛊仙",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 323
+      },
+      "volume": 2,
       "category": "locations",
       "categoryLabel": "地区"
     },
