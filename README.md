@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/SherlockLiu140/gu-zhen-ren-wiki/actions/workflows/ci.yml/badge.svg)](https://github.com/SherlockLiu140/gu-zhen-ren-wiki/actions/workflows/ci.yml)
 
-在线站点：<https://sherlockliu140.github.io/gu-zhen-ren-wiki/>
+在线站点：<https://guzhenren-wiki.app.workbuddy.host/?sharecode=3TXARMUA23>
 
 《蛊真人》的结构化设定资料库。前端是 React + Vite 的单页应用，数据是逐条标注出处的 JSON 实体，
 构建脚本负责校验一致性并生成前端索引。

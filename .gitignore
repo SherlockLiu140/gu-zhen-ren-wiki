@@ -31,3 +31,6 @@ dist-ssr
 
 # Agent workspace (scratch notes, local backups)
 /.workbuddy/
+
+# Published app marker
+.wbapp_*.genie
