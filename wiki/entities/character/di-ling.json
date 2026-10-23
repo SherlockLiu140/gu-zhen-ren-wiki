@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "character.di-ling",
+  "type": "character",
+  "name": "地灵",
+  "aliases": [],
+  "summary": "狐仙福地的地灵，能调动福地内的仙元；进入者要动用仙元必须借助它。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 387
+  },
+  "attributes": {
+    "身份": "狐仙福地地灵",
+    "能力": "调动福地仙元"
+  },
+  "facts": [
+    {
+      "text": "方源炼蛊时由地灵协助调动仙元；地灵会察觉仙元消耗的偏差并劝他收手。",
+      "sources": [
+        383
+      ]
+    },
+    {
+      "text": "没有地灵帮助就无法调动仙元，方源必须先说服它才能继续。",
+      "sources": [
+        383
+      ]
+    },
+    {
+      "text": "白凝冰在福地闯关时得地灵相助，只需不断前进，连武神通都未见到她。",
+      "sources": [
+        387
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.hu-xian-fu-di",
+      "label": "掌管",
+      "sources": [
+        383
+      ]
+    }
+  ],
+  "tags": [
+    "地灵",
+    "狐仙福地",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 366
+  }
+}

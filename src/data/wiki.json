@@ -15,7 +15,7 @@
       "subtitle": "魔子出山",
       "chapterStart": 200,
       "chapterEnd": 405,
-      "entityCount": 31
+      "entityCount": 38
     },
     {
       "id": 3,
@@ -61,19 +61,19 @@
       "type": "character",
       "key": "characters",
       "label": "人物",
-      "count": 9
+      "count": 13
     },
     {
       "type": "gu",
       "key": "gu",
       "label": "蛊虫",
-      "count": 208
+      "count": 209
     },
     {
       "type": "location",
       "key": "locations",
       "label": "地区",
-      "count": 12
+      "count": 14
     },
     {
       "type": "faction",
@@ -90,9 +90,9 @@
   ],
   "typeCounts": {
     "cultivation": 5,
-    "characters": 9,
-    "gu": 208,
-    "locations": 12,
+    "characters": 13,
+    "gu": 209,
+    "locations": 14,
     "factions": 7,
     "guHouses": 0
   },
@@ -631,6 +631,71 @@
     },
     {
       "schemaVersion": 1,
+      "id": "character.bai-hu-xian-zi",
+      "type": "character",
+      "name": "白狐仙子",
+      "aliases": [],
+      "summary": "正道著名人物，六转蛊仙，占据狐仙福地；所留传承极为完整。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 337
+      },
+      "attributes": {
+        "修为": "六转蛊仙",
+        "阵营": "正道",
+        "福地": "狐仙福地"
+      },
+      "facts": [
+        {
+          "text": "白狐仙子是正道著名人物、六转蛊仙，占据狐仙福地。",
+          "sources": [
+            335
+          ],
+          "sourceChapters": [
+            {
+              "id": 335,
+              "title": "第一百三十六节：白狐蛊仙传承"
+            }
+          ]
+        },
+        {
+          "text": "她留下的传承极为完整，方源评价远胜三王传承。",
+          "sources": [
+            337
+          ],
+          "sourceChapters": [
+            {
+              "id": 337,
+              "title": "第一百三十八节：见死不救"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "location.hu-xian-fu-di",
+          "label": "占据",
+          "sources": [
+            335
+          ]
+        }
+      ],
+      "tags": [
+        "六转",
+        "正道",
+        "蛊仙",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 335
+      },
+      "volume": 2,
+      "category": "characters",
+      "categoryLabel": "人物"
+    },
+    {
+      "schemaVersion": 1,
       "aliases": [],
       "status": "verified-volume-1",
       "scope": {
@@ -758,6 +823,164 @@
         "chapterId": 131
       },
       "volume": 1,
+      "category": "characters",
+      "categoryLabel": "人物"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "character.chou-jiu",
+      "type": "character",
+      "name": "仇九",
+      "aliases": [
+        "杀人鬼医"
+      ],
+      "summary": "五转蛊师，南疆四大医师之一；擅长治疗而战力薄弱，求医者须先为他杀一人。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 384
+      },
+      "attributes": {
+        "修为": "五转",
+        "身份": "南疆四大医师之一",
+        "称号": "杀人鬼医"
+      },
+      "facts": [
+        {
+          "text": "仇九有五转修为但战力薄弱，擅长治疗，与素手医师、九指游医、圣手神医并称南疆四大医师。",
+          "sources": [
+            375
+          ],
+          "sourceChapters": [
+            {
+              "id": 375,
+              "title": "第一百七十六节：群雄并现"
+            }
+          ]
+        },
+        {
+          "text": "他性情怪癖，规矩是求他治疗的人都要为他杀死一个人，因此人称「杀人鬼医」。",
+          "sources": [
+            375
+          ],
+          "sourceChapters": [
+            {
+              "id": 375,
+              "title": "第一百七十六节：群雄并现"
+            }
+          ]
+        },
+        {
+          "text": "方源前世记忆中，他后来上义天山加入魔道一方，坐上第三交椅，振臂一呼应者云集。",
+          "sources": [
+            383
+          ],
+          "sourceChapters": [
+            {
+              "id": 383,
+              "title": "第一百八十四节：宇宙奥义，红莲魔尊"
+            }
+          ]
+        },
+        {
+          "text": "长相丑陋：头发枯黄杂乱、脑门凸出、眼睛一大一小、颧骨高、塌鼻梁，但目光精明。",
+          "sources": [
+            384
+          ],
+          "sourceChapters": [
+            {
+              "id": 384,
+              "title": "第一百八十五节：狡诈鬼医，生死秘门"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "五转",
+        "医师",
+        "魔道",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 375
+      },
+      "volume": 2,
+      "category": "characters",
+      "categoryLabel": "人物"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "character.di-ling",
+      "type": "character",
+      "name": "地灵",
+      "aliases": [],
+      "summary": "狐仙福地的地灵，能调动福地内的仙元；进入者要动用仙元必须借助它。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 387
+      },
+      "attributes": {
+        "身份": "狐仙福地地灵",
+        "能力": "调动福地仙元"
+      },
+      "facts": [
+        {
+          "text": "方源炼蛊时由地灵协助调动仙元；地灵会察觉仙元消耗的偏差并劝他收手。",
+          "sources": [
+            383
+          ],
+          "sourceChapters": [
+            {
+              "id": 383,
+              "title": "第一百八十四节：宇宙奥义，红莲魔尊"
+            }
+          ]
+        },
+        {
+          "text": "没有地灵帮助就无法调动仙元，方源必须先说服它才能继续。",
+          "sources": [
+            383
+          ],
+          "sourceChapters": [
+            {
+              "id": 383,
+              "title": "第一百八十四节：宇宙奥义，红莲魔尊"
+            }
+          ]
+        },
+        {
+          "text": "白凝冰在福地闯关时得地灵相助，只需不断前进，连武神通都未见到她。",
+          "sources": [
+            387
+          ],
+          "sourceChapters": [
+            {
+              "id": 387,
+              "title": "第一百八十八节：五转奴隶蛊"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "location.hu-xian-fu-di",
+          "label": "掌管",
+          "sources": [
+            383
+          ]
+        }
+      ],
+      "tags": [
+        "地灵",
+        "狐仙福地",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 366
+      },
+      "volume": 2,
       "category": "characters",
       "categoryLabel": "人物"
     },
@@ -1356,6 +1579,61 @@
         "chapterId": 82
       },
       "volume": 1,
+      "category": "characters",
+      "categoryLabel": "人物"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "character.mo-wu-tian",
+      "type": "character",
+      "name": "魔无天",
+      "aliases": [],
+      "summary": "魔道年轻一辈的标杆人物，资质、天份与心性被李闲评为同辈之最。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 367
+      },
+      "attributes": {
+        "阵营": "魔道",
+        "评价": "年轻一辈资质心性之最"
+      },
+      "facts": [
+        {
+          "text": "李闲认为单论资质、天份、心性，魔道年轻一辈当以魔无天为最。",
+          "sources": [
+            353
+          ],
+          "sourceChapters": [
+            {
+              "id": 353,
+              "title": "第一百五十四节：雷猪、岩鳄"
+            }
+          ]
+        },
+        {
+          "text": "百岁童子感叹「前几年出现一个魔无天，现在又出了小兽王」，把方源与他并称。",
+          "sources": [
+            367
+          ],
+          "sourceChapters": [
+            {
+              "id": 367,
+              "title": "第一百六十八节：这年头干爹不好当"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "魔道",
+        "年轻一辈",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 339
+      },
+      "volume": 2,
       "category": "characters",
       "categoryLabel": "人物"
     },
@@ -8986,6 +9264,63 @@
     },
     {
       "schemaVersion": 1,
+      "id": "gu.wu-zhuan-nu-li-gu",
+      "type": "gu",
+      "name": "五转奴隶蛊",
+      "aliases": [],
+      "summary": "用于奴役五转蛊师的奴隶蛊，珍稀程度远超同级蛊虫。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 400
+      },
+      "attributes": {
+        "品阶": "五转",
+        "类别": "奴道",
+        "稀有度": "珍稀无比"
+      },
+      "facts": [
+        {
+          "text": "要让五转蛊师认主，必须用五转奴隶蛊；这种蛊珍稀无比，远超同级。",
+          "sources": [
+            384
+          ],
+          "sourceChapters": [
+            {
+              "id": 384,
+              "title": "第一百八十五节：狡诈鬼医，生死秘门"
+            }
+          ]
+        },
+        {
+          "text": "章三三手中有一只五转奴隶蛊。",
+          "sources": [
+            400
+          ],
+          "sourceChapters": [
+            {
+              "id": 400,
+              "title": "第二百零一节：人生匆匆百年，不过一场豪赌！"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "五转",
+        "奴道",
+        "珍稀",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 384
+      },
+      "volume": 2,
+      "category": "gu",
+      "categoryLabel": "蛊虫"
+    },
+    {
+      "schemaVersion": 1,
       "id": "gu.xi-liu-gu",
       "type": "gu",
       "name": "溪流蛊",
@@ -12205,6 +12540,133 @@
       ],
       "firstMention": {
         "chapterId": 200
+      },
+      "volume": 2,
+      "category": "locations",
+      "categoryLabel": "地区"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "location.dang-hun-shan",
+      "type": "location",
+      "name": "荡魂山",
+      "aliases": [],
+      "summary": "狐仙福地中央的水晶山川，通体粉红；靠近者的魂魄会受到震荡。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 372
+      },
+      "attributes": {
+        "位置": "狐仙福地中央",
+        "形制": "粉红水晶山",
+        "特性": "震荡魂魄"
+      },
+      "facts": [
+        {
+          "text": "荡魂山矗立在狐仙福地中央，通体粉红，散发梦幻色彩。",
+          "sources": [
+            372
+          ],
+          "sourceChapters": [
+            {
+              "id": 372,
+              "title": "第一百七十三节：地灵——蛊仙之殇"
+            }
+          ]
+        },
+        {
+          "text": "万物生灵只要身处荡魂山附近，魂魄就要受到震荡之苦；越往上攀登越头晕眼花。",
+          "sources": [
+            372
+          ],
+          "sourceChapters": [
+            {
+              "id": 372,
+              "title": "第一百七十三节：地灵——蛊仙之殇"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "location.hu-xian-fu-di",
+          "label": "位于",
+          "sources": [
+            372
+          ]
+        }
+      ],
+      "tags": [
+        "狐仙福地",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 366
+      },
+      "volume": 2,
+      "category": "locations",
+      "categoryLabel": "地区"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "location.fei-he-shan",
+      "type": "location",
+      "name": "飞鹤山",
+      "aliases": [],
+      "summary": "仙鹤门的山门，悬空于中洲南部云海之巅。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 334
+      },
+      "attributes": {
+        "所属": "仙鹤门",
+        "位置": "中洲南部",
+        "形态": "悬空大山"
+      },
+      "facts": [
+        {
+          "text": "在中洲南部群山之上三万丈、云海之巅的苍穹中，悬空着一座大山，名为飞鹤山。",
+          "sources": [
+            334
+          ],
+          "sourceChapters": [
+            {
+              "id": 334,
+              "title": "第一百三十五节：仙鹤门，方正"
+            }
+          ]
+        },
+        {
+          "text": "山上绿树丛丛，山浪峰涛层层叠叠。",
+          "sources": [
+            334
+          ],
+          "sourceChapters": [
+            {
+              "id": 334,
+              "title": "第一百三十五节：仙鹤门，方正"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "faction.xian-he-men",
+          "label": "山门",
+          "sources": [
+            334
+          ]
+        }
+      ],
+      "tags": [
+        "中洲",
+        "山门",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 334
       },
       "volume": 2,
       "category": "locations",

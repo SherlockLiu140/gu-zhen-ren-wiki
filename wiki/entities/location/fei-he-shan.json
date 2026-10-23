@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "location.fei-he-shan",
+  "type": "location",
+  "name": "飞鹤山",
+  "aliases": [],
+  "summary": "仙鹤门的山门，悬空于中洲南部云海之巅。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 334
+  },
+  "attributes": {
+    "所属": "仙鹤门",
+    "位置": "中洲南部",
+    "形态": "悬空大山"
+  },
+  "facts": [
+    {
+      "text": "在中洲南部群山之上三万丈、云海之巅的苍穹中，悬空着一座大山，名为飞鹤山。",
+      "sources": [
+        334
+      ]
+    },
+    {
+      "text": "山上绿树丛丛，山浪峰涛层层叠叠。",
+      "sources": [
+        334
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "faction.xian-he-men",
+      "label": "山门",
+      "sources": [
+        334
+      ]
+    }
+  ],
+  "tags": [
+    "中洲",
+    "山门",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 334
+  }
+}

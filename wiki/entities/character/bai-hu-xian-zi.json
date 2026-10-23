@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "character.bai-hu-xian-zi",
+  "type": "character",
+  "name": "白狐仙子",
+  "aliases": [],
+  "summary": "正道著名人物，六转蛊仙，占据狐仙福地；所留传承极为完整。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 337
+  },
+  "attributes": {
+    "修为": "六转蛊仙",
+    "阵营": "正道",
+    "福地": "狐仙福地"
+  },
+  "facts": [
+    {
+      "text": "白狐仙子是正道著名人物、六转蛊仙，占据狐仙福地。",
+      "sources": [
+        335
+      ]
+    },
+    {
+      "text": "她留下的传承极为完整，方源评价远胜三王传承。",
+      "sources": [
+        337
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.hu-xian-fu-di",
+      "label": "占据",
+      "sources": [
+        335
+      ]
+    }
+  ],
+  "tags": [
+    "六转",
+    "正道",
+    "蛊仙",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 335
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "character.mo-wu-tian",
+  "type": "character",
+  "name": "魔无天",
+  "aliases": [],
+  "summary": "魔道年轻一辈的标杆人物，资质、天份与心性被李闲评为同辈之最。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 367
+  },
+  "attributes": {
+    "阵营": "魔道",
+    "评价": "年轻一辈资质心性之最"
+  },
+  "facts": [
+    {
+      "text": "李闲认为单论资质、天份、心性，魔道年轻一辈当以魔无天为最。",
+      "sources": [
+        353
+      ]
+    },
+    {
+      "text": "百岁童子感叹「前几年出现一个魔无天，现在又出了小兽王」，把方源与他并称。",
+      "sources": [
+        367
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "魔道",
+    "年轻一辈",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 339
+  }
+}

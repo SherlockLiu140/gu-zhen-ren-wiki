@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "location.dang-hun-shan",
+  "type": "location",
+  "name": "荡魂山",
+  "aliases": [],
+  "summary": "狐仙福地中央的水晶山川，通体粉红；靠近者的魂魄会受到震荡。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 372
+  },
+  "attributes": {
+    "位置": "狐仙福地中央",
+    "形制": "粉红水晶山",
+    "特性": "震荡魂魄"
+  },
+  "facts": [
+    {
+      "text": "荡魂山矗立在狐仙福地中央，通体粉红，散发梦幻色彩。",
+      "sources": [
+        372
+      ]
+    },
+    {
+      "text": "万物生灵只要身处荡魂山附近，魂魄就要受到震荡之苦；越往上攀登越头晕眼花。",
+      "sources": [
+        372
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.hu-xian-fu-di",
+      "label": "位于",
+      "sources": [
+        372
+      ]
+    }
+  ],
+  "tags": [
+    "狐仙福地",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 366
+  }
+}

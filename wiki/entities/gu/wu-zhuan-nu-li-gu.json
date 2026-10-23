@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.wu-zhuan-nu-li-gu",
+  "type": "gu",
+  "name": "五转奴隶蛊",
+  "aliases": [],
+  "summary": "用于奴役五转蛊师的奴隶蛊，珍稀程度远超同级蛊虫。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 400
+  },
+  "attributes": {
+    "品阶": "五转",
+    "类别": "奴道",
+    "稀有度": "珍稀无比"
+  },
+  "facts": [
+    {
+      "text": "要让五转蛊师认主，必须用五转奴隶蛊；这种蛊珍稀无比，远超同级。",
+      "sources": [
+        384
+      ]
+    },
+    {
+      "text": "章三三手中有一只五转奴隶蛊。",
+      "sources": [
+        400
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "五转",
+    "奴道",
+    "珍稀",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 384
+  }
+}
