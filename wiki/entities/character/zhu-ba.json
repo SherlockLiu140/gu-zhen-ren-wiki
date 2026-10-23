@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "character.zhu-ba",
+  "type": "character",
+  "name": "朱八",
+  "aliases": [],
+  "summary": "第四内城第八号人物，体型肥硕，以防御与反震力道见长。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 301
+  },
+  "attributes": {
+    "修为": "三转",
+    "身份": "第四内城第八号人物",
+    "打法": "防御与反震"
+  },
+  "facts": [
+    {
+      "text": "朱八是第四内城第八号人物，体型肥硕，擅长在防守中反震力道伤人。",
+      "sources": [
+        299,
+        300
+      ]
+    },
+    {
+      "text": "与方源对战时被打得喷血、骨骼多处折断，仍死死抱住方源试图镇压。",
+      "sources": [
+        301
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "三转",
+    "演武场",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 299
+  }
+}

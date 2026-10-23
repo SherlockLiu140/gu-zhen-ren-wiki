@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "character.wei-yang",
+  "type": "character",
+  "name": "魏央",
+  "aliases": [],
+  "summary": "商家五大重臣之一，掌管商家最大的情报机构风雨楼。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 306
+  },
+  "attributes": {
+    "身份": "商家五大重臣之一",
+    "职务": "风雨楼"
+  },
+  "facts": [
+    {
+      "text": "魏央是商家五大重臣之一，掌管商家最大的情报机构风雨楼，刺探情报手到擒来。",
+      "sources": [
+        306
+      ]
+    },
+    {
+      "text": "他提醒方源：苦力蛊拍卖上除商睚眦外，商赑屃与巨开碑也是最大的竞争者。",
+      "sources": [
+        306
+      ]
+    },
+    {
+      "text": "方源参加演武时，魏央曾叮嘱他注意对手的来头。",
+      "sources": [
+        290
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "faction.shang-clan",
+      "label": "重臣",
+      "sources": [
+        306
+      ]
+    }
+  ],
+  "tags": [
+    "商家",
+    "情报",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 272
+  }
+}

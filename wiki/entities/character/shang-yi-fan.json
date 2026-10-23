@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "character.shang-yi-fan",
+  "type": "character",
+  "name": "商一帆",
+  "aliases": [],
+  "summary": "商家少主之位最有力的竞争者，母族势力庞大；商心慈崛起后与其形成两强相争。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 324
+  },
+  "attributes": {
+    "身份": "商家少主候选",
+    "母族": "商燕飞表妹一族"
+  },
+  "facts": [
+    {
+      "text": "商一帆原本被认为是最有希望继承少主之位的人；方源、白凝冰投靠商心慈后，形成两强相争的局面。",
+      "sources": [
+        321
+      ]
+    },
+    {
+      "text": "他个头不高甚至矮小，鹰钩鼻梁，双目狭小，目光锐利。",
+      "sources": [
+        321
+      ]
+    },
+    {
+      "text": "商睚眦被流放前把秘密资产、布置的暗线和得力亲信交给他，助他争夺少主之位。",
+      "sources": [
+        322
+      ]
+    },
+    {
+      "text": "其母是商燕飞的一位表妹，母族势力庞大、耳目众多。",
+      "sources": [
+        324
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "faction.shang-clan",
+      "label": "出身",
+      "sources": [
+        321
+      ]
+    }
+  ],
+  "tags": [
+    "商家",
+    "少主之争",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 321
+  }
+}

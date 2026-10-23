@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "character.shang-bi-xi",
+  "type": "character",
+  "name": "商赑屃",
+  "aliases": [],
+  "summary": "商家老十，身负十龟之力，是不亚于方源的力道蛊师；掌管代练司。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 307
+  },
+  "attributes": {
+    "身份": "商家老十",
+    "力道": "十龟之力",
+    "职务": "代练司"
+  },
+  "facts": [
+    {
+      "text": "商赑屃有龟胎蛊，身负十龟之力，是不亚于方源的力道蛊师。",
+      "sources": [
+        306
+      ]
+    },
+    {
+      "text": "他掌管商家城的代练司。",
+      "sources": [
+        306
+      ]
+    },
+    {
+      "text": "在苦力蛊拍卖上出价三十万元石。",
+      "sources": [
+        307
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "faction.shang-clan",
+      "label": "出身",
+      "sources": [
+        306
+      ]
+    }
+  ],
+  "tags": [
+    "商家",
+    "力道",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 306
+  }
+}

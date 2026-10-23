@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "character.tie-dao-ku",
+  "type": "character",
+  "name": "铁刀苦",
+  "aliases": [],
+  "summary": "三转蛊师，曾随铁傲天追捕方源与白凝冰，反被擒获；后与白凝冰激战，被铁若男招揽。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 304
+  },
+  "attributes": {
+    "修为": "三转",
+    "归属": "铁家一方"
+  },
+  "facts": [
+    {
+      "text": "铁刀苦是三转蛊师，随铁傲天一行追捕方源与白凝冰。",
+      "sources": [
+        214
+      ]
+    },
+    {
+      "text": "追捕中反被方源擒获，披头散发、脸色惨白地作为俘虏被押到百家族长帐前，后被释放并受礼遇。",
+      "sources": [
+        220,
+        221
+      ]
+    },
+    {
+      "text": "后来与白凝冰激战，最终被铁若男招揽至麾下带走。",
+      "sources": [
+        298,
+        304
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "character.tie-ruo-nan",
+      "label": "被招揽",
+      "sources": [
+        304
+      ]
+    }
+  ],
+  "tags": [
+    "三转",
+    "铁家",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 214
+  }
+}

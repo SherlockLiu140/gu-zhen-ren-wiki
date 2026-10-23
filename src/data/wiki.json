@@ -15,7 +15,7 @@
       "subtitle": "魔子出山",
       "chapterStart": 200,
       "chapterEnd": 405,
-      "entityCount": 38
+      "entityCount": 47
     },
     {
       "id": 3,
@@ -61,13 +61,13 @@
       "type": "character",
       "key": "characters",
       "label": "人物",
-      "count": 13
+      "count": 21
     },
     {
       "type": "gu",
       "key": "gu",
       "label": "蛊虫",
-      "count": 209
+      "count": 210
     },
     {
       "type": "location",
@@ -90,8 +90,8 @@
   ],
   "typeCounts": {
     "cultivation": 5,
-    "characters": 13,
-    "gu": 209,
+    "characters": 21,
+    "gu": 210,
     "locations": 14,
     "factions": 7,
     "guHouses": 0
@@ -1584,6 +1584,141 @@
     },
     {
       "schemaVersion": 1,
+      "id": "character.ju-kai-bei",
+      "type": "character",
+      "name": "巨开碑",
+      "aliases": [],
+      "summary": "商家城演武场的两大四转蛊师之一，与炎突并称；交手时以硬气蛊护体。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 319
+      },
+      "attributes": {
+        "修为": "四转",
+        "身份": "商家城演武场两大四转蛊师之一"
+      },
+      "facts": [
+        {
+          "text": "商家城演武场势头最盛的两名四转蛊师是巨开碑和炎突。",
+          "sources": [
+            305
+          ],
+          "sourceChapters": [
+            {
+              "id": 305,
+              "title": "第一百零六节：拍卖（上）"
+            }
+          ]
+        },
+        {
+          "text": "在苦力蛊拍卖上出价二十五万元石。",
+          "sources": [
+            307
+          ],
+          "sourceChapters": [
+            {
+              "id": 307,
+              "title": "第一百零八节：拍卖（下）"
+            }
+          ]
+        },
+        {
+          "text": "与方源对战时动用硬气蛊，化作无形气流包裹全身，防御坚如磐石。",
+          "sources": [
+            319
+          ],
+          "sourceChapters": [
+            {
+              "id": 319,
+              "title": "第一百二十节：方源vs巨开碑（下）"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "四转",
+        "演武场",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 305
+      },
+      "volume": 2,
+      "category": "characters",
+      "categoryLabel": "人物"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "character.li-hao",
+      "type": "character",
+      "name": "李好",
+      "aliases": [],
+      "summary": "商家城演武场的老牌蛊师，早年是力修，受挫后舍弃力道改走他路。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 290
+      },
+      "attributes": {
+        "修为": "三转",
+        "出身": "力道（后改走他路）"
+      },
+      "facts": [
+        {
+          "text": "李好曾是力道蛊师并冲到第四内城，但力道前期强、中后期孱弱，他受挫后毅然舍弃力道改走别的路。",
+          "sources": [
+            290
+          ],
+          "sourceChapters": [
+            {
+              "id": 290,
+              "title": "第九十一节：方源vs李好（上）"
+            }
+          ]
+        },
+        {
+          "text": "当时他已取得十三个胜场，升入第四内城几乎成定局。",
+          "sources": [
+            279
+          ],
+          "sourceChapters": [
+            {
+              "id": 279,
+              "title": "第八十节：这就动手？！"
+            }
+          ]
+        },
+        {
+          "text": "他约定了强行挑战方源的日期。",
+          "sources": [
+            289
+          ],
+          "sourceChapters": [
+            {
+              "id": 289,
+              "title": "第九十节：不能阻挡我"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "三转",
+        "演武场",
+        "力道",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 279
+      },
+      "volume": 2,
+      "category": "characters",
+      "categoryLabel": "人物"
+    },
+    {
+      "schemaVersion": 1,
       "id": "character.mo-wu-tian",
       "type": "character",
       "name": "魔无天",
@@ -1632,6 +1767,82 @@
       ],
       "firstMention": {
         "chapterId": 339
+      },
+      "volume": 2,
+      "category": "characters",
+      "categoryLabel": "人物"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "character.shang-bi-xi",
+      "type": "character",
+      "name": "商赑屃",
+      "aliases": [],
+      "summary": "商家老十，身负十龟之力，是不亚于方源的力道蛊师；掌管代练司。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 307
+      },
+      "attributes": {
+        "身份": "商家老十",
+        "力道": "十龟之力",
+        "职务": "代练司"
+      },
+      "facts": [
+        {
+          "text": "商赑屃有龟胎蛊，身负十龟之力，是不亚于方源的力道蛊师。",
+          "sources": [
+            306
+          ],
+          "sourceChapters": [
+            {
+              "id": 306,
+              "title": "第一百零七节：拍卖（中）"
+            }
+          ]
+        },
+        {
+          "text": "他掌管商家城的代练司。",
+          "sources": [
+            306
+          ],
+          "sourceChapters": [
+            {
+              "id": 306,
+              "title": "第一百零七节：拍卖（中）"
+            }
+          ]
+        },
+        {
+          "text": "在苦力蛊拍卖上出价三十万元石。",
+          "sources": [
+            307
+          ],
+          "sourceChapters": [
+            {
+              "id": 307,
+              "title": "第一百零八节：拍卖（下）"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "faction.shang-clan",
+          "label": "出身",
+          "sources": [
+            306
+          ]
+        }
+      ],
+      "tags": [
+        "商家",
+        "力道",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 306
       },
       "volume": 2,
       "category": "characters",
@@ -1801,6 +2012,178 @@
     },
     {
       "schemaVersion": 1,
+      "id": "character.shang-yi-fan",
+      "type": "character",
+      "name": "商一帆",
+      "aliases": [],
+      "summary": "商家少主之位最有力的竞争者，母族势力庞大；商心慈崛起后与其形成两强相争。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 324
+      },
+      "attributes": {
+        "身份": "商家少主候选",
+        "母族": "商燕飞表妹一族"
+      },
+      "facts": [
+        {
+          "text": "商一帆原本被认为是最有希望继承少主之位的人；方源、白凝冰投靠商心慈后，形成两强相争的局面。",
+          "sources": [
+            321
+          ],
+          "sourceChapters": [
+            {
+              "id": 321,
+              "title": "第一百二十二节：商家城喧腾"
+            }
+          ]
+        },
+        {
+          "text": "他个头不高甚至矮小，鹰钩鼻梁，双目狭小，目光锐利。",
+          "sources": [
+            321
+          ],
+          "sourceChapters": [
+            {
+              "id": 321,
+              "title": "第一百二十二节：商家城喧腾"
+            }
+          ]
+        },
+        {
+          "text": "商睚眦被流放前把秘密资产、布置的暗线和得力亲信交给他，助他争夺少主之位。",
+          "sources": [
+            322
+          ],
+          "sourceChapters": [
+            {
+              "id": 322,
+              "title": "第一百二十三节：竞争压力"
+            }
+          ]
+        },
+        {
+          "text": "其母是商燕飞的一位表妹，母族势力庞大、耳目众多。",
+          "sources": [
+            324
+          ],
+          "sourceChapters": [
+            {
+              "id": 324,
+              "title": "第一百二十五节：大赚一笔"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "faction.shang-clan",
+          "label": "出身",
+          "sources": [
+            321
+          ]
+        }
+      ],
+      "tags": [
+        "商家",
+        "少主之争",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 321
+      },
+      "volume": 2,
+      "category": "characters",
+      "categoryLabel": "人物"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "character.tie-dao-ku",
+      "type": "character",
+      "name": "铁刀苦",
+      "aliases": [],
+      "summary": "三转蛊师，曾随铁傲天追捕方源与白凝冰，反被擒获；后与白凝冰激战，被铁若男招揽。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 304
+      },
+      "attributes": {
+        "修为": "三转",
+        "归属": "铁家一方"
+      },
+      "facts": [
+        {
+          "text": "铁刀苦是三转蛊师，随铁傲天一行追捕方源与白凝冰。",
+          "sources": [
+            214
+          ],
+          "sourceChapters": [
+            {
+              "id": 214,
+              "title": "第十五节：轰！"
+            }
+          ]
+        },
+        {
+          "text": "追捕中反被方源擒获，披头散发、脸色惨白地作为俘虏被押到百家族长帐前，后被释放并受礼遇。",
+          "sources": [
+            220,
+            221
+          ],
+          "sourceChapters": [
+            {
+              "id": 220,
+              "title": "第二十一节：原来是魔道贼子！"
+            },
+            {
+              "id": 221,
+              "title": "第二十二节：欢迎来到白骨山"
+            }
+          ]
+        },
+        {
+          "text": "后来与白凝冰激战，最终被铁若男招揽至麾下带走。",
+          "sources": [
+            298,
+            304
+          ],
+          "sourceChapters": [
+            {
+              "id": 298,
+              "title": "第九十九节：白凝冰vs铁刀苦"
+            },
+            {
+              "id": 304,
+              "title": "第一百零五节：苦力蛊"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "character.tie-ruo-nan",
+          "label": "被招揽",
+          "sources": [
+            304
+          ]
+        }
+      ],
+      "tags": [
+        "三转",
+        "铁家",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 214
+      },
+      "volume": 2,
+      "category": "characters",
+      "categoryLabel": "人物"
+    },
+    {
+      "schemaVersion": 1,
       "id": "character.tie-ruo-nan",
       "type": "character",
       "name": "铁若男",
@@ -1887,6 +2270,219 @@
       ],
       "firstMention": {
         "chapterId": 202
+      },
+      "volume": 2,
+      "category": "characters",
+      "categoryLabel": "人物"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "character.wei-yang",
+      "type": "character",
+      "name": "魏央",
+      "aliases": [],
+      "summary": "商家五大重臣之一，掌管商家最大的情报机构风雨楼。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 306
+      },
+      "attributes": {
+        "身份": "商家五大重臣之一",
+        "职务": "风雨楼"
+      },
+      "facts": [
+        {
+          "text": "魏央是商家五大重臣之一，掌管商家最大的情报机构风雨楼，刺探情报手到擒来。",
+          "sources": [
+            306
+          ],
+          "sourceChapters": [
+            {
+              "id": 306,
+              "title": "第一百零七节：拍卖（中）"
+            }
+          ]
+        },
+        {
+          "text": "他提醒方源：苦力蛊拍卖上除商睚眦外，商赑屃与巨开碑也是最大的竞争者。",
+          "sources": [
+            306
+          ],
+          "sourceChapters": [
+            {
+              "id": 306,
+              "title": "第一百零七节：拍卖（中）"
+            }
+          ]
+        },
+        {
+          "text": "方源参加演武时，魏央曾叮嘱他注意对手的来头。",
+          "sources": [
+            290
+          ],
+          "sourceChapters": [
+            {
+              "id": 290,
+              "title": "第九十一节：方源vs李好（上）"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "faction.shang-clan",
+          "label": "重臣",
+          "sources": [
+            306
+          ]
+        }
+      ],
+      "tags": [
+        "商家",
+        "情报",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 272
+      },
+      "volume": 2,
+      "category": "characters",
+      "categoryLabel": "人物"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "character.yan-tu",
+      "type": "character",
+      "name": "炎突",
+      "aliases": [],
+      "summary": "四转火道蛊师，与巨开碑并称「演武半边天」；战胜过白凝冰但并不轻松。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 315
+      },
+      "attributes": {
+        "修为": "四转",
+        "流派": "火道",
+        "称号": "演武半边天"
+      },
+      "facts": [
+        {
+          "text": "炎突是四转蛊师，与巨开碑同称「演武半边天」。",
+          "sources": [
+            306
+          ],
+          "sourceChapters": [
+            {
+              "id": 306,
+              "title": "第一百零七节：拍卖（中）"
+            }
+          ]
+        },
+        {
+          "text": "两人彼此立志打倒对方，做到真正称雄之后才会离开演武场。",
+          "sources": [
+            306
+          ],
+          "sourceChapters": [
+            {
+              "id": 306,
+              "title": "第一百零七节：拍卖（中）"
+            }
+          ]
+        },
+        {
+          "text": "白凝冰与炎突一战，炎突获胜但并不轻松。",
+          "sources": [
+            315
+          ],
+          "sourceChapters": [
+            {
+              "id": 315,
+              "title": "第一百一十六节：硬气蛊"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "character.ju-kai-bei",
+          "label": "对手",
+          "sources": [
+            306
+          ]
+        }
+      ],
+      "tags": [
+        "四转",
+        "火道",
+        "演武场",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 305
+      },
+      "volume": 2,
+      "category": "characters",
+      "categoryLabel": "人物"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "character.zhu-ba",
+      "type": "character",
+      "name": "朱八",
+      "aliases": [],
+      "summary": "第四内城第八号人物，体型肥硕，以防御与反震力道见长。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 301
+      },
+      "attributes": {
+        "修为": "三转",
+        "身份": "第四内城第八号人物",
+        "打法": "防御与反震"
+      },
+      "facts": [
+        {
+          "text": "朱八是第四内城第八号人物，体型肥硕，擅长在防守中反震力道伤人。",
+          "sources": [
+            299,
+            300
+          ],
+          "sourceChapters": [
+            {
+              "id": 299,
+              "title": "第一百节：闭嘴，你这头肥猪！"
+            },
+            {
+              "id": 300,
+              "title": "第一百零一节：方源vs朱八（上）"
+            }
+          ]
+        },
+        {
+          "text": "与方源对战时被打得喷血、骨骼多处折断，仍死死抱住方源试图镇压。",
+          "sources": [
+            301
+          ],
+          "sourceChapters": [
+            {
+              "id": 301,
+              "title": "第一百零二节：方源vs朱八（下）"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "三转",
+        "演武场",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 299
       },
       "volume": 2,
       "category": "characters",
@@ -7663,6 +8259,80 @@
         "chapterId": 38
       },
       "volume": 1,
+      "category": "gu",
+      "categoryLabel": "蛊虫"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "gu.shou-li-tai-pan-gu",
+      "type": "gu",
+      "name": "兽力胎盘蛊",
+      "aliases": [],
+      "summary": "五转蛊，形如圆盘、盘中藏猛兽；可吞噬死者空窍，吞并后自身效力随之提升。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 380
+      },
+      "attributes": {
+        "品阶": "五转",
+        "外形": "圆盘，中央有猛兽",
+        "用途": "吞噬空窍"
+      },
+      "facts": [
+        {
+          "text": "高达五转，形如圆盘，表面粗糙如杂草土胚；盘中央有一头马头象牙、龟身蛇尾的猛兽。",
+          "sources": [
+            378
+          ],
+          "sourceChapters": [
+            {
+              "id": 378,
+              "title": "第一百七十九节：他死了"
+            }
+          ]
+        },
+        {
+          "text": "可把死者的空窍从身躯中拔出，由盘中猛兽吞噬；吞并后蛊体由粗糙转为晶莹润泽，效力随之提升。",
+          "sources": [
+            379,
+            380
+          ],
+          "sourceChapters": [
+            {
+              "id": 379,
+              "title": "第一百八十节：一切皆在谋算中"
+            },
+            {
+              "id": 380,
+              "title": "第一百八十一节：屠戮五转"
+            }
+          ]
+        },
+        {
+          "text": "方源炼成此蛊前后耗去五天五夜，几乎不眠不休。",
+          "sources": [
+            378
+          ],
+          "sourceChapters": [
+            {
+              "id": 378,
+              "title": "第一百七十九节：他死了"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "五转",
+        "空窍",
+        "炼蛊",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 378
+      },
+      "volume": 2,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },

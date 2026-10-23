@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "character.li-hao",
+  "type": "character",
+  "name": "李好",
+  "aliases": [],
+  "summary": "商家城演武场的老牌蛊师，早年是力修，受挫后舍弃力道改走他路。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 290
+  },
+  "attributes": {
+    "修为": "三转",
+    "出身": "力道（后改走他路）"
+  },
+  "facts": [
+    {
+      "text": "李好曾是力道蛊师并冲到第四内城，但力道前期强、中后期孱弱，他受挫后毅然舍弃力道改走别的路。",
+      "sources": [
+        290
+      ]
+    },
+    {
+      "text": "当时他已取得十三个胜场，升入第四内城几乎成定局。",
+      "sources": [
+        279
+      ]
+    },
+    {
+      "text": "他约定了强行挑战方源的日期。",
+      "sources": [
+        289
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "三转",
+    "演武场",
+    "力道",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 279
+  }
+}

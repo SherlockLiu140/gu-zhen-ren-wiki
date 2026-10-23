@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "character.ju-kai-bei",
+  "type": "character",
+  "name": "巨开碑",
+  "aliases": [],
+  "summary": "商家城演武场的两大四转蛊师之一，与炎突并称；交手时以硬气蛊护体。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 319
+  },
+  "attributes": {
+    "修为": "四转",
+    "身份": "商家城演武场两大四转蛊师之一"
+  },
+  "facts": [
+    {
+      "text": "商家城演武场势头最盛的两名四转蛊师是巨开碑和炎突。",
+      "sources": [
+        305
+      ]
+    },
+    {
+      "text": "在苦力蛊拍卖上出价二十五万元石。",
+      "sources": [
+        307
+      ]
+    },
+    {
+      "text": "与方源对战时动用硬气蛊，化作无形气流包裹全身，防御坚如磐石。",
+      "sources": [
+        319
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "四转",
+    "演武场",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 305
+  }
+}

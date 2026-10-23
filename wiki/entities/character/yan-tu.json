@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "character.yan-tu",
+  "type": "character",
+  "name": "炎突",
+  "aliases": [],
+  "summary": "四转火道蛊师，与巨开碑并称「演武半边天」；战胜过白凝冰但并不轻松。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 315
+  },
+  "attributes": {
+    "修为": "四转",
+    "流派": "火道",
+    "称号": "演武半边天"
+  },
+  "facts": [
+    {
+      "text": "炎突是四转蛊师，与巨开碑同称「演武半边天」。",
+      "sources": [
+        306
+      ]
+    },
+    {
+      "text": "两人彼此立志打倒对方，做到真正称雄之后才会离开演武场。",
+      "sources": [
+        306
+      ]
+    },
+    {
+      "text": "白凝冰与炎突一战，炎突获胜但并不轻松。",
+      "sources": [
+        315
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "character.ju-kai-bei",
+      "label": "对手",
+      "sources": [
+        306
+      ]
+    }
+  ],
+  "tags": [
+    "四转",
+    "火道",
+    "演武场",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 305
+  }
+}
