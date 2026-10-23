@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "character.wang-xiao",
+  "type": "character",
+  "name": "王逍",
+  "aliases": [],
+  "summary": "巫山之主，阴鸷狠辣、冷漠无情的枭雄；被方源踩碎头颅并夺走蛊虫。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 400
+  },
+  "attributes": {
+    "身份": "巫山之主",
+    "性格": "阴鸷狠辣"
+  },
+  "facts": [
+    {
+      "text": "王逍是巫山之主，性格阴鸷狠辣、冷漠无情。",
+      "sources": [
+        400
+      ]
+    },
+    {
+      "text": "他想以说出巫山路径换一条生路，方源没有理会，直接踩碎了他的头颅并取其蛊虫。",
+      "sources": [
+        400
+      ]
+    },
+    {
+      "text": "正文称他「再次」憋屈地死在方源手中。",
+      "sources": [
+        400
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "巫山",
+    "枭雄",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 400
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "character.wu-shen-tong",
+  "type": "character",
+  "name": "武神通",
+  "aliases": [],
+  "summary": "四转巅峰蛊师，选择犬王传承；最终死在传承中，空窍与犬兽部队被瓜分。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 387
+  },
+  "attributes": {
+    "修为": "四转巅峰",
+    "选择": "犬王传承"
+  },
+  "facts": [
+    {
+      "text": "武神通是四转巅峰的蛊师，在三条传承分支中选择了犬王传承。",
+      "sources": [
+        345
+      ]
+    },
+    {
+      "text": "他闯关时连白凝冰一面都未见到；方源要他的空窍，白凝冰要他的奴道蛊虫和积累的狗群。",
+      "sources": [
+        387
+      ]
+    },
+    {
+      "text": "武神通一死，他的犬兽大部队被白凝冰收编。",
+      "sources": [
+        387
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "四转",
+    "三王传承",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 345
+  }
+}

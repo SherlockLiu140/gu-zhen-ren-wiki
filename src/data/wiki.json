@@ -15,7 +15,7 @@
       "subtitle": "魔子出山",
       "chapterStart": 200,
       "chapterEnd": 405,
-      "entityCount": 47
+      "entityCount": 51
     },
     {
       "id": 3,
@@ -61,7 +61,7 @@
       "type": "character",
       "key": "characters",
       "label": "人物",
-      "count": 21
+      "count": 25
     },
     {
       "type": "gu",
@@ -90,7 +90,7 @@
   ],
   "typeCounts": {
     "cultivation": 5,
-    "characters": 21,
+    "characters": 25,
     "gu": 210,
     "locations": 14,
     "factions": 7,
@@ -1651,6 +1651,61 @@
     },
     {
       "schemaVersion": 1,
+      "id": "character.ku-mo",
+      "type": "character",
+      "name": "骷魔",
+      "aliases": [],
+      "summary": "散修出身的一代枭雄，独自打拼走到五转层级；在传承中被方源取尽蛊虫并吞噬空窍。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 380
+      },
+      "attributes": {
+        "出身": "散修",
+        "结局": "死于三王传承"
+      },
+      "facts": [
+        {
+          "text": "骷魔是散修出身，独自打拼，一生把握了不少机缘，加上后天奋发才走到那一步。",
+          "sources": [
+            380
+          ],
+          "sourceChapters": [
+            {
+              "id": 380,
+              "title": "第一百八十一节：屠戮五转"
+            }
+          ]
+        },
+        {
+          "text": "方源尽取他的蛊虫后，又用兽力胎盘蛊吞噬了他的空窍。",
+          "sources": [
+            380
+          ],
+          "sourceChapters": [
+            {
+              "id": 380,
+              "title": "第一百八十一节：屠戮五转"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "散修",
+        "三王传承",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 375
+      },
+      "volume": 2,
+      "category": "characters",
+      "categoryLabel": "人物"
+    },
+    {
+      "schemaVersion": 1,
       "id": "character.li-hao",
       "type": "character",
       "name": "李好",
@@ -1843,6 +1898,69 @@
       ],
       "firstMention": {
         "chapterId": 306
+      },
+      "volume": 2,
+      "category": "characters",
+      "categoryLabel": "人物"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "character.shang-chi-wen",
+      "type": "character",
+      "name": "商螭吻",
+      "aliases": [],
+      "summary": "掌管商家城演武场的商家成员，对局势看得清楚却没有招揽野心。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 305
+      },
+      "attributes": {
+        "职务": "掌管商家城演武场",
+        "性格": "无野心"
+      },
+      "facts": [
+        {
+          "text": "商螭吻掌管商家城的演武场，对方源、白凝冰的情况十分清楚。",
+          "sources": [
+            305
+          ],
+          "sourceChapters": [
+            {
+              "id": 305,
+              "title": "第一百零六节：拍卖（上）"
+            }
+          ]
+        },
+        {
+          "text": "她看出方白二人前途无量，但自己没有野心，也没有招揽他们的欲望。",
+          "sources": [
+            305
+          ],
+          "sourceChapters": [
+            {
+              "id": 305,
+              "title": "第一百零六节：拍卖（上）"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "faction.shang-clan",
+          "label": "出身",
+          "sources": [
+            305
+          ]
+        }
+      ],
+      "tags": [
+        "商家",
+        "演武场",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 305
       },
       "volume": 2,
       "category": "characters",
@@ -2277,6 +2395,73 @@
     },
     {
       "schemaVersion": 1,
+      "id": "character.wang-xiao",
+      "type": "character",
+      "name": "王逍",
+      "aliases": [],
+      "summary": "巫山之主，阴鸷狠辣、冷漠无情的枭雄；被方源踩碎头颅并夺走蛊虫。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 400
+      },
+      "attributes": {
+        "身份": "巫山之主",
+        "性格": "阴鸷狠辣"
+      },
+      "facts": [
+        {
+          "text": "王逍是巫山之主，性格阴鸷狠辣、冷漠无情。",
+          "sources": [
+            400
+          ],
+          "sourceChapters": [
+            {
+              "id": 400,
+              "title": "第二百零一节：人生匆匆百年，不过一场豪赌！"
+            }
+          ]
+        },
+        {
+          "text": "他想以说出巫山路径换一条生路，方源没有理会，直接踩碎了他的头颅并取其蛊虫。",
+          "sources": [
+            400
+          ],
+          "sourceChapters": [
+            {
+              "id": 400,
+              "title": "第二百零一节：人生匆匆百年，不过一场豪赌！"
+            }
+          ]
+        },
+        {
+          "text": "正文称他「再次」憋屈地死在方源手中。",
+          "sources": [
+            400
+          ],
+          "sourceChapters": [
+            {
+              "id": 400,
+              "title": "第二百零一节：人生匆匆百年，不过一场豪赌！"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "巫山",
+        "枭雄",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 400
+      },
+      "volume": 2,
+      "category": "characters",
+      "categoryLabel": "人物"
+    },
+    {
+      "schemaVersion": 1,
       "id": "character.wei-yang",
       "type": "character",
       "name": "魏央",
@@ -2345,6 +2530,73 @@
       ],
       "firstMention": {
         "chapterId": 272
+      },
+      "volume": 2,
+      "category": "characters",
+      "categoryLabel": "人物"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "character.wu-shen-tong",
+      "type": "character",
+      "name": "武神通",
+      "aliases": [],
+      "summary": "四转巅峰蛊师，选择犬王传承；最终死在传承中，空窍与犬兽部队被瓜分。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 387
+      },
+      "attributes": {
+        "修为": "四转巅峰",
+        "选择": "犬王传承"
+      },
+      "facts": [
+        {
+          "text": "武神通是四转巅峰的蛊师，在三条传承分支中选择了犬王传承。",
+          "sources": [
+            345
+          ],
+          "sourceChapters": [
+            {
+              "id": 345,
+              "title": "第一百四十六节：横冲直撞蛊"
+            }
+          ]
+        },
+        {
+          "text": "他闯关时连白凝冰一面都未见到；方源要他的空窍，白凝冰要他的奴道蛊虫和积累的狗群。",
+          "sources": [
+            387
+          ],
+          "sourceChapters": [
+            {
+              "id": 387,
+              "title": "第一百八十八节：五转奴隶蛊"
+            }
+          ]
+        },
+        {
+          "text": "武神通一死，他的犬兽大部队被白凝冰收编。",
+          "sources": [
+            387
+          ],
+          "sourceChapters": [
+            {
+              "id": 387,
+              "title": "第一百八十八节：五转奴隶蛊"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "四转",
+        "三王传承",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 345
       },
       "volume": 2,
       "category": "characters",

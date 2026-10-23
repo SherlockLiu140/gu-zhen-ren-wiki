@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "character.ku-mo",
+  "type": "character",
+  "name": "骷魔",
+  "aliases": [],
+  "summary": "散修出身的一代枭雄，独自打拼走到五转层级；在传承中被方源取尽蛊虫并吞噬空窍。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 380
+  },
+  "attributes": {
+    "出身": "散修",
+    "结局": "死于三王传承"
+  },
+  "facts": [
+    {
+      "text": "骷魔是散修出身，独自打拼，一生把握了不少机缘，加上后天奋发才走到那一步。",
+      "sources": [
+        380
+      ]
+    },
+    {
+      "text": "方源尽取他的蛊虫后，又用兽力胎盘蛊吞噬了他的空窍。",
+      "sources": [
+        380
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "散修",
+    "三王传承",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 375
+  }
+}

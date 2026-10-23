@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "character.shang-chi-wen",
+  "type": "character",
+  "name": "商螭吻",
+  "aliases": [],
+  "summary": "掌管商家城演武场的商家成员，对局势看得清楚却没有招揽野心。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 305
+  },
+  "attributes": {
+    "职务": "掌管商家城演武场",
+    "性格": "无野心"
+  },
+  "facts": [
+    {
+      "text": "商螭吻掌管商家城的演武场，对方源、白凝冰的情况十分清楚。",
+      "sources": [
+        305
+      ]
+    },
+    {
+      "text": "她看出方白二人前途无量，但自己没有野心，也没有招揽他们的欲望。",
+      "sources": [
+        305
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "faction.shang-clan",
+      "label": "出身",
+      "sources": [
+        305
+      ]
+    }
+  ],
+  "tags": [
+    "商家",
+    "演武场",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 305
+  }
+}
