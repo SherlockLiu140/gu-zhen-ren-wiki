@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "location.tian-ti-shan",
+  "type": "location",
+  "name": "天梯山",
+  "aliases": [],
+  "summary": "中洲名山，常年云雾笼罩，山上藏有无数传承；每年云雾消散后会有大量传承被继承。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 341
+  },
+  "attributes": {
+    "位置": "中洲",
+    "特征": "云雾笼罩、传承密布"
+  },
+  "facts": [
+    {
+      "text": "天梯山上隐藏着无数传承，只有有缘人才能获得。",
+      "sources": [
+        341
+      ]
+    },
+    {
+      "text": "每年笼罩天梯山的云雾消散后都会涌来庞大人流，许多传承被继承走，又有新的传承布置下来。",
+      "sources": [
+        341
+      ]
+    },
+    {
+      "text": "狐仙福地开启之年，蛊仙联手将山圈住，安排各自门派的后辈进山比试。",
+      "sources": [
+        341
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.hu-xian-fu-di",
+      "label": "传承所在",
+      "sources": [
+        335
+      ]
+    }
+  ],
+  "tags": [
+    "中洲",
+    "名山",
+    "传承",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 335
+  }
+}

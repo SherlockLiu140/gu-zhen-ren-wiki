@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "faction.tie-clan",
+  "type": "faction",
+  "name": "铁家",
+  "aliases": [],
+  "summary": "南疆超一流家族，与商家、飞家相当；铁家城建于万程山，黑石城墙绵延数千里。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 304
+  },
+  "attributes": {
+    "地域": "南疆",
+    "定位": "超一流家族",
+    "族城": "铁家城"
+  },
+  "facts": [
+    {
+      "text": "商家是南疆首屈一指的势力，不弱于铁家、飞家。",
+      "sources": [
+        229
+      ]
+    },
+    {
+      "text": "铁家有八位少主，铁若男是其中之一。",
+      "sources": [
+        304
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.tie-jia-cheng",
+      "label": "拥有",
+      "sources": [
+        211
+      ]
+    }
+  ],
+  "tags": [
+    "南疆",
+    "家族",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 202
+  }
+}

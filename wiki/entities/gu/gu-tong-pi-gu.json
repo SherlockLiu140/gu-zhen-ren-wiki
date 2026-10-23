@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.gu-tong-pi-gu",
+  "type": "gu",
+  "name": "古铜皮蛊",
+  "aliases": [],
+  "summary": "方源从李闲处得到的炼体蛊，与精铁骨蛊配合用于锻造身躯。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 355
+  },
+  "attributes": {
+    "用途": "炼体",
+    "来源": "李闲"
+  },
+  "facts": [
+    {
+      "text": "李闲把古铜皮蛊交给方源，三天后又亲自送来精铁骨蛊。",
+      "sources": [
+        355
+      ]
+    },
+    {
+      "text": "方源连日以古铜皮蛊与精铁骨蛊共同锻造自己的身躯。",
+      "sources": [
+        355
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "gu.jing-tie-gu-gu",
+      "label": "配合",
+      "sources": [
+        355
+      ]
+    }
+  ],
+  "tags": [
+    "炼体",
+    "皮蛊",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 354
+  }
+}

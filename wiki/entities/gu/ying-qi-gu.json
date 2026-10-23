@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.ying-qi-gu",
+  "type": "gu",
+  "name": "硬气蛊",
+  "aliases": [],
+  "summary": "催动后化作无形气流包裹全身，外观毫无防御，实则坚如磐石。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 319
+  },
+  "attributes": {
+    "类别": "防御",
+    "表现": "无形气流"
+  },
+  "facts": [
+    {
+      "text": "巨开碑与方源对战时动用硬气蛊，化作一团无形的气流包裹住全身。",
+      "sources": [
+        319
+      ]
+    },
+    {
+      "text": "催动后看似毫无防御，实际防御十分森严、可谓坚如磐石，正好弥补了他的最大破绽。",
+      "sources": [
+        319
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "防御",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 315
+  }
+}

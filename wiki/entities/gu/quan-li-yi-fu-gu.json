@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.quan-li-yi-fu-gu",
+  "type": "gu",
+  "name": "全力以赴蛊",
+  "aliases": [],
+  "summary": "三转蛊，形如独角仙，可催发兽力虚影且「遂心如意」；是方源力道体系的核斗。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 286
+  },
+  "attributes": {
+    "品阶": "三转",
+    "外形": "独角仙",
+    "定位": "力道核心"
+  },
+  "facts": [
+    {
+      "text": "形如独角仙：长椭圆形，背壳如装甲，头部一只独角，三对长足，通体深棕褐色泛油亮金属光泽。",
+      "sources": [
+        286
+      ]
+    },
+    {
+      "text": "催发兽力虚影时可以遂心如意。",
+      "sources": [
+        286
+      ]
+    },
+    {
+      "text": "方源的力道搭配以它为核心，自力更生蛊与苦力蛊为支点。",
+      "sources": [
+        286
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "gu.zi-li-geng-sheng-gu",
+      "label": "搭配",
+      "sources": [
+        286
+      ]
+    },
+    {
+      "target": "gu.ku-li-gu",
+      "label": "搭配",
+      "sources": [
+        286
+      ]
+    }
+  ],
+  "tags": [
+    "三转",
+    "力道",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 285
+  }
+}

@@ -7,7 +7,7 @@
       "subtitle": "魔性不改",
       "chapterStart": 1,
       "chapterEnd": 199,
-      "entityCount": 211
+      "entityCount": 210
     },
     {
       "id": 2,
@@ -15,7 +15,7 @@
       "subtitle": "魔子出山",
       "chapterStart": 200,
       "chapterEnd": 405,
-      "entityCount": 19
+      "entityCount": 31
     },
     {
       "id": 3,
@@ -61,25 +61,25 @@
       "type": "character",
       "key": "characters",
       "label": "人物",
-      "count": 8
+      "count": 9
     },
     {
       "type": "gu",
       "key": "gu",
       "label": "蛊虫",
-      "count": 202
+      "count": 208
     },
     {
       "type": "location",
       "key": "locations",
       "label": "地区",
-      "count": 10
+      "count": 12
     },
     {
       "type": "faction",
       "key": "factions",
       "label": "势力",
-      "count": 5
+      "count": 7
     },
     {
       "type": "gu-house",
@@ -90,10 +90,10 @@
   ],
   "typeCounts": {
     "cultivation": 5,
-    "characters": 8,
-    "gu": 202,
-    "locations": 10,
-    "factions": 5,
+    "characters": 9,
+    "gu": 208,
+    "locations": 12,
+    "factions": 7,
     "guHouses": 0
   },
   "entities": [
@@ -1516,6 +1516,99 @@
       ],
       "firstMention": {
         "chapterId": 258
+      },
+      "volume": 2,
+      "category": "characters",
+      "categoryLabel": "人物"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "character.tie-ruo-nan",
+      "type": "character",
+      "name": "铁若男",
+      "aliases": [],
+      "summary": "铁家八少主之一，甲等资质；招揽铁刀苦，被方源视为必须铲除的隐患。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 304
+      },
+      "attributes": {
+        "身份": "铁家八少主之一",
+        "资质": "甲等",
+        "部下": "铁刀苦"
+      },
+      "facts": [
+        {
+          "text": "铁若男离开时带走了铁刀苦，将其招揽到麾下。",
+          "sources": [
+            304
+          ],
+          "sourceChapters": [
+            {
+              "id": 304,
+              "title": "第一百零五节：苦力蛊"
+            }
+          ]
+        },
+        {
+          "text": "她是铁家八少主之一，甲等资质，背后有铁家撑腰。",
+          "sources": [
+            304
+          ],
+          "sourceChapters": [
+            {
+              "id": 304,
+              "title": "第一百零五节：苦力蛊"
+            }
+          ]
+        },
+        {
+          "text": "方源判断她与自己、白凝冰有共同点——都找到了自己的人生之路，只要不夭折必有成就，因此必须铲除。",
+          "sources": [
+            304
+          ],
+          "sourceChapters": [
+            {
+              "id": 304,
+              "title": "第一百零五节：苦力蛊"
+            }
+          ]
+        },
+        {
+          "text": "青茅山变故后铁家援兵赶到，铁若男搜寻数日，最终接受父亲神捕铁血冷失踪的事实。",
+          "sources": [
+            202,
+            203
+          ],
+          "sourceChapters": [
+            {
+              "id": 202,
+              "title": "第三节：鳄杀机少女悲鸣"
+            },
+            {
+              "id": 203,
+              "title": "第四节：各怀异志"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "faction.tie-clan",
+          "label": "出身",
+          "sources": [
+            304
+          ]
+        }
+      ],
+      "tags": [
+        "铁家",
+        "甲等资质",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 202
       },
       "volume": 2,
       "category": "characters",
@@ -3577,6 +3670,69 @@
     },
     {
       "schemaVersion": 1,
+      "id": "gu.gu-tong-pi-gu",
+      "type": "gu",
+      "name": "古铜皮蛊",
+      "aliases": [],
+      "summary": "方源从李闲处得到的炼体蛊，与精铁骨蛊配合用于锻造身躯。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 355
+      },
+      "attributes": {
+        "用途": "炼体",
+        "来源": "李闲"
+      },
+      "facts": [
+        {
+          "text": "李闲把古铜皮蛊交给方源，三天后又亲自送来精铁骨蛊。",
+          "sources": [
+            355
+          ],
+          "sourceChapters": [
+            {
+              "id": 355,
+              "title": "第一百五十六节：易火的招揽"
+            }
+          ]
+        },
+        {
+          "text": "方源连日以古铜皮蛊与精铁骨蛊共同锻造自己的身躯。",
+          "sources": [
+            355
+          ],
+          "sourceChapters": [
+            {
+              "id": 355,
+              "title": "第一百五十六节：易火的招揽"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "gu.jing-tie-gu-gu",
+          "label": "配合",
+          "sources": [
+            355
+          ]
+        }
+      ],
+      "tags": [
+        "炼体",
+        "皮蛊",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 354
+      },
+      "volume": 2,
+      "category": "gu",
+      "categoryLabel": "蛊虫"
+    },
+    {
+      "schemaVersion": 1,
       "id": "gu.gui-gu",
       "type": "gu",
       "name": "规蛊",
@@ -4464,6 +4620,70 @@
     },
     {
       "schemaVersion": 1,
+      "id": "gu.jing-tie-gu-gu",
+      "type": "gu",
+      "name": "精铁骨蛊",
+      "aliases": [],
+      "summary": "四转蛊，逆炼可得铁骨蛊；令骨骼更为坚固，效果是铁骨蛊的数倍，但耗时也更长。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 355
+      },
+      "attributes": {
+        "品阶": "四转",
+        "类别": "炼骨",
+        "关系": "逆炼可得铁骨蛊"
+      },
+      "facts": [
+        {
+          "text": "精铁骨蛊是四转蛊虫，逆炼它就能得到铁骨蛊。",
+          "sources": [
+            355
+          ],
+          "sourceChapters": [
+            {
+              "id": 355,
+              "title": "第一百五十六节：易火的招揽"
+            }
+          ]
+        },
+        {
+          "text": "乌光透射皮肉、影响全身骨骼，使骨骼在铁骨蛊的基础上更坚硬；效果是铁骨蛊的数倍，所需时间也延长数倍。",
+          "sources": [
+            355
+          ],
+          "sourceChapters": [
+            {
+              "id": 355,
+              "title": "第一百五十六节：易火的招揽"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "gu.tie-gu-gu",
+          "label": "逆炼",
+          "sources": [
+            355
+          ]
+        }
+      ],
+      "tags": [
+        "四转",
+        "炼骨",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 355
+      },
+      "volume": 2,
+      "category": "gu",
+      "categoryLabel": "蛊虫"
+    },
+    {
+      "schemaVersion": 1,
       "aliases": [],
       "status": "verified-volume-1",
       "scope": {
@@ -4870,6 +5090,69 @@
         "chapterId": 160
       },
       "volume": 1,
+      "category": "gu",
+      "categoryLabel": "蛊虫"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "gu.ku-li-gu",
+      "type": "gu",
+      "name": "苦力蛊",
+      "aliases": [],
+      "summary": "力道体系中的支点蛊，稀少且合炼成功率极低，市面上并不多见。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 296
+      },
+      "attributes": {
+        "定位": "力道支点",
+        "稀有度": "极稀少"
+      },
+      "facts": [
+        {
+          "text": "方源的力道搭配以全力以赴蛊为核心，自力更生蛊与苦力蛊为支点。",
+          "sources": [
+            286
+          ],
+          "sourceChapters": [
+            {
+              "id": 286,
+              "title": "第八十七节：牛刀小试先一场"
+            }
+          ]
+        },
+        {
+          "text": "需求少、合炼成功率又极低，因此稀少且价格不低；商家城也不多见，买不到只能自己合炼。",
+          "sources": [
+            296
+          ],
+          "sourceChapters": [
+            {
+              "id": 296,
+              "title": "第九十七节：拍卖会"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "gu.quan-li-yi-fu-gu",
+          "label": "搭配",
+          "sources": [
+            286
+          ]
+        }
+      ],
+      "tags": [
+        "力道",
+        "稀少",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 286
+      },
+      "volume": 2,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -6316,43 +6599,147 @@
       "type": "gu",
       "name": "青铜舍利蛊",
       "aliases": [],
-      "summary": "舍利蛊系列的一转成员，可令一转蛊师立即提升一个小境界。",
-      "status": "verified-volume-1",
+      "summary": "百家族长赠予方源的舍利蛊，用后修为可由小境界的中阶晋升到高阶。",
+      "status": "verified-volume-2",
       "scope": {
-        "volume": 1,
-        "maxChapter": 199
+        "volume": 2,
+        "maxChapter": 224
       },
       "attributes": {
-        "品阶": "一转",
-        "类别": "提升修为",
-        "第一卷记录形态": "系列知识提及",
-        "审计批次": "第一卷蛊虫全面复核"
+        "用途": "小境界突破",
+        "来源": "百家族长赠予"
       },
       "facts": [
         {
-          "text": "舍利蛊系列的一转成员，可令一转蛊师立即提升一个小境界。",
+          "text": "方源以猎杀一只成年黑熊为交换，百家族长许诺随后送上青铜舍利蛊。",
           "sources": [
-            111
+            217
           ],
           "sourceChapters": [
             {
-              "id": 111,
-              "title": "第一百一十一节：元石不过身外物"
+              "id": 217,
+              "title": "第十八节：授人以柄"
+            }
+          ]
+        },
+        {
+          "text": "蛊师送到后，方源当即在营帐中用掉，修为从中阶晋升到高阶。",
+          "sources": [
+            217
+          ],
+          "sourceChapters": [
+            {
+              "id": 217,
+              "title": "第十八节：授人以柄"
+            }
+          ]
+        },
+        {
+          "text": "白凝冰因他突破到一转高阶而更加焦虑，担心日后更难制约他。",
+          "sources": [
+            224
+          ],
+          "sourceChapters": [
+            {
+              "id": 224,
+              "title": "第二十五节：白骨传承（下）"
             }
           ]
         }
       ],
       "relations": [],
       "tags": [
-        "一转",
-        "提升修为",
-        "系列知识提及",
-        "第一卷"
+        "舍利蛊",
+        "小境界",
+        "第二卷"
       ],
       "firstMention": {
-        "chapterId": 111
+        "chapterId": 216
       },
-      "volume": 1,
+      "volume": 2,
+      "category": "gu",
+      "categoryLabel": "蛊虫"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "gu.quan-li-yi-fu-gu",
+      "type": "gu",
+      "name": "全力以赴蛊",
+      "aliases": [],
+      "summary": "三转蛊，形如独角仙，可催发兽力虚影且「遂心如意」；是方源力道体系的核斗。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 286
+      },
+      "attributes": {
+        "品阶": "三转",
+        "外形": "独角仙",
+        "定位": "力道核心"
+      },
+      "facts": [
+        {
+          "text": "形如独角仙：长椭圆形，背壳如装甲，头部一只独角，三对长足，通体深棕褐色泛油亮金属光泽。",
+          "sources": [
+            286
+          ],
+          "sourceChapters": [
+            {
+              "id": 286,
+              "title": "第八十七节：牛刀小试先一场"
+            }
+          ]
+        },
+        {
+          "text": "催发兽力虚影时可以遂心如意。",
+          "sources": [
+            286
+          ],
+          "sourceChapters": [
+            {
+              "id": 286,
+              "title": "第八十七节：牛刀小试先一场"
+            }
+          ]
+        },
+        {
+          "text": "方源的力道搭配以它为核心，自力更生蛊与苦力蛊为支点。",
+          "sources": [
+            286
+          ],
+          "sourceChapters": [
+            {
+              "id": 286,
+              "title": "第八十七节：牛刀小试先一场"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "gu.zi-li-geng-sheng-gu",
+          "label": "搭配",
+          "sources": [
+            286
+          ]
+        },
+        {
+          "target": "gu.ku-li-gu",
+          "label": "搭配",
+          "sources": [
+            286
+          ]
+        }
+      ],
+      "tags": [
+        "三转",
+        "力道",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 285
+      },
+      "volume": 2,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -8204,6 +8591,59 @@
     },
     {
       "schemaVersion": 1,
+      "id": "gu.tie-gu-gu",
+      "type": "gu",
+      "name": "铁骨蛊",
+      "aliases": [],
+      "summary": "令骨骼漆黑、坚硬如铁石的炼骨蛊，是精铁骨蛊逆炼后的形态。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 355
+      },
+      "attributes": {
+        "类别": "炼骨"
+      },
+      "facts": [
+        {
+          "text": "方源动用铁骨蛊后，骨架漆黑，坚硬犹如铁石。",
+          "sources": [
+            355
+          ],
+          "sourceChapters": [
+            {
+              "id": 355,
+              "title": "第一百五十六节：易火的招揽"
+            }
+          ]
+        },
+        {
+          "text": "精铁骨蛊逆炼即可得到铁骨蛊。",
+          "sources": [
+            355
+          ],
+          "sourceChapters": [
+            {
+              "id": 355,
+              "title": "第一百五十六节：易火的招揽"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "炼骨",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 355
+      },
+      "volume": 2,
+      "category": "gu",
+      "categoryLabel": "蛊虫"
+    },
+    {
+      "schemaVersion": 1,
       "id": "gu.tie-pi-gu",
       "type": "gu",
       "name": "铁皮蛊",
@@ -9971,6 +10411,60 @@
         "chapterId": 194
       },
       "volume": 1,
+      "category": "gu",
+      "categoryLabel": "蛊虫"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "gu.ying-qi-gu",
+      "type": "gu",
+      "name": "硬气蛊",
+      "aliases": [],
+      "summary": "催动后化作无形气流包裹全身，外观毫无防御，实则坚如磐石。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 319
+      },
+      "attributes": {
+        "类别": "防御",
+        "表现": "无形气流"
+      },
+      "facts": [
+        {
+          "text": "巨开碑与方源对战时动用硬气蛊，化作一团无形的气流包裹住全身。",
+          "sources": [
+            319
+          ],
+          "sourceChapters": [
+            {
+              "id": 319,
+              "title": "第一百二十节：方源vs巨开碑（下）"
+            }
+          ]
+        },
+        {
+          "text": "催动后看似毫无防御，实际防御十分森严、可谓坚如磐石，正好弥补了他的最大破绽。",
+          "sources": [
+            319
+          ],
+          "sourceChapters": [
+            {
+              "id": 319,
+              "title": "第一百二十节：方源vs巨开碑（下）"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "防御",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 315
+      },
+      "volume": 2,
       "category": "gu",
       "categoryLabel": "蛊虫"
     },
@@ -12409,6 +12903,146 @@
     },
     {
       "schemaVersion": 1,
+      "id": "location.tian-ti-shan",
+      "type": "location",
+      "name": "天梯山",
+      "aliases": [],
+      "summary": "中洲名山，常年云雾笼罩，山上藏有无数传承；每年云雾消散后会有大量传承被继承。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 341
+      },
+      "attributes": {
+        "位置": "中洲",
+        "特征": "云雾笼罩、传承密布"
+      },
+      "facts": [
+        {
+          "text": "天梯山上隐藏着无数传承，只有有缘人才能获得。",
+          "sources": [
+            341
+          ],
+          "sourceChapters": [
+            {
+              "id": 341,
+              "title": "第一百四十二节：何等的穷凶极恶！"
+            }
+          ]
+        },
+        {
+          "text": "每年笼罩天梯山的云雾消散后都会涌来庞大人流，许多传承被继承走，又有新的传承布置下来。",
+          "sources": [
+            341
+          ],
+          "sourceChapters": [
+            {
+              "id": 341,
+              "title": "第一百四十二节：何等的穷凶极恶！"
+            }
+          ]
+        },
+        {
+          "text": "狐仙福地开启之年，蛊仙联手将山圈住，安排各自门派的后辈进山比试。",
+          "sources": [
+            341
+          ],
+          "sourceChapters": [
+            {
+              "id": 341,
+              "title": "第一百四十二节：何等的穷凶极恶！"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "location.hu-xian-fu-di",
+          "label": "传承所在",
+          "sources": [
+            335
+          ]
+        }
+      ],
+      "tags": [
+        "中洲",
+        "名山",
+        "传承",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 335
+      },
+      "volume": 2,
+      "category": "locations",
+      "categoryLabel": "地区"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "location.tie-jia-cheng",
+      "type": "location",
+      "name": "铁家城",
+      "aliases": [],
+      "summary": "铁家的家族城池，位于南疆万程山，黑石城墙延绵数千里。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 211
+      },
+      "attributes": {
+        "所属": "铁家",
+        "位置": "万程山",
+        "形制": "黑石城墙"
+      },
+      "facts": [
+        {
+          "text": "位于南疆万程山，高大厚重的黑石城墙延绵数千里。",
+          "sources": [
+            211
+          ],
+          "sourceChapters": [
+            {
+              "id": 211,
+              "title": "第十二节：路"
+            }
+          ]
+        },
+        {
+          "text": "从半山腰起石屋、铁楼依次排列直到山顶；家主阁坐落在山顶附近，防御严密，巡逻队交替巡查。",
+          "sources": [
+            211
+          ],
+          "sourceChapters": [
+            {
+              "id": 211,
+              "title": "第十二节：路"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "faction.tie-clan",
+          "label": "所属",
+          "sources": [
+            211
+          ]
+        }
+      ],
+      "tags": [
+        "南疆",
+        "城池",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 211
+      },
+      "volume": 2,
+      "category": "locations",
+      "categoryLabel": "地区"
+    },
+    {
+      "schemaVersion": 1,
       "id": "location.zhong-zhou",
       "type": "location",
       "name": "中洲",
@@ -12667,6 +13301,87 @@
     },
     {
       "schemaVersion": 1,
+      "id": "faction.huo-bao-men",
+      "type": "faction",
+      "name": "活宝门",
+      "aliases": [],
+      "summary": "商家的宝界门户，一扇会说话的朱红巨门；宝界内藏天元宝莲等重宝，取用须守祖规。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 315
+      },
+      "attributes": {
+        "所属": "商家",
+        "性质": "宝界门户",
+        "位置": "商家城"
+      },
+      "facts": [
+        {
+          "text": "活宝门是一扇朱红色巨门，门上以阳刻雕出一张沉睡的人脸，会睁眼说话，自称宝界的门户。",
+          "sources": [
+            273,
+            274
+          ],
+          "sourceChapters": [
+            {
+              "id": 273,
+              "title": "第七十四节：晋升三转"
+            },
+            {
+              "id": 274,
+              "title": "第七十五节：活宝门"
+            }
+          ]
+        },
+        {
+          "text": "它与商燕飞是老相识，却仍坚持按规矩办事，不肯帮他监守自盗。",
+          "sources": [
+            274
+          ],
+          "sourceChapters": [
+            {
+              "id": 274,
+              "title": "第七十五节：活宝门"
+            }
+          ]
+        },
+        {
+          "text": "商家城的宝界内藏着两棵天元宝莲和一棵天元宝君莲；即便商燕飞身为族长，取宝也须遵守祖宗定下的规矩。",
+          "sources": [
+            315
+          ],
+          "sourceChapters": [
+            {
+              "id": 315,
+              "title": "第一百一十六节：硬气蛊"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "faction.shang-clan",
+          "label": "所属",
+          "sources": [
+            273
+          ]
+        }
+      ],
+      "tags": [
+        "商家",
+        "宝界",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 273
+      },
+      "volume": 2,
+      "category": "factions",
+      "categoryLabel": "势力"
+    },
+    {
+      "schemaVersion": 1,
       "id": "faction.shang-clan",
       "type": "faction",
       "name": "商家",
@@ -12724,6 +13439,70 @@
       ],
       "firstMention": {
         "chapterId": 229
+      },
+      "volume": 2,
+      "category": "factions",
+      "categoryLabel": "势力"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "faction.tie-clan",
+      "type": "faction",
+      "name": "铁家",
+      "aliases": [],
+      "summary": "南疆超一流家族，与商家、飞家相当；铁家城建于万程山，黑石城墙绵延数千里。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 304
+      },
+      "attributes": {
+        "地域": "南疆",
+        "定位": "超一流家族",
+        "族城": "铁家城"
+      },
+      "facts": [
+        {
+          "text": "商家是南疆首屈一指的势力，不弱于铁家、飞家。",
+          "sources": [
+            229
+          ],
+          "sourceChapters": [
+            {
+              "id": 229,
+              "title": "第三十节：村庄休整"
+            }
+          ]
+        },
+        {
+          "text": "铁家有八位少主，铁若男是其中之一。",
+          "sources": [
+            304
+          ],
+          "sourceChapters": [
+            {
+              "id": 304,
+              "title": "第一百零五节：苦力蛊"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "location.tie-jia-cheng",
+          "label": "拥有",
+          "sources": [
+            211
+          ]
+        }
+      ],
+      "tags": [
+        "南疆",
+        "家族",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 202
       },
       "volume": 2,
       "category": "factions",

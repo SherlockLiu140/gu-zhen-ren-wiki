@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.tie-gu-gu",
+  "type": "gu",
+  "name": "铁骨蛊",
+  "aliases": [],
+  "summary": "令骨骼漆黑、坚硬如铁石的炼骨蛊，是精铁骨蛊逆炼后的形态。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 355
+  },
+  "attributes": {
+    "类别": "炼骨"
+  },
+  "facts": [
+    {
+      "text": "方源动用铁骨蛊后，骨架漆黑，坚硬犹如铁石。",
+      "sources": [
+        355
+      ]
+    },
+    {
+      "text": "精铁骨蛊逆炼即可得到铁骨蛊。",
+      "sources": [
+        355
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "炼骨",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 355
+  }
+}

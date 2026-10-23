@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "character.tie-ruo-nan",
+  "type": "character",
+  "name": "铁若男",
+  "aliases": [],
+  "summary": "铁家八少主之一，甲等资质；招揽铁刀苦，被方源视为必须铲除的隐患。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 304
+  },
+  "attributes": {
+    "身份": "铁家八少主之一",
+    "资质": "甲等",
+    "部下": "铁刀苦"
+  },
+  "facts": [
+    {
+      "text": "铁若男离开时带走了铁刀苦，将其招揽到麾下。",
+      "sources": [
+        304
+      ]
+    },
+    {
+      "text": "她是铁家八少主之一，甲等资质，背后有铁家撑腰。",
+      "sources": [
+        304
+      ]
+    },
+    {
+      "text": "方源判断她与自己、白凝冰有共同点——都找到了自己的人生之路，只要不夭折必有成就，因此必须铲除。",
+      "sources": [
+        304
+      ]
+    },
+    {
+      "text": "青茅山变故后铁家援兵赶到，铁若男搜寻数日，最终接受父亲神捕铁血冷失踪的事实。",
+      "sources": [
+        202,
+        203
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "faction.tie-clan",
+      "label": "出身",
+      "sources": [
+        304
+      ]
+    }
+  ],
+  "tags": [
+    "铁家",
+    "甲等资质",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 202
+  }
+}

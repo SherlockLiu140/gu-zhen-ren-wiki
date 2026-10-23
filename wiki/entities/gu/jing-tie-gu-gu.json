@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.jing-tie-gu-gu",
+  "type": "gu",
+  "name": "精铁骨蛊",
+  "aliases": [],
+  "summary": "四转蛊，逆炼可得铁骨蛊；令骨骼更为坚固，效果是铁骨蛊的数倍，但耗时也更长。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 355
+  },
+  "attributes": {
+    "品阶": "四转",
+    "类别": "炼骨",
+    "关系": "逆炼可得铁骨蛊"
+  },
+  "facts": [
+    {
+      "text": "精铁骨蛊是四转蛊虫，逆炼它就能得到铁骨蛊。",
+      "sources": [
+        355
+      ]
+    },
+    {
+      "text": "乌光透射皮肉、影响全身骨骼，使骨骼在铁骨蛊的基础上更坚硬；效果是铁骨蛊的数倍，所需时间也延长数倍。",
+      "sources": [
+        355
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "gu.tie-gu-gu",
+      "label": "逆炼",
+      "sources": [
+        355
+      ]
+    }
+  ],
+  "tags": [
+    "四转",
+    "炼骨",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 355
+  }
+}

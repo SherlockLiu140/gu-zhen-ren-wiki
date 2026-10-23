@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "faction.huo-bao-men",
+  "type": "faction",
+  "name": "活宝门",
+  "aliases": [],
+  "summary": "商家的宝界门户，一扇会说话的朱红巨门；宝界内藏天元宝莲等重宝，取用须守祖规。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 315
+  },
+  "attributes": {
+    "所属": "商家",
+    "性质": "宝界门户",
+    "位置": "商家城"
+  },
+  "facts": [
+    {
+      "text": "活宝门是一扇朱红色巨门，门上以阳刻雕出一张沉睡的人脸，会睁眼说话，自称宝界的门户。",
+      "sources": [
+        273,
+        274
+      ]
+    },
+    {
+      "text": "它与商燕飞是老相识，却仍坚持按规矩办事，不肯帮他监守自盗。",
+      "sources": [
+        274
+      ]
+    },
+    {
+      "text": "商家城的宝界内藏着两棵天元宝莲和一棵天元宝君莲；即便商燕飞身为族长，取宝也须遵守祖宗定下的规矩。",
+      "sources": [
+        315
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "faction.shang-clan",
+      "label": "所属",
+      "sources": [
+        273
+      ]
+    }
+  ],
+  "tags": [
+    "商家",
+    "宝界",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 273
+  }
+}

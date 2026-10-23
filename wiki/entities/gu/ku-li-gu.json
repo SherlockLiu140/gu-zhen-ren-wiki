@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "gu.ku-li-gu",
+  "type": "gu",
+  "name": "苦力蛊",
+  "aliases": [],
+  "summary": "力道体系中的支点蛊，稀少且合炼成功率极低，市面上并不多见。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 296
+  },
+  "attributes": {
+    "定位": "力道支点",
+    "稀有度": "极稀少"
+  },
+  "facts": [
+    {
+      "text": "方源的力道搭配以全力以赴蛊为核心，自力更生蛊与苦力蛊为支点。",
+      "sources": [
+        286
+      ]
+    },
+    {
+      "text": "需求少、合炼成功率又极低，因此稀少且价格不低；商家城也不多见，买不到只能自己合炼。",
+      "sources": [
+        296
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "gu.quan-li-yi-fu-gu",
+      "label": "搭配",
+      "sources": [
+        286
+      ]
+    }
+  ],
+  "tags": [
+    "力道",
+    "稀少",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 286
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "location.tie-jia-cheng",
+  "type": "location",
+  "name": "铁家城",
+  "aliases": [],
+  "summary": "铁家的家族城池，位于南疆万程山，黑石城墙延绵数千里。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 211
+  },
+  "attributes": {
+    "所属": "铁家",
+    "位置": "万程山",
+    "形制": "黑石城墙"
+  },
+  "facts": [
+    {
+      "text": "位于南疆万程山，高大厚重的黑石城墙延绵数千里。",
+      "sources": [
+        211
+      ]
+    },
+    {
+      "text": "从半山腰起石屋、铁楼依次排列直到山顶；家主阁坐落在山顶附近，防御严密，巡逻队交替巡查。",
+      "sources": [
+        211
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "faction.tie-clan",
+      "label": "所属",
+      "sources": [
+        211
+      ]
+    }
+  ],
+  "tags": [
+    "南疆",
+    "城池",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 211
+  }
+}
