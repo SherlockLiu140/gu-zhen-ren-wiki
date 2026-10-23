@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "beast.kuang-zhen-feng",
+  "type": "beast",
+  "name": "狂针蜂",
+  "aliases": [],
+  "summary": "数量庞大的蜂群，蜂巢有房屋大小；成蛊后蜂针可洞穿三转白甲，蜂巢是上佳炼蛊辅料。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 208
+  },
+  "attributes": {
+    "群居": "是",
+    "蜂巢": "房屋大小",
+    "特性": "蜂针洞穿"
+  },
+  "facts": [
+    {
+      "text": "蜂巢有房屋大小，里面生活着数量庞大到恐怖的狂针蜂群。",
+      "sources": [
+        207
+      ]
+    },
+    {
+      "text": "狂针蜂一旦成蛊，蜂针便有洞穿之能，连白凝冰顶起天蓬蛊的白甲也会被三转的狂针蜂洞穿。",
+      "sources": [
+        207
+      ]
+    },
+    {
+      "text": "狂针蜂并不酿蜜，它们的蜂巢是一种上佳的炼蛊辅料。",
+      "sources": [
+        208
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "虫群",
+    "南疆",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 207
+  }
+}

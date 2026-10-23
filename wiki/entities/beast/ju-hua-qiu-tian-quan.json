@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "beast.ju-hua-qiu-tian-quan",
+  "type": "beast",
+  "name": "菊花秋田犬",
+  "aliases": [],
+  "summary": "犬王传承中的犬兽，毛色橘黄；比普通野狗更忠心团结，容易操纵，能打出战术配合。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 350
+  },
+  "attributes": {
+    "产地": "犬王传承",
+    "特征": "橘黄色光影",
+    "长处": "忠心团结、易操纵"
+  },
+  "facts": [
+    {
+      "text": "在传承中表现为一团橘黄色的光影；这类狗比普通野狗更忠心团结，容易操纵，能打出精妙的战术配合。",
+      "sources": [
+        347
+      ]
+    },
+    {
+      "text": "方源在第十九轮结束时已积累四十多头菊花秋田犬。",
+      "sources": [
+        349
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.quan-wang-chuan-cheng",
+      "label": "出没于",
+      "sources": [
+        347
+      ]
+    }
+  ],
+  "tags": [
+    "犬兽",
+    "犬王传承",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 347
+  }
+}

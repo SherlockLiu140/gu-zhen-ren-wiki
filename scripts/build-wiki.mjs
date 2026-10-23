@@ -15,13 +15,14 @@ const typeConfig = {
   cultivation: { key: 'cultivation', label: '修炼体系' },
   character: { key: 'characters', label: '人物' },
   gu: { key: 'gu', label: '蛊虫' },
+  beast: { key: 'beasts', label: '兽类' },
   location: { key: 'locations', label: '地区' },
   faction: { key: 'factions', label: '势力' },
   'gu-house': { key: 'guHouses', label: '仙蛊屋' },
 }
 const validTypes = new Set(Object.keys(typeConfig))
 const statusPattern = /^(verified-volume-([1-9][0-9]*)|draft)$/
-const idPattern = /^(cultivation|character|gu|location|faction|gu-house)\.[a-z0-9-]+$/
+const idPattern = /^(cultivation|character|gu|beast|location|faction|gu-house)\.[a-z0-9-]+$/
 
 async function collectJsonFiles(directory) {
   const entries = await readdir(directory, { withFileTypes: true })

@@ -15,7 +15,7 @@
       "subtitle": "魔子出山",
       "chapterStart": 200,
       "chapterEnd": 405,
-      "entityCount": 51
+      "entityCount": 61
     },
     {
       "id": 3,
@@ -70,6 +70,12 @@
       "count": 210
     },
     {
+      "type": "beast",
+      "key": "beasts",
+      "label": "兽类",
+      "count": 10
+    },
+    {
       "type": "location",
       "key": "locations",
       "label": "地区",
@@ -92,6 +98,7 @@
     "cultivation": 5,
     "characters": 25,
     "gu": 210,
+    "beasts": 10,
     "locations": 14,
     "factions": 7,
     "guHouses": 0
@@ -13400,6 +13407,691 @@
       "volume": 1,
       "category": "gu",
       "categoryLabel": "蛊虫"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "beast.bai-yu-fei-xiang",
+      "type": "beast",
+      "name": "白羽飞象",
+      "aliases": [],
+      "summary": "长着白色羽毛、能飞行的大象；用骨枪般的象牙攻击，落下时可一脚踏碎尸体。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 249
+      },
+      "attributes": {
+        "外形": "白羽飞象",
+        "特性": "可飞行",
+        "栖息": "南疆商道一带"
+      },
+      "facts": [
+        {
+          "text": "白羽飞象以白色骨枪般的象牙攻击，一击之后拔地而起飞回半空。",
+          "sources": [
+            248
+          ],
+          "sourceChapters": [
+            {
+              "id": 248,
+              "title": "第四十九节：力所能及就可心安理得"
+            }
+          ]
+        },
+        {
+          "text": "一头白羽飞象落地一脚就把尸体踩成肉泥、骨骼粉碎。",
+          "sources": [
+            248
+          ],
+          "sourceChapters": [
+            {
+              "id": 248,
+              "title": "第四十九节：力所能及就可心安理得"
+            }
+          ]
+        },
+        {
+          "text": "商队途中曾遭白羽飞象袭击，各家为分配战利品争执。",
+          "sources": [
+            249
+          ],
+          "sourceChapters": [
+            {
+              "id": 249,
+              "title": "第五十节：滴水之恩，当涌泉相报！"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "飞禽走兽",
+        "南疆",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 247
+      },
+      "volume": 2,
+      "category": "beasts",
+      "categoryLabel": "兽类"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "beast.bi-yan-quan-wang",
+      "type": "beast",
+      "name": "碧眼犬王",
+      "aliases": [],
+      "summary": "犬王传承中的百兽王，身怀野生蛊虫，极为克制阴犬。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 380
+      },
+      "attributes": {
+        "产地": "犬王传承",
+        "位阶": "百兽王",
+        "特性": "克制阴犬"
+      },
+      "facts": [
+        {
+          "text": "碧眼犬王不仅是百兽王，而且身怀野生蛊虫，极为克制阴犬。",
+          "sources": [
+            380
+          ],
+          "sourceChapters": [
+            {
+              "id": 380,
+              "title": "第一百八十一节：屠戮五转"
+            }
+          ]
+        },
+        {
+          "text": "普通狗群打杀不了虚无躯体的阴犬，有了碧眼犬王就不成问题。",
+          "sources": [
+            380
+          ],
+          "sourceChapters": [
+            {
+              "id": 380,
+              "title": "第一百八十一节：屠戮五转"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "location.quan-wang-chuan-cheng",
+          "label": "出没于",
+          "sources": [
+            380
+          ]
+        }
+      ],
+      "tags": [
+        "犬兽",
+        "百兽王",
+        "犬王传承",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 380
+      },
+      "volume": 2,
+      "category": "beasts",
+      "categoryLabel": "兽类"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "beast.ci-wei-quan",
+      "type": "beast",
+      "name": "刺猬犬",
+      "aliases": [],
+      "summary": "犬王传承中的犬兽，浑身长满尖刺，攻击力是普通野狗的一倍多。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 350
+      },
+      "attributes": {
+        "产地": "犬王传承",
+        "特征": "浑身尖刺",
+        "长处": "攻击"
+      },
+      "facts": [
+        {
+          "text": "光影边缘是一蓬凸起的尖刺形状；刺猬犬浑身长满尖刺，攻击能力是普通野狗的一倍多。",
+          "sources": [
+            348
+          ],
+          "sourceChapters": [
+            {
+              "id": 348,
+              "title": "第一百四十九节：菊花秋田犬"
+            }
+          ]
+        },
+        {
+          "text": "方源在第二十轮时手中有刺猬犬十一头。",
+          "sources": [
+            350
+          ],
+          "sourceChapters": [
+            {
+              "id": 350,
+              "title": "第一百五十一节：狗胆蛊"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "location.quan-wang-chuan-cheng",
+          "label": "出没于",
+          "sources": [
+            348
+          ]
+        }
+      ],
+      "tags": [
+        "犬兽",
+        "犬王传承",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 348
+      },
+      "volume": 2,
+      "category": "beasts",
+      "categoryLabel": "兽类"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "beast.da-dian-wen-gou",
+      "type": "beast",
+      "name": "大电文狗",
+      "aliases": [],
+      "summary": "电文狗的百兽王，第二十轮之后出现；体型远大于普通犬兽，是犬群的核心。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 350
+      },
+      "attributes": {
+        "产地": "犬王传承",
+        "位阶": "百兽王",
+        "所属": "电文狗"
+      },
+      "facts": [
+        {
+          "text": "第二十轮开始出现百兽王，规模可达上百、数百甚至近千头犬兽的大战。",
+          "sources": [
+            349
+          ],
+          "sourceChapters": [
+            {
+              "id": 349,
+              "title": "第一百五十节：大电文狗"
+            }
+          ]
+        },
+        {
+          "text": "方源麾下的百兽王是一只大电文狗，与十一头刺猬犬、一百三十二头电文狗、十七头菊花秋田犬同行。",
+          "sources": [
+            350
+          ],
+          "sourceChapters": [
+            {
+              "id": 350,
+              "title": "第一百五十一节：狗胆蛊"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "beast.dian-wen-gou",
+          "label": "兽王",
+          "sources": [
+            350
+          ]
+        },
+        {
+          "target": "location.quan-wang-chuan-cheng",
+          "label": "出没于",
+          "sources": [
+            349
+          ]
+        }
+      ],
+      "tags": [
+        "犬兽",
+        "百兽王",
+        "犬王传承",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 350
+      },
+      "volume": 2,
+      "category": "beasts",
+      "categoryLabel": "兽类"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "beast.dian-wen-gou",
+      "type": "beast",
+      "name": "电文狗",
+      "aliases": [],
+      "summary": "犬王传承中的犬兽，奔走时带蓝色电光，奔跑速度是普通野狗的两倍。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 350
+      },
+      "attributes": {
+        "产地": "犬王传承",
+        "特征": "蓝色电光",
+        "长处": "速度"
+      },
+      "facts": [
+        {
+          "text": "在传承中表现为一团噼啪闪烁的蓝色电光；这类犬的奔跑速度是普通野狗的两倍。",
+          "sources": [
+            347
+          ],
+          "sourceChapters": [
+            {
+              "id": 347,
+              "title": "第一百四十八节：何等的奴道造诣！"
+            }
+          ]
+        },
+        {
+          "text": "方源在第二十轮时手中有电文狗一百三十二头。",
+          "sources": [
+            350
+          ],
+          "sourceChapters": [
+            {
+              "id": 350,
+              "title": "第一百五十一节：狗胆蛊"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "location.quan-wang-chuan-cheng",
+          "label": "出没于",
+          "sources": [
+            347
+          ]
+        },
+        {
+          "target": "beast.da-dian-wen-gou",
+          "label": "百兽王",
+          "sources": [
+            350
+          ]
+        }
+      ],
+      "tags": [
+        "犬兽",
+        "犬王传承",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 347
+      },
+      "volume": 2,
+      "category": "beasts",
+      "categoryLabel": "兽类"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "beast.ju-hua-qiu-tian-quan",
+      "type": "beast",
+      "name": "菊花秋田犬",
+      "aliases": [],
+      "summary": "犬王传承中的犬兽，毛色橘黄；比普通野狗更忠心团结，容易操纵，能打出战术配合。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 350
+      },
+      "attributes": {
+        "产地": "犬王传承",
+        "特征": "橘黄色光影",
+        "长处": "忠心团结、易操纵"
+      },
+      "facts": [
+        {
+          "text": "在传承中表现为一团橘黄色的光影；这类狗比普通野狗更忠心团结，容易操纵，能打出精妙的战术配合。",
+          "sources": [
+            347
+          ],
+          "sourceChapters": [
+            {
+              "id": 347,
+              "title": "第一百四十八节：何等的奴道造诣！"
+            }
+          ]
+        },
+        {
+          "text": "方源在第十九轮结束时已积累四十多头菊花秋田犬。",
+          "sources": [
+            349
+          ],
+          "sourceChapters": [
+            {
+              "id": 349,
+              "title": "第一百五十节：大电文狗"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "location.quan-wang-chuan-cheng",
+          "label": "出没于",
+          "sources": [
+            347
+          ]
+        }
+      ],
+      "tags": [
+        "犬兽",
+        "犬王传承",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 347
+      },
+      "volume": 2,
+      "category": "beasts",
+      "categoryLabel": "兽类"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "beast.kuang-zhen-feng",
+      "type": "beast",
+      "name": "狂针蜂",
+      "aliases": [],
+      "summary": "数量庞大的蜂群，蜂巢有房屋大小；成蛊后蜂针可洞穿三转白甲，蜂巢是上佳炼蛊辅料。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 208
+      },
+      "attributes": {
+        "群居": "是",
+        "蜂巢": "房屋大小",
+        "特性": "蜂针洞穿"
+      },
+      "facts": [
+        {
+          "text": "蜂巢有房屋大小，里面生活着数量庞大到恐怖的狂针蜂群。",
+          "sources": [
+            207
+          ],
+          "sourceChapters": [
+            {
+              "id": 207,
+              "title": "第八节：轩辕神鸡"
+            }
+          ]
+        },
+        {
+          "text": "狂针蜂一旦成蛊，蜂针便有洞穿之能，连白凝冰顶起天蓬蛊的白甲也会被三转的狂针蜂洞穿。",
+          "sources": [
+            207
+          ],
+          "sourceChapters": [
+            {
+              "id": 207,
+              "title": "第八节：轩辕神鸡"
+            }
+          ]
+        },
+        {
+          "text": "狂针蜂并不酿蜜，它们的蜂巢是一种上佳的炼蛊辅料。",
+          "sources": [
+            208
+          ],
+          "sourceChapters": [
+            {
+              "id": 208,
+              "title": "第九节：奔逃"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "虫群",
+        "南疆",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 207
+      },
+      "volume": 2,
+      "category": "beasts",
+      "categoryLabel": "兽类"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "beast.rong-yan-e",
+      "type": "beast",
+      "name": "熔岩鳄",
+      "aliases": [],
+      "summary": "体型如三头大象叠加的巨鳄，暗红鳞甲、十米鳄尾，背部有两个冒黑烟的火山状凸起。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 335
+      },
+      "attributes": {
+        "体型": "约三头大象",
+        "特征": "背部火山状凸起",
+        "首领": "熔岩鳄王"
+      },
+      "facts": [
+        {
+          "text": "熔岩鳄体型需三头大象叠加才能相比，浑身暗红色鳞甲，鳄尾长约十米、泛金属光泽。",
+          "sources": [
+            207
+          ],
+          "sourceChapters": [
+            {
+              "id": 207,
+              "title": "第八节：轩辕神鸡"
+            }
+          ]
+        },
+        {
+          "text": "背部高高隆起两个凸起，状如微型火山，随呼吸冒出黑烟。",
+          "sources": [
+            207
+          ],
+          "sourceChapters": [
+            {
+              "id": 207,
+              "title": "第八节：轩辕神鸡"
+            }
+          ]
+        },
+        {
+          "text": "熔岩鳄群有千兽王级别的首领「熔岩鳄王」，体型同样巨大。",
+          "sources": [
+            335
+          ],
+          "sourceChapters": [
+            {
+              "id": 335,
+              "title": "第一百三十六节：白狐蛊仙传承"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "兽群",
+        "千兽王",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 207
+      },
+      "volume": 2,
+      "category": "beasts",
+      "categoryLabel": "兽类"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "beast.tie-jia-gou",
+      "type": "beast",
+      "name": "铁甲狗",
+      "aliases": [],
+      "summary": "犬王传承中的犬兽，身上长着黑幽厚重的皮甲；是前五十关中防御最卓越的犬兽。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 380
+      },
+      "attributes": {
+        "产地": "犬王传承",
+        "特征": "黑色皮甲",
+        "长处": "防御"
+      },
+      "facts": [
+        {
+          "text": "铁甲狗身上长着皮甲，黑幽厚重如铁，防御力十分可观；成长过程中会相互对撞，用来消减身躯增长时的瘙痒。",
+          "sources": [
+            350
+          ],
+          "sourceChapters": [
+            {
+              "id": 350,
+              "title": "第一百五十一节：狗胆蛊"
+            }
+          ]
+        },
+        {
+          "text": "是犬王传承前五十关中防御最卓越的犬兽。",
+          "sources": [
+            380
+          ],
+          "sourceChapters": [
+            {
+              "id": 380,
+              "title": "第一百八十一节：屠戮五转"
+            }
+          ]
+        },
+        {
+          "text": "骷魔曾指挥数百头铁甲狗打赢一场犬群之战，并用驭犬蛊招揽到一只碧眼犬王。",
+          "sources": [
+            380
+          ],
+          "sourceChapters": [
+            {
+              "id": 380,
+              "title": "第一百八十一节：屠戮五转"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "target": "location.quan-wang-chuan-cheng",
+          "label": "出没于",
+          "sources": [
+            350
+          ]
+        }
+      ],
+      "tags": [
+        "犬兽",
+        "犬王传承",
+        "防御",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 350
+      },
+      "volume": 2,
+      "category": "beasts",
+      "categoryLabel": "兽类"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "beast.xuan-yuan-shen-ji",
+      "type": "beast",
+      "name": "轩辕神鸡",
+      "aliases": [],
+      "summary": "体型巨大、食量惊人的猛禽，飞行时拖出七彩光虹；曾连杀铁家三名蛊师。",
+      "status": "verified-volume-2",
+      "scope": {
+        "volume": 2,
+        "maxChapter": 214
+      },
+      "attributes": {
+        "特征": "飞行拖七彩光虹",
+        "食量": "极大",
+        "危险度": "高"
+      },
+      "facts": [
+        {
+          "text": "轩辕神鸡食量很大，一只熔岩鳄王并不能满足它的胃口。",
+          "sources": [
+            208
+          ],
+          "sourceChapters": [
+            {
+              "id": 208,
+              "title": "第九节：奔逃"
+            }
+          ]
+        },
+        {
+          "text": "黎明时分冲霄飞走，在空中划出一道七彩斑斓的飞行光虹。",
+          "sources": [
+            208
+          ],
+          "sourceChapters": [
+            {
+              "id": 208,
+              "title": "第九节：奔逃"
+            }
+          ]
+        },
+        {
+          "text": "它曾从天而降把铁家队伍认作食物，带走三名同伴性命，其中包括最专业的侦察蛊师与一名三转防御蛊师。",
+          "sources": [
+            214
+          ],
+          "sourceChapters": [
+            {
+              "id": 214,
+              "title": "第十五节：轰！"
+            }
+          ]
+        }
+      ],
+      "relations": [],
+      "tags": [
+        "猛禽",
+        "南疆",
+        "第二卷"
+      ],
+      "firstMention": {
+        "chapterId": 207
+      },
+      "volume": 2,
+      "category": "beasts",
+      "categoryLabel": "兽类"
     },
     {
       "schemaVersion": 1,

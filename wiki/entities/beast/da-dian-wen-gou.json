@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "beast.da-dian-wen-gou",
+  "type": "beast",
+  "name": "大电文狗",
+  "aliases": [],
+  "summary": "电文狗的百兽王，第二十轮之后出现；体型远大于普通犬兽，是犬群的核心。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 350
+  },
+  "attributes": {
+    "产地": "犬王传承",
+    "位阶": "百兽王",
+    "所属": "电文狗"
+  },
+  "facts": [
+    {
+      "text": "第二十轮开始出现百兽王，规模可达上百、数百甚至近千头犬兽的大战。",
+      "sources": [
+        349
+      ]
+    },
+    {
+      "text": "方源麾下的百兽王是一只大电文狗，与十一头刺猬犬、一百三十二头电文狗、十七头菊花秋田犬同行。",
+      "sources": [
+        350
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "beast.dian-wen-gou",
+      "label": "兽王",
+      "sources": [
+        350
+      ]
+    },
+    {
+      "target": "location.quan-wang-chuan-cheng",
+      "label": "出没于",
+      "sources": [
+        349
+      ]
+    }
+  ],
+  "tags": [
+    "犬兽",
+    "百兽王",
+    "犬王传承",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 350
+  }
+}

@@ -22,10 +22,10 @@
     "schemaVersion": { "const": 1 },
     "id": {
       "type": "string",
-      "pattern": "^(cultivation|character|gu|location|faction|gu-house)\\.[a-z0-9-]+$"
+      "pattern": "^(cultivation|character|gu|beast|location|faction|gu-house)\\.[a-z0-9-]+$"
     },
     "type": {
-      "enum": ["cultivation", "character", "gu", "location", "faction", "gu-house"]
+      "enum": ["cultivation", "character", "gu", "beast", "location", "faction", "gu-house"]
     },
     "name": { "type": "string", "minLength": 1 },
     "aliases": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },

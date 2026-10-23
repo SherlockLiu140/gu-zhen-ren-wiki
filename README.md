@@ -18,17 +18,18 @@
 | 分类 | 条目数 |
 | --- | ---: |
 | 蛊虫 | 210 |
+| 兽类 | 10 |
 | 人物 | 25 |
 | 修炼体系 | 5 |
 | 地区 | 14 |
 | 势力 | 7 |
 | 仙蛊屋 | 0 |
-| **合计** | **261** |
+| **合计** | **271** |
 
 | 卷 | 节 | 条目数 |
 | --- | --- | ---: |
 | 第一卷《魔性不改》 | 1–199 | 210 |
-| 第二卷《魔子出山》 | 200–405 | 51 |
+| 第二卷《魔子出山》 | 200–405 | 61 |
 
 语料层已切分全部 **6 卷 2343 章**，实体目前覆盖前两卷。第二卷仍在扩充——
 `gu-house`（仙蛊屋）至今没有可确认的条目，因此保留为 0。
@@ -64,7 +65,7 @@ src/data/wiki.json           前端读取的数据副本（生成物，与上面
 | --- | --- | --- |
 | `schemaVersion` | `1` | 当前固定为 1 |
 | `id` | string | `{type}.{slug}`，如 `character.fang-yuan`、`gu.kuang-feng-gu` |
-| `type` | string | `cultivation` / `character` / `gu` / `location` / `faction` / `gu-house` |
+| `type` | string | `cultivation` / `character` / `gu` / `beast` / `location` / `faction` / `gu-house` |
 | `name` | string | 正名 |
 | `aliases` | string[] | 别名，不得重复 |
 | `summary` | string | 一段话简介，用自己的话写 |
@@ -87,6 +88,7 @@ src/data/wiki.json           前端读取的数据副本（生成物，与上面
 ```
 gu.kuang-feng-gu         狂风蛊
 gu.chun-qiu-chan         春秋蝉
+beast.bi-yan-quan-wang   碧眼犬王
 character.fang-yuan      方源
 faction.gu-yue-clan      古月一族
 ```

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "beast.bai-yu-fei-xiang",
+  "type": "beast",
+  "name": "白羽飞象",
+  "aliases": [],
+  "summary": "长着白色羽毛、能飞行的大象；用骨枪般的象牙攻击，落下时可一脚踏碎尸体。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 249
+  },
+  "attributes": {
+    "外形": "白羽飞象",
+    "特性": "可飞行",
+    "栖息": "南疆商道一带"
+  },
+  "facts": [
+    {
+      "text": "白羽飞象以白色骨枪般的象牙攻击，一击之后拔地而起飞回半空。",
+      "sources": [
+        248
+      ]
+    },
+    {
+      "text": "一头白羽飞象落地一脚就把尸体踩成肉泥、骨骼粉碎。",
+      "sources": [
+        248
+      ]
+    },
+    {
+      "text": "商队途中曾遭白羽飞象袭击，各家为分配战利品争执。",
+      "sources": [
+        249
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "飞禽走兽",
+    "南疆",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 247
+  }
+}

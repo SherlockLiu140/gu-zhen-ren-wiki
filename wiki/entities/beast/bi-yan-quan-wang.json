@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "beast.bi-yan-quan-wang",
+  "type": "beast",
+  "name": "碧眼犬王",
+  "aliases": [],
+  "summary": "犬王传承中的百兽王，身怀野生蛊虫，极为克制阴犬。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 380
+  },
+  "attributes": {
+    "产地": "犬王传承",
+    "位阶": "百兽王",
+    "特性": "克制阴犬"
+  },
+  "facts": [
+    {
+      "text": "碧眼犬王不仅是百兽王，而且身怀野生蛊虫，极为克制阴犬。",
+      "sources": [
+        380
+      ]
+    },
+    {
+      "text": "普通狗群打杀不了虚无躯体的阴犬，有了碧眼犬王就不成问题。",
+      "sources": [
+        380
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.quan-wang-chuan-cheng",
+      "label": "出没于",
+      "sources": [
+        380
+      ]
+    }
+  ],
+  "tags": [
+    "犬兽",
+    "百兽王",
+    "犬王传承",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 380
+  }
+}

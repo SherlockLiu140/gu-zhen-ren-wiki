@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "beast.tie-jia-gou",
+  "type": "beast",
+  "name": "铁甲狗",
+  "aliases": [],
+  "summary": "犬王传承中的犬兽，身上长着黑幽厚重的皮甲；是前五十关中防御最卓越的犬兽。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 380
+  },
+  "attributes": {
+    "产地": "犬王传承",
+    "特征": "黑色皮甲",
+    "长处": "防御"
+  },
+  "facts": [
+    {
+      "text": "铁甲狗身上长着皮甲，黑幽厚重如铁，防御力十分可观；成长过程中会相互对撞，用来消减身躯增长时的瘙痒。",
+      "sources": [
+        350
+      ]
+    },
+    {
+      "text": "是犬王传承前五十关中防御最卓越的犬兽。",
+      "sources": [
+        380
+      ]
+    },
+    {
+      "text": "骷魔曾指挥数百头铁甲狗打赢一场犬群之战，并用驭犬蛊招揽到一只碧眼犬王。",
+      "sources": [
+        380
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.quan-wang-chuan-cheng",
+      "label": "出没于",
+      "sources": [
+        350
+      ]
+    }
+  ],
+  "tags": [
+    "犬兽",
+    "犬王传承",
+    "防御",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 350
+  }
+}

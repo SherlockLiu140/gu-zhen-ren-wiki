@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "beast.xuan-yuan-shen-ji",
+  "type": "beast",
+  "name": "轩辕神鸡",
+  "aliases": [],
+  "summary": "体型巨大、食量惊人的猛禽，飞行时拖出七彩光虹；曾连杀铁家三名蛊师。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 214
+  },
+  "attributes": {
+    "特征": "飞行拖七彩光虹",
+    "食量": "极大",
+    "危险度": "高"
+  },
+  "facts": [
+    {
+      "text": "轩辕神鸡食量很大，一只熔岩鳄王并不能满足它的胃口。",
+      "sources": [
+        208
+      ]
+    },
+    {
+      "text": "黎明时分冲霄飞走，在空中划出一道七彩斑斓的飞行光虹。",
+      "sources": [
+        208
+      ]
+    },
+    {
+      "text": "它曾从天而降把铁家队伍认作食物，带走三名同伴性命，其中包括最专业的侦察蛊师与一名三转防御蛊师。",
+      "sources": [
+        214
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "猛禽",
+    "南疆",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 207
+  }
+}

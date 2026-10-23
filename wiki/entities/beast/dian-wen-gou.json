@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "beast.dian-wen-gou",
+  "type": "beast",
+  "name": "电文狗",
+  "aliases": [],
+  "summary": "犬王传承中的犬兽，奔走时带蓝色电光，奔跑速度是普通野狗的两倍。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 350
+  },
+  "attributes": {
+    "产地": "犬王传承",
+    "特征": "蓝色电光",
+    "长处": "速度"
+  },
+  "facts": [
+    {
+      "text": "在传承中表现为一团噼啪闪烁的蓝色电光；这类犬的奔跑速度是普通野狗的两倍。",
+      "sources": [
+        347
+      ]
+    },
+    {
+      "text": "方源在第二十轮时手中有电文狗一百三十二头。",
+      "sources": [
+        350
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.quan-wang-chuan-cheng",
+      "label": "出没于",
+      "sources": [
+        347
+      ]
+    },
+    {
+      "target": "beast.da-dian-wen-gou",
+      "label": "百兽王",
+      "sources": [
+        350
+      ]
+    }
+  ],
+  "tags": [
+    "犬兽",
+    "犬王传承",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 347
+  }
+}

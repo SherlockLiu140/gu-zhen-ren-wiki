@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "beast.ci-wei-quan",
+  "type": "beast",
+  "name": "刺猬犬",
+  "aliases": [],
+  "summary": "犬王传承中的犬兽，浑身长满尖刺，攻击力是普通野狗的一倍多。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 350
+  },
+  "attributes": {
+    "产地": "犬王传承",
+    "特征": "浑身尖刺",
+    "长处": "攻击"
+  },
+  "facts": [
+    {
+      "text": "光影边缘是一蓬凸起的尖刺形状；刺猬犬浑身长满尖刺，攻击能力是普通野狗的一倍多。",
+      "sources": [
+        348
+      ]
+    },
+    {
+      "text": "方源在第二十轮时手中有刺猬犬十一头。",
+      "sources": [
+        350
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "target": "location.quan-wang-chuan-cheng",
+      "label": "出没于",
+      "sources": [
+        348
+      ]
+    }
+  ],
+  "tags": [
+    "犬兽",
+    "犬王传承",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 348
+  }
+}

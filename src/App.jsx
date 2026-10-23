@@ -5,6 +5,7 @@ const CATEGORY_ICONS = {
   cultivation: '✦',
   characters: '人',
   gu: '蛊',
+  beasts: '兽',
   locations: '图',
   factions: '门',
   guHouses: '屋',
@@ -226,7 +227,7 @@ export default function GuZhenRenWikiPrototype() {
           </div>
         </header>
 
-        <section className="mb-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7">
+        <section className="mb-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-[repeat(auto-fit,minmax(118px,1fr))]">
           {CATEGORIES.map((item) => (
             <StatCard key={item.key} label={item.label} value={item.count} icon={item.icon} />
           ))}

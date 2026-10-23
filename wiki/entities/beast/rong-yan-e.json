@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "beast.rong-yan-e",
+  "type": "beast",
+  "name": "熔岩鳄",
+  "aliases": [],
+  "summary": "体型如三头大象叠加的巨鳄，暗红鳞甲、十米鳄尾，背部有两个冒黑烟的火山状凸起。",
+  "status": "verified-volume-2",
+  "scope": {
+    "volume": 2,
+    "maxChapter": 335
+  },
+  "attributes": {
+    "体型": "约三头大象",
+    "特征": "背部火山状凸起",
+    "首领": "熔岩鳄王"
+  },
+  "facts": [
+    {
+      "text": "熔岩鳄体型需三头大象叠加才能相比，浑身暗红色鳞甲，鳄尾长约十米、泛金属光泽。",
+      "sources": [
+        207
+      ]
+    },
+    {
+      "text": "背部高高隆起两个凸起，状如微型火山，随呼吸冒出黑烟。",
+      "sources": [
+        207
+      ]
+    },
+    {
+      "text": "熔岩鳄群有千兽王级别的首领「熔岩鳄王」，体型同样巨大。",
+      "sources": [
+        335
+      ]
+    }
+  ],
+  "relations": [],
+  "tags": [
+    "兽群",
+    "千兽王",
+    "第二卷"
+  ],
+  "firstMention": {
+    "chapterId": 207
+  }
+}
